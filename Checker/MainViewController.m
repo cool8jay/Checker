@@ -37,13 +37,7 @@
     IBOutlet  NSButton *_resetButton;
     IBOutlet  NSTextField *_amountLabel;
     
-    BOOL isEnabled, isBusy, isStoppable;
-    NSInteger nextInsertRow;
-    
     IBOutlet DragDropImageView *_dragDropImageView;
-    
-    NSHashTable *seenPathHashes;
-    //   ResultsDb *db;
 }
 
 - (void)viewDidLoad {
@@ -176,13 +170,11 @@
                                                       
                                                       _scrollView.hidden = NO;
                                                       
-                                                      //                                                      CGPoint point = self.view.window.frame.origin.x,
                                                       [self.view.window setFrame:NSMakeRect(self.view.window.frame.origin.x, self.view.window.frame.origin.y, 800.f, 500.f) display:YES animate:YES];
                                                       
                                                       [_tableView reloadData];
                                                       
                                                       _bottomView.hidden = NO;
-                                                      _dragDropImageView.hidden = YES;
                                                       
                                                       [_amountLabel setStringValue:[NSString stringWithFormat:@"%lu", [_dataArray count]]];
                                                       [_amountLabel sizeToFit];
@@ -195,6 +187,7 @@
                                                       NSDictionary *userInfo = notification.userInfo;
                                                       
                                                       NSString *a = [userInfo valueForKey:@"progress"];
+                                                      
                                                       _progressBar.floatValue = [a floatValue];
                                                   }];
 }
@@ -288,6 +281,7 @@
 
 - (void)checkData:(NSArray*)data{
     long dataCount = [data count] - 1;   // 第一个数据是key
+    NSLog(@"%@",data);
     
     if([data count]>1){
         for(int i=1; i<[data count]; i++){
@@ -343,7 +337,7 @@
             }
             
             float progress = (float)i/dataCount;
-            
+            NSLog(@"341,%@",[NSString stringWithFormat:@"%f", progress]);
             NSDictionary *userInfo = @{@"progress":[NSString stringWithFormat:@"%f", progress]};
             [[NSNotificationCenter defaultCenter] postNotificationName:@"PARSE_PROGRESS"
                                                                 object:nil
@@ -357,7 +351,10 @@
         [[NSNotificationCenter defaultCenter] postNotificationName:@"PARSE_OK" object:nil];
         
     }else{
-        NSLog(@"271 empty data");
+        NSLog(@"355 no error data");
+       // [_tipLabel setStringValue:@"All correct!"];
+        
+       // _bottomView.hidden = NO;
     }
     
     [NSAnimationContext beginGrouping];
@@ -384,6 +381,7 @@
 - (IBAction)reset:(id)sender{
     _scrollView.hidden = YES;
     _bottomView.hidden = YES;
+    _progressBar.floatValue = 0;
     
     [_tipLabel setStringValue:@"Drag localization csv file here..."];
     _dragDropImageView.hidden = NO;
