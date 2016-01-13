@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7C6D2241C465AEB0056BF79 /* ITProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C6D2231C465AEB0056BF79 /* ITProgressBar.m */; };
+		B7E54E9E1C44B713004D0E95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E54E9D1C44B713004D0E95 /* AppDelegate.m */; };
+		B7E54EA11C44B713004D0E95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E54EA01C44B713004D0E95 /* main.m */; };
+		B7E54EA31C44B713004D0E95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7E54EA21C44B713004D0E95 /* Assets.xcassets */; };
+		B7E54EA61C44B713004D0E95 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7E54EA41C44B713004D0E95 /* MainMenu.xib */; };
+		B7E54EAF1C44B772004D0E95 /* DragDropImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E54EAE1C44B772004D0E95 /* DragDropImageView.m */; };
+		B7E54EB21C44B90D004D0E95 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E54EB11C44B90D004D0E95 /* MainViewController.m */; };
+		B7E54EB61C44BC1C004D0E95 /* CHCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E54EB51C44BC1C004D0E95 /* CHCSVParser.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B7C6D2221C465AEB0056BF79 /* ITProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITProgressBar.h; sourceTree = "<group>"; };
+		B7C6D2231C465AEB0056BF79 /* ITProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITProgressBar.m; sourceTree = "<group>"; };
+		B7E54E991C44B713004D0E95 /* Checker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Checker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E54E9C1C44B713004D0E95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B7E54E9D1C44B713004D0E95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B7E54EA01C44B713004D0E95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B7E54EA21C44B713004D0E95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7E54EA51C44B713004D0E95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B7E54EA71C44B713004D0E95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7E54EAD1C44B772004D0E95 /* DragDropImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragDropImageView.h; sourceTree = "<group>"; };
+		B7E54EAE1C44B772004D0E95 /* DragDropImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragDropImageView.m; sourceTree = "<group>"; };
+		B7E54EB01C44B90D004D0E95 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B7E54EB11C44B90D004D0E95 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		B7E54EB41C44BC1C004D0E95 /* CHCSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCSVParser.h; sourceTree = "<group>"; };
+		B7E54EB51C44BC1C004D0E95 /* CHCSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCSVParser.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7E54E961C44B713004D0E95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7C6D2211C465AEB0056BF79 /* ITProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				B7C6D2221C465AEB0056BF79 /* ITProgressBar.h */,
+				B7C6D2231C465AEB0056BF79 /* ITProgressBar.m */,
+			);
+			path = ITProgressBar;
+			sourceTree = "<group>";
+		};
+		B7E54E901C44B713004D0E95 = {
+			isa = PBXGroup;
+			children = (
+				B7E54E9B1C44B713004D0E95 /* Checker */,
+				B7E54E9A1C44B713004D0E95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7E54E9A1C44B713004D0E95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7E54E991C44B713004D0E95 /* Checker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7E54E9B1C44B713004D0E95 /* Checker */ = {
+			isa = PBXGroup;
+			children = (
+				B7E54EB31C44BC1C004D0E95 /* CHCSVParser */,
+				B7C6D2211C465AEB0056BF79 /* ITProgressBar */,
+				B7E54E9C1C44B713004D0E95 /* AppDelegate.h */,
+				B7E54E9D1C44B713004D0E95 /* AppDelegate.m */,
+				B7E54EB01C44B90D004D0E95 /* MainViewController.h */,
+				B7E54EB11C44B90D004D0E95 /* MainViewController.m */,
+				B7E54EAD1C44B772004D0E95 /* DragDropImageView.h */,
+				B7E54EAE1C44B772004D0E95 /* DragDropImageView.m */,
+				B7E54EA21C44B713004D0E95 /* Assets.xcassets */,
+				B7E54EA41C44B713004D0E95 /* MainMenu.xib */,
+				B7E54EA71C44B713004D0E95 /* Info.plist */,
+				B7E54E9F1C44B713004D0E95 /* Supporting Files */,
+			);
+			name = Checker;
+			path = checker;
+			sourceTree = "<group>";
+		};
+		B7E54E9F1C44B713004D0E95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7E54EA01C44B713004D0E95 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7E54EB31C44BC1C004D0E95 /* CHCSVParser */ = {
+			isa = PBXGroup;
+			children = (
+				B7E54EB41C44BC1C004D0E95 /* CHCSVParser.h */,
+				B7E54EB51C44BC1C004D0E95 /* CHCSVParser.m */,
+			);
+			path = CHCSVParser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7E54E981C44B713004D0E95 /* Checker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7E54EAA1C44B713004D0E95 /* Build configuration list for PBXNativeTarget "Checker" */;
+			buildPhases = (
+				B7E54E951C44B713004D0E95 /* Sources */,
+				B7E54E961C44B713004D0E95 /* Frameworks */,
+				B7E54E971C44B713004D0E95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Checker;
+			productName = checker;
+			productReference = B7E54E991C44B713004D0E95 /* Checker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7E54E911C44B713004D0E95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = poukoute;
+				TargetAttributes = {
+					B7E54E981C44B713004D0E95 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = B7E54E941C44B713004D0E95 /* Build configuration list for PBXProject "Checker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7E54E901C44B713004D0E95;
+			productRefGroup = B7E54E9A1C44B713004D0E95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7E54E981C44B713004D0E95 /* Checker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7E54E971C44B713004D0E95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E54EA31C44B713004D0E95 /* Assets.xcassets in Resources */,
+				B7E54EA61C44B713004D0E95 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7E54E951C44B713004D0E95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E54EA11C44B713004D0E95 /* main.m in Sources */,
+				B7E54EAF1C44B772004D0E95 /* DragDropImageView.m in Sources */,
+				B7E54E9E1C44B713004D0E95 /* AppDelegate.m in Sources */,
+				B7C6D2241C465AEB0056BF79 /* ITProgressBar.m in Sources */,
+				B7E54EB61C44BC1C004D0E95 /* CHCSVParser.m in Sources */,
+				B7E54EB21C44B90D004D0E95 /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B7E54EA41C44B713004D0E95 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7E54EA51C44B713004D0E95 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7E54EA81C44B713004D0E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B7E54EA91C44B713004D0E95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B7E54EAB1C44B713004D0E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Checker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.poukoute.checker;
+				PRODUCT_NAME = Checker;
+			};
+			name = Debug;
+		};
+		B7E54EAC1C44B713004D0E95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Checker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.poukoute.checker;
+				PRODUCT_NAME = Checker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7E54E941C44B713004D0E95 /* Build configuration list for PBXProject "Checker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E54EA81C44B713004D0E95 /* Debug */,
+				B7E54EA91C44B713004D0E95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7E54EAA1C44B713004D0E95 /* Build configuration list for PBXNativeTarget "Checker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E54EAB1C44B713004D0E95 /* Debug */,
+				B7E54EAC1C44B713004D0E95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7E54E911C44B713004D0E95 /* Project object */;
+}
