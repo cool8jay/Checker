@@ -26,6 +26,8 @@
     NSMutableArray * _dataArray;
     NSArray * _whiteListArray;
     
+    IBOutlet NSImageView *_resultIcon;
+    
     IBOutlet ITProgressBar *_progressBar;
     IBOutlet NSTextField *_tipLabel;
     
@@ -56,6 +58,7 @@
     _bottomView.hidden = YES;
     _scrollView.hidden = YES;
     _progressBar.hidden = YES;
+    _resultIcon.hidden = YES;
     
     _dataArray = [[NSMutableArray alloc] init];
     
@@ -162,10 +165,11 @@
         [tableColumnRu setSortDescriptorPrototype:ruSortDescriptor];
     }
     
-    [[NSNotificationCenter defaultCenter] addObserverForName:@"PARSE_OK"
+    [[NSNotificationCenter defaultCenter] addObserverForName:@"PARSE_WITH_RESULT"
                                                       object:nil
                                                        queue:[NSOperationQueue currentQueue]
                                                   usingBlock:^(NSNotification *notification) {
+                                                      NSLog(@"172, PARSE FINISH");
                                                       [self.view.window setStyleMask:[self.view.window styleMask] | NSResizableWindowMask];
                                                       
                                                       _scrollView.hidden = NO;
@@ -189,6 +193,32 @@
                                                       NSString *a = [userInfo valueForKey:@"progress"];
                                                       
                                                       _progressBar.floatValue = [a floatValue];
+                                                  }];
+    
+    [[NSNotificationCenter defaultCenter] addObserverForName:@"PARSE_ERROR_EMPTY"
+                                                      object:nil
+                                                       queue:[NSOperationQueue currentQueue]
+                                                  usingBlock:^(NSNotification *notification) {
+                                                      NSLog(@"empty csv data");
+                                                      [_resultIcon setImage:[NSImage imageNamed:@"error"]];
+                                                      _resultIcon.hidden = NO;
+                                                      [_tipLabel setStringValue:@"Empty csv file!"];
+                                                      
+                                                      _progressBar.hidden = YES;
+                                                      _bottomView.hidden = NO;
+                                                  }];
+    
+    [[NSNotificationCenter defaultCenter] addObserverForName:@"PARSE_OK"
+                                                      object:nil
+                                                       queue:[NSOperationQueue currentQueue]
+                                                  usingBlock:^(NSNotification *notification) {
+                                                      NSLog(@"all ok");
+                                                      _progressBar.hidden = YES;
+                                                      [_resultIcon setImage:[NSImage imageNamed:@"ok"]];
+                                                      _resultIcon.hidden = NO;
+                                                      [_tipLabel setStringValue:@"All correct!"];
+                                                      
+                                                      _bottomView.hidden = NO;
                                                   }];
 }
 
@@ -281,7 +311,6 @@
 
 - (void)checkData:(NSArray*)data{
     long dataCount = [data count] - 1;   // 第一个数据是key
-    NSLog(@"%@",data);
     
     if([data count]>1){
         for(int i=1; i<[data count]; i++){
@@ -337,30 +366,23 @@
             }
             
             float progress = (float)i/dataCount;
-            NSLog(@"341,%@",[NSString stringWithFormat:@"%f", progress]);
+            
             NSDictionary *userInfo = @{@"progress":[NSString stringWithFormat:@"%f", progress]};
             [[NSNotificationCenter defaultCenter] postNotificationName:@"PARSE_PROGRESS"
                                                                 object:nil
                                                               userInfo:userInfo];
         }
     }else{
-        // 表里面没有数据
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"PARSE_ERROR_EMPTY" object:nil];
+        return;
     }
     
     if ([_dataArray count]>0){
-        [[NSNotificationCenter defaultCenter] postNotificationName:@"PARSE_OK" object:nil];
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"PARSE_WITH_RESULT" object:nil];
         
     }else{
-        NSLog(@"355 no error data");
-       // [_tipLabel setStringValue:@"All correct!"];
-        
-       // _bottomView.hidden = NO;
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"PARSE_OK" object:nil];
     }
-    
-    [NSAnimationContext beginGrouping];
-    [[NSAnimationContext currentContext] setDuration:0.20f];
-    _progressBar.hidden = YES;
-    [NSAnimationContext endGrouping];
 }
 
 -(void)addURL:(NSURL*)url {
@@ -381,7 +403,12 @@
 - (IBAction)reset:(id)sender{
     _scrollView.hidden = YES;
     _bottomView.hidden = YES;
+    _resultIcon.hidden = YES;
+    _progressBar.hidden = YES;
     _progressBar.floatValue = 0;
+    
+    [_amountLabel setStringValue:@"0"];
+    [_amountLabel sizeToFit];
     
     [_tipLabel setStringValue:@"Drag localization csv file here..."];
     _dragDropImageView.hidden = NO;

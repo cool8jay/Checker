@@ -15,6 +15,8 @@
 		B7E54EAF1C44B772004D0E95 /* DragDropImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E54EAE1C44B772004D0E95 /* DragDropImageView.m */; };
 		B7E54EB21C44B90D004D0E95 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E54EB11C44B90D004D0E95 /* MainViewController.m */; };
 		B7E54EB61C44BC1C004D0E95 /* CHCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E54EB51C44BC1C004D0E95 /* CHCSVParser.m */; };
+		B7EF76451C46923E00B3E784 /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = B7EF76431C46923E00B3E784 /* error.png */; };
+		B7EF76461C46923E00B3E784 /* ok.png in Resources */ = {isa = PBXBuildFile; fileRef = B7EF76441C46923E00B3E784 /* ok.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		B7E54EB11C44B90D004D0E95 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		B7E54EB41C44BC1C004D0E95 /* CHCSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCSVParser.h; sourceTree = "<group>"; };
 		B7E54EB51C44BC1C004D0E95 /* CHCSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCSVParser.m; sourceTree = "<group>"; };
+		B7EF76431C46923E00B3E784 /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = error.png; path = Checker/error.png; sourceTree = SOURCE_ROOT; };
+		B7EF76441C46923E00B3E784 /* ok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ok.png; path = Checker/ok.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 				B7E54EA21C44B713004D0E95 /* Assets.xcassets */,
 				B7E54EA41C44B713004D0E95 /* MainMenu.xib */,
 				B7E54EA71C44B713004D0E95 /* Info.plist */,
+				B7EF76431C46923E00B3E784 /* error.png */,
+				B7EF76441C46923E00B3E784 /* ok.png */,
 				B7E54E9F1C44B713004D0E95 /* Supporting Files */,
 			);
 			name = Checker;
@@ -165,8 +171,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7EF76461C46923E00B3E784 /* ok.png in Resources */,
 				B7E54EA31C44B713004D0E95 /* Assets.xcassets in Resources */,
 				B7E54EA61C44B713004D0E95 /* MainMenu.xib in Resources */,
+				B7EF76451C46923E00B3E784 /* error.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

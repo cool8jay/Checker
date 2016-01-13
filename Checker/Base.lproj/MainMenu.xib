@@ -18,6 +18,7 @@
                 <outlet property="_dragDropImageView" destination="s7l-6t-xeC" id="3G6-E7-yHk"/>
                 <outlet property="_progressBar" destination="XGE-sT-P9s" id="alt-TY-E4A"/>
                 <outlet property="_resetButton" destination="pBE-hu-gq0" id="YGW-m1-4fM"/>
+                <outlet property="_resultIcon" destination="dT9-Zo-7jT" id="6GM-xP-ber"/>
                 <outlet property="_scrollView" destination="Qes-ZE-afw" id="8ZF-lP-3xP"/>
                 <outlet property="_tableView" destination="XFG-dv-NZ2" id="329-bC-DOS"/>
                 <outlet property="_tipLabel" destination="b7N-mU-0LA" id="bEO-cJ-77s"/>
@@ -212,6 +213,10 @@
                 <rect key="frame" x="0.0" y="0.0" width="480" height="360"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
+                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dT9-Zo-7jT" userLabel="resut">
+                        <rect key="frame" x="176" y="146" width="128" height="128"/>
+                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="ok" id="oEV-ne-ymH"/>
+                    </imageView>
                     <customView translatesAutoresizingMaskIntoConstraints="NO" id="XGE-sT-P9s" customClass="ITProgressBar">
                         <rect key="frame" x="110" y="173" width="260" height="14"/>
                         <constraints>
@@ -522,4 +527,7 @@
             </view>
         </window>
     </objects>
+    <resources>
+        <image name="ok" width="128" height="128"/>
+    </resources>
 </document>
