@@ -30,5 +30,26 @@
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
+    <key>CFBundleDocumentTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleTypeExtensions</key>
+            <array>
+                <string>csv</string>
+            </array>
+            <key>CFBundleTypeIconFile</key>
+            <string>application.icns</string>
+            <key>CFBundleTypeMIMETypes</key>
+            <array>
+                <string>text/xml</string>
+            </array>
+            <key>CFBundleTypeName</key>
+            <string>CSV File</string>
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>
+            <key>LSIsAppleDefaultForType</key>
+            <true/>
+        </dict>
+    </array>
 </dict>
 </plist>

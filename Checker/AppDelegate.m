@@ -26,7 +26,20 @@
 - (BOOL)applicationShouldHandleReopen:(NSApplication *)theApplication
                     hasVisibleWindows:(BOOL)flag{
     [self.window makeKeyAndOrderFront:nil];
+    
     return TRUE;
+}
+
+- (BOOL)application:(NSApplication *)theApplication openFile:(NSString *)filename
+{
+    return [self processFile:filename];
+}
+
+- (BOOL)processFile:(NSString *)file
+{
+    NSLog(@"The following file has been dropped or selected: %@",file);
+    // Process file here
+    return  YES; // Return YES when file processed succesfull, else return NO.
 }
 
 @end
