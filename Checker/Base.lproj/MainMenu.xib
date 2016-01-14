@@ -477,7 +477,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ll8-eE-bP5">
-                                <rect key="frame" x="60" y="17" width="12" height="17"/>
+                                <rect key="frame" x="52" y="17" width="12" height="17"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="0" id="IsR-5e-nr5">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -497,7 +497,7 @@
                         </subviews>
                         <constraints>
                             <constraint firstItem="opG-h0-M80" firstAttribute="leading" secondItem="Upf-jm-NYY" secondAttribute="leading" constant="20" id="86b-uR-FOX"/>
-                            <constraint firstItem="ll8-eE-bP5" firstAttribute="leading" secondItem="opG-h0-M80" secondAttribute="trailing" constant="8" id="AIM-6j-jnN"/>
+                            <constraint firstItem="ll8-eE-bP5" firstAttribute="leading" secondItem="opG-h0-M80" secondAttribute="trailing" id="AIM-6j-jnN"/>
                             <constraint firstAttribute="bottom" secondItem="pBE-hu-gq0" secondAttribute="bottom" constant="14" id="DJP-Nv-EfR"/>
                             <constraint firstAttribute="height" constant="50" id="HXA-ld-0EA"/>
                             <constraint firstAttribute="bottom" secondItem="ll8-eE-bP5" secondAttribute="bottom" constant="17" id="Rtx-NM-kVd"/>
