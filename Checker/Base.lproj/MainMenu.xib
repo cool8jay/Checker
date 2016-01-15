@@ -15,6 +15,7 @@
             <connections>
                 <outlet property="_amountLabel" destination="5ZJ-hF-l9a" id="rW8-Lk-lA9"/>
                 <outlet property="_bottomView" destination="yJL-B4-NfI" id="2Yy-Tc-Db4"/>
+                <outlet property="_detailsButton" destination="N7L-pO-lxA" id="8n5-j4-d4t"/>
                 <outlet property="_dragDropImageView" destination="GTy-B2-nC0" id="oVf-1E-BjN"/>
                 <outlet property="_progressBar" destination="R21-M1-kmL" id="9hc-oc-zI0"/>
                 <outlet property="_resetButton" destination="jRf-VJ-vdd" id="HSM-R5-0Oe"/>
@@ -393,20 +394,20 @@
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="791" y="354" width="480" height="360"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1057"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
             <value key="minSize" type="size" width="480" height="360"/>
             <view key="contentView" id="EiT-Mj-1SZ">
                 <rect key="frame" x="0.0" y="0.0" width="480" height="360"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <scrollView autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qNb-nd-ndL">
-                        <rect key="frame" x="0.0" y="50" width="480" height="310"/>
+                        <rect key="frame" x="0.0" y="40" width="480" height="320"/>
                         <clipView key="contentView" id="hcj-rq-5UK">
-                            <rect key="frame" x="1" y="17" width="478" height="277"/>
+                            <rect key="frame" x="1" y="17" width="478" height="287"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
                                 <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowSizeStyle="automatic" headerView="1YD-KF-ayk" viewBased="YES" id="3dD-1e-AFw">
-                                    <rect key="frame" x="0.0" y="0.0" width="876" height="0.0"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="876" height="287"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <size key="intercellSpacing" width="3" height="2"/>
                                     <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -614,7 +615,7 @@
                             <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </clipView>
                         <scroller key="horizontalScroller" verticalHuggingPriority="750" horizontal="YES" id="3Co-42-1b3">
-                            <rect key="frame" x="1" y="294" width="478" height="15"/>
+                            <rect key="frame" x="1" y="304" width="478" height="15"/>
                             <autoresizingMask key="autoresizingMask"/>
                         </scroller>
                         <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="NO" id="Yij-mb-cRl">
@@ -626,46 +627,6 @@
                             <autoresizingMask key="autoresizingMask"/>
                         </tableHeaderView>
                     </scrollView>
-                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="yJL-B4-NfI" userLabel="Bottom View">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="41"/>
-                        <subviews>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="T1q-zM-uat" userLabel="Total:">
-                                <rect key="frame" x="18" y="12" width="42" height="17"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Total: " id="kRJ-Zu-mHg">
-                                    <font key="font" metaFont="system"/>
-                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                                </textFieldCell>
-                            </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="5ZJ-hF-l9a" userLabel="Amount">
-                                <rect key="frame" x="54" y="12" width="12" height="17"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="0" id="psn-SG-Pa7">
-                                    <font key="font" metaFont="system"/>
-                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                                </textFieldCell>
-                            </textField>
-                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="jRf-VJ-vdd" userLabel="Reset Button">
-                                <rect key="frame" x="387" y="3" width="76" height="32"/>
-                                <buttonCell key="cell" type="push" title="Reset" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="8pV-Ya-n14">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                                <connections>
-                                    <action selector="reset:" target="krT-LS-ba5" id="X1Y-A7-ciA"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <constraints>
-                            <constraint firstAttribute="height" constant="41" id="3AZ-IO-sho"/>
-                            <constraint firstAttribute="bottom" secondItem="5ZJ-hF-l9a" secondAttribute="bottom" constant="12" id="4b0-Tl-7Ax"/>
-                            <constraint firstAttribute="bottom" secondItem="jRf-VJ-vdd" secondAttribute="bottom" constant="10" id="73z-Dn-Q2C"/>
-                            <constraint firstAttribute="trailing" secondItem="jRf-VJ-vdd" secondAttribute="trailing" constant="23" id="KXT-Po-xQy"/>
-                            <constraint firstItem="T1q-zM-uat" firstAttribute="leading" secondItem="yJL-B4-NfI" secondAttribute="leading" constant="20" id="dMw-ho-Sq7"/>
-                            <constraint firstItem="5ZJ-hF-l9a" firstAttribute="leading" secondItem="T1q-zM-uat" secondAttribute="trailing" constant="-2" id="h4R-YF-KVa"/>
-                            <constraint firstItem="T1q-zM-uat" firstAttribute="top" secondItem="yJL-B4-NfI" secondAttribute="top" constant="12" id="iBa-Fj-ioU"/>
-                        </constraints>
-                    </customView>
                     <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tEe-xZ-tV3" userLabel="Result Image">
                         <rect key="frame" x="176" y="146" width="128" height="128"/>
                         <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="ok" id="vm8-N6-KbR"/>
@@ -681,6 +642,64 @@
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
+                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="yJL-B4-NfI" userLabel="Bottom View">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="40"/>
+                        <subviews>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="T1q-zM-uat" userLabel="Total:">
+                                <rect key="frame" x="18" y="12" width="42" height="17"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Total: " id="kRJ-Zu-mHg">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="5ZJ-hF-l9a" userLabel="Amount">
+                                <rect key="frame" x="60" y="12" width="12" height="17"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="0" id="psn-SG-Pa7">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="N7L-pO-lxA" userLabel="Details Button">
+                                <rect key="frame" x="72" y="2" width="92" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="SuV-pP-4wb"/>
+                                </constraints>
+                                <buttonCell key="cell" type="push" title="Details" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Y4I-0A-vCL">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="showError:" target="krT-LS-ba5" id="pGB-xN-GcM"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="jRf-VJ-vdd" userLabel="Reset Button">
+                                <rect key="frame" x="374" y="2" width="92" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="9j1-if-NJW"/>
+                                </constraints>
+                                <buttonCell key="cell" type="push" title="Reset" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="8pV-Ya-n14">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="reset:" target="krT-LS-ba5" id="X1Y-A7-ciA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="3AZ-IO-sho"/>
+                            <constraint firstAttribute="bottom" secondItem="5ZJ-hF-l9a" secondAttribute="bottom" constant="12" id="4b0-Tl-7Ax"/>
+                            <constraint firstAttribute="bottom" secondItem="N7L-pO-lxA" secondAttribute="bottom" constant="9" id="OcK-V0-HJL"/>
+                            <constraint firstItem="T1q-zM-uat" firstAttribute="leading" secondItem="yJL-B4-NfI" secondAttribute="leading" constant="20" id="dMw-ho-Sq7"/>
+                            <constraint firstItem="5ZJ-hF-l9a" firstAttribute="leading" secondItem="T1q-zM-uat" secondAttribute="trailing" constant="4" id="h4R-YF-KVa"/>
+                            <constraint firstItem="T1q-zM-uat" firstAttribute="top" secondItem="yJL-B4-NfI" secondAttribute="top" constant="11" id="iBa-Fj-ioU"/>
+                            <constraint firstAttribute="trailing" secondItem="jRf-VJ-vdd" secondAttribute="trailing" constant="20" id="sEb-st-62f"/>
+                            <constraint firstItem="N7L-pO-lxA" firstAttribute="leading" secondItem="5ZJ-hF-l9a" secondAttribute="trailing" constant="8" id="tMH-9F-TEP"/>
+                            <constraint firstAttribute="bottom" secondItem="jRf-VJ-vdd" secondAttribute="bottom" constant="9" id="wRp-lr-sO5"/>
+                        </constraints>
+                    </customView>
                     <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GTy-B2-nC0" userLabel="Drag Drop View" customClass="DragDropImageView">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="360"/>
                         <connections>
@@ -689,14 +708,14 @@
                     </customView>
                 </subviews>
                 <constraints>
+                    <constraint firstItem="yJL-B4-NfI" firstAttribute="width" secondItem="EiT-Mj-1SZ" secondAttribute="width" id="0c4-TT-0S5"/>
                     <constraint firstItem="qNb-nd-ndL" firstAttribute="width" secondItem="EiT-Mj-1SZ" secondAttribute="width" id="8ap-0W-7QT"/>
-                    <constraint firstAttribute="bottom" secondItem="yJL-B4-NfI" secondAttribute="bottom" id="DMs-U0-mfy"/>
-                    <constraint firstAttribute="bottom" secondItem="qNb-nd-ndL" secondAttribute="bottom" constant="50" id="Fyr-T3-1IX"/>
+                    <constraint firstAttribute="bottom" secondItem="yJL-B4-NfI" secondAttribute="bottom" id="EvE-Fh-p8V"/>
+                    <constraint firstAttribute="bottom" secondItem="qNb-nd-ndL" secondAttribute="bottom" constant="40" id="Fyr-T3-1IX"/>
                     <constraint firstItem="qNb-nd-ndL" firstAttribute="top" secondItem="EiT-Mj-1SZ" secondAttribute="top" id="NN1-Yj-X98"/>
-                    <constraint firstItem="yJL-B4-NfI" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" id="OLJ-or-xIy"/>
                     <constraint firstAttribute="trailing" secondItem="qNb-nd-ndL" secondAttribute="trailing" id="WhA-OD-HjZ"/>
                     <constraint firstItem="qNb-nd-ndL" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" id="dxS-Jw-8Z0"/>
-                    <constraint firstItem="yJL-B4-NfI" firstAttribute="width" secondItem="EiT-Mj-1SZ" secondAttribute="width" id="ge5-Kg-exD"/>
+                    <constraint firstItem="yJL-B4-NfI" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" id="kHq-ab-pN2"/>
                 </constraints>
             </view>
             <point key="canvasLocation" x="319" y="279"/>

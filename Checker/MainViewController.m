@@ -24,6 +24,8 @@
 
 @implementation MainViewController{
     NSMutableArray * _dataArray;
+    NSMutableDictionary * _errorInfoDict;
+    
     NSArray * _whiteListArray;
     
     IBOutlet NSImageView *_resultIcon;
@@ -33,11 +35,12 @@
     
     IBOutlet NSView *_bottomView;
     
-    IBOutlet  NSScrollView *_scrollView;
-    IBOutlet  NSTableView *_tableView;
+    IBOutlet NSScrollView *_scrollView;
+    IBOutlet NSTableView *_tableView;
     
-    IBOutlet  NSButton *_resetButton;
-    IBOutlet  NSTextField *_amountLabel;
+    IBOutlet NSButton *_detailsButton;
+    IBOutlet NSButton *_resetButton;
+    IBOutlet NSTextField *_amountLabel;
 }
 
 - (void)viewDidLoad {
@@ -59,6 +62,14 @@
     _resultIcon.hidden = YES;
     
     _dataArray = [[NSMutableArray alloc] init];
+    _errorInfoDict = [[NSMutableDictionary alloc] init];
+    
+    [_errorInfoDict setValue:[NSNumber numberWithInt:0] forKey:@"en"];
+    [_errorInfoDict setValue:[NSNumber numberWithInt:0] forKey:@"cn"];
+    [_errorInfoDict setValue:[NSNumber numberWithInt:0] forKey:@"ja"];
+    [_errorInfoDict setValue:[NSNumber numberWithInt:0] forKey:@"ko"];
+    [_errorInfoDict setValue:[NSNumber numberWithInt:0] forKey:@"ru"];
+    [_errorInfoDict setValue:[NSNumber numberWithInt:0] forKey:@"zh-hant"];
     
     _whiteListArray = @[@"vip",
                         @"faq",
@@ -167,7 +178,7 @@
                                                       object:nil
                                                        queue:[NSOperationQueue currentQueue]
                                                   usingBlock:^(NSNotification *notification) {
-                                                      NSLog(@"172, PARSE FINISH");
+                                                      NSLog(@"172, PARSE_WITH_RESULT");
                                                       _tipLabel.hidden = YES;
                                                       _progressBar.hidden = YES;
                                                       
@@ -179,6 +190,7 @@
                                                       
                                                       [_tableView reloadData];
                                                       
+                                                      _detailsButton.hidden = NO;
                                                       _bottomView.hidden = NO;
                                                       
                                                       [_amountLabel setStringValue:[NSString stringWithFormat:@"%lu", [_dataArray count]]];
@@ -200,12 +212,27 @@
                                                       object:nil
                                                        queue:[NSOperationQueue currentQueue]
                                                   usingBlock:^(NSNotification *notification) {
-                                                      NSLog(@"empty csv data");
+                                                      NSLog(@"203 PARSE_ERROR_EMPTY");
                                                       [_resultIcon setImage:[NSImage imageNamed:@"error"]];
                                                       _resultIcon.hidden = NO;
                                                       [_tipLabel setStringValue:@"Empty csv file!"];
                                                       
                                                       _progressBar.hidden = YES;
+                                                      _detailsButton.hidden = YES;
+                                                      _bottomView.hidden = NO;
+                                                  }];
+    
+    [[NSNotificationCenter defaultCenter] addObserverForName:@"PARSE_ERROR_WRONG_FIELD"
+                                                      object:nil
+                                                       queue:[NSOperationQueue currentQueue]
+                                                  usingBlock:^(NSNotification *notification) {
+                                                      NSLog(@"216 PARSE_ERROR_WRONG_FIELD");
+                                                      [_resultIcon setImage:[NSImage imageNamed:@"error"]];
+                                                      _resultIcon.hidden = NO;
+                                                      [_tipLabel setStringValue:@"Wrong fields!"];
+                                                      
+                                                      _progressBar.hidden = YES;
+                                                      _detailsButton.hidden = YES;
                                                       _bottomView.hidden = NO;
                                                   }];
     
@@ -213,12 +240,13 @@
                                                       object:nil
                                                        queue:[NSOperationQueue currentQueue]
                                                   usingBlock:^(NSNotification *notification) {
-                                                      NSLog(@"all ok");
+                                                      NSLog(@"229 PARSE_OK");
                                                       _progressBar.hidden = YES;
                                                       [_resultIcon setImage:[NSImage imageNamed:@"ok"]];
                                                       _resultIcon.hidden = NO;
                                                       [_tipLabel setStringValue:@"All correct!"];
                                                       
+                                                      _detailsButton.hidden = YES;
                                                       _bottomView.hidden = NO;
                                                   }];
 }
@@ -232,7 +260,6 @@
                                           styleMask: NSTitledWindowMask];
     
     return (frame.size.height - contentRect.size.height);
-    
 }
 
 - (void)tableView:(NSTableView *)tableView sortDescriptorsDidChange:(NSArray *)oldDescriptors
@@ -323,12 +350,40 @@
     }
 }
 
+- (void)increaseErrorInfoForKey:(NSString*)key{
+    int oldValue = [[_errorInfoDict valueForKey:key] intValue];
+    
+    oldValue = oldValue + 1;
+    [_errorInfoDict setValue:[NSNumber numberWithInt:oldValue] forKey:key];
+}
+
 - (void)checkData:(NSArray*)data{
     long dataCount = [data count] - 1;   // 第一个数据是key
-    // TODO: csv格式检查，如果字段不匹配，则显示错误信息
     
     if([data count]>1){
         for(int i=1; i<[data count]; i++){
+            NSArray *keys = [[data objectAtIndex:i] allKeys];
+            __block BOOL isFieldOK = YES;
+            [keys enumerateObjectsWithOptions:NSEnumerationConcurrent
+                                   usingBlock:^(id s,NSUInteger idx,BOOL *stop){
+                                       if (![(NSString*)s isEqual:@"key"]
+                                           && ![(NSString*)s isEqual:@"en"]
+                                           && ![(NSString*)s isEqual:@"cn"]
+                                           && ![(NSString*)s isEqual:@"ja"]
+                                           && ![(NSString*)s isEqual:@"ko"]
+                                           && ![(NSString*)s isEqual:@"ru"]
+                                           && ![(NSString*)s isEqual:@"zh-hant"]
+                                           ) {
+                                           isFieldOK = NO;
+                                           *stop=TRUE;
+                                       }
+                                   }];
+            
+            if(!isFieldOK){
+                [[NSNotificationCenter defaultCenter] postNotificationName:@"PARSE_ERROR_WRONG_FIELD" object:nil];
+                return;
+            }
+            
             NSDictionary *dict = [data objectAtIndex:i];
             
             NSString *keyString = [dict valueForKey:@"key"];
@@ -353,26 +408,32 @@
             
             if (!enOK){
                 [newDict setValue:enString forKey:@"en"];
+                [self increaseErrorInfoForKey:@"en"];
             }
             
             if (!cnOK){
                 [newDict setValue:cnString forKey:@"cn"];
+                [self increaseErrorInfoForKey:@"cn"];
             }
             
             if (!zhhantOK){
                 [newDict setValue:zhhantString forKey:@"zh-hant"];
+                [self increaseErrorInfoForKey:@"zh-hant"];
             }
             
             if (!jaOK){
                 [newDict setValue:jaString forKey:@"ja"];
+                [self increaseErrorInfoForKey:@"ja"];
             }
             
             if (!koOK){
                 [newDict setValue:koString forKey:@"ko"];
+                [self increaseErrorInfoForKey:@"ko"];
             }
             
             if (!ruOK){
                 [newDict setValue:ruString forKey:@"ru"];
+                [self increaseErrorInfoForKey:@"ru"];
             }
             
             if (enOK && cnOK && zhhantOK && jaOK && koOK && ruOK){
@@ -394,7 +455,6 @@
     
     if ([_dataArray count]>0){
         [[NSNotificationCenter defaultCenter] postNotificationName:@"PARSE_WITH_RESULT" object:nil];
-        
     }else{
         [[NSNotificationCenter defaultCenter] postNotificationName:@"PARSE_OK" object:nil];
     }
@@ -414,6 +474,29 @@
         [self checkData:data];
     });
 }
+- (IBAction)showError:(id)sender {
+    int en = [[_errorInfoDict valueForKey:@"en"] intValue];
+    int cn = [[_errorInfoDict valueForKey:@"cn"] intValue];
+    int ja = [[_errorInfoDict valueForKey:@"ja"] intValue];
+    int ko = [[_errorInfoDict valueForKey:@"ko"] intValue];
+    int ru = [[_errorInfoDict valueForKey:@"ru"] intValue];
+    int zh_hant = [[_errorInfoDict valueForKey:@"zh-hant"] intValue];
+    
+    NSString *info = [NSString stringWithFormat:@"en: %d,\n"
+                      "cn: %d,\n"
+                      "ja: %d,\n"
+                      "ko: %d,\n"
+                      "ru: %d,\n"
+                      "zh-hant: %d.", en,cn,ja,ko,ru,zh_hant];
+    
+    NSAlert *alert = [[NSAlert alloc] init];
+    [alert setMessageText:@"Error amount for each language:"];
+    [alert setInformativeText:info];
+    [alert addButtonWithTitle:@"OK"];
+    [alert setAlertStyle:NSInformationalAlertStyle];
+    
+    [alert beginSheetModalForWindow:self.view.window completionHandler:^(NSModalResponse returnCode) {}];
+}
 
 - (IBAction)reset:(id)sender{
     _scrollView.hidden = YES;
@@ -421,6 +504,13 @@
     _resultIcon.hidden = YES;
     _progressBar.hidden = YES;
     _progressBar.floatValue = 0;
+    
+    [_errorInfoDict setValue:[NSNumber numberWithInt:0] forKey:@"en"];
+    [_errorInfoDict setValue:[NSNumber numberWithInt:0] forKey:@"cn"];
+    [_errorInfoDict setValue:[NSNumber numberWithInt:0] forKey:@"ja"];
+    [_errorInfoDict setValue:[NSNumber numberWithInt:0] forKey:@"ko"];
+    [_errorInfoDict setValue:[NSNumber numberWithInt:0] forKey:@"ru"];
+    [_errorInfoDict setValue:[NSNumber numberWithInt:0] forKey:@"zh-hant"];
     
     [_amountLabel setStringValue:@"0"];
     [_amountLabel sizeToFit];
