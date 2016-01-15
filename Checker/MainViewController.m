@@ -38,8 +38,6 @@
     
     IBOutlet  NSButton *_resetButton;
     IBOutlet  NSTextField *_amountLabel;
-    
-    IBOutlet DragDropImageView *_dragDropImageView;
 }
 
 - (void)viewDidLoad {
@@ -170,6 +168,9 @@
                                                        queue:[NSOperationQueue currentQueue]
                                                   usingBlock:^(NSNotification *notification) {
                                                       NSLog(@"172, PARSE FINISH");
+                                                      _tipLabel.hidden = YES;
+                                                      _progressBar.hidden = YES;
+                                                      
                                                       [self.view.window setStyleMask:[self.view.window styleMask] | NSResizableWindowMask];
                                                       
                                                       _scrollView.hidden = NO;
@@ -220,6 +221,18 @@
                                                       
                                                       _bottomView.hidden = NO;
                                                   }];
+}
+
+- (float)getWindowTitleBarHeight
+{
+    NSRect frame = NSMakeRect (0, 0, 100, 100);
+    
+    NSRect contentRect;
+    contentRect = [NSWindow contentRectForFrameRect: frame
+                                          styleMask: NSTitledWindowMask];
+    
+    return (frame.size.height - contentRect.size.height);
+    
 }
 
 - (void)tableView:(NSTableView *)tableView sortDescriptorsDidChange:(NSArray *)oldDescriptors
@@ -282,6 +295,7 @@
 }
 
 - (BOOL)checkString:(NSString*)srcText forLang:(NSString*)lang{
+    // TODO: 优化白名单规则
     NSDictionary *regexp_lang = @{@"en":@"^[a-zA-Z0-9,.:;≥<=>/#&@+_%?!'()\\$\\-\\s\\[\\]\"]+$", // 英文支持：26字母大小写，数字，一些标点符号，等等
                                   @"cn":@"^([^a-zA-Z_]|%\\d?\\$?s| I| II| III| IV| V| VI| VII| VIII)*", // 中文支持：非英文字母大小写，数字，等等
                                   @"ja":@"^([^a-zA-Z_]|%\\d?\\$?s| I| II| III| IV| V| VI| VII| VIII)*", // 日文支持：非英文字母大小写，数字，等等
@@ -311,6 +325,7 @@
 
 - (void)checkData:(NSArray*)data{
     long dataCount = [data count] - 1;   // 第一个数据是key
+    // TODO: csv格式检查，如果字段不匹配，则显示错误信息
     
     if([data count]>1){
         for(int i=1; i<[data count]; i++){
@@ -411,13 +426,15 @@
     [_amountLabel sizeToFit];
     
     [_tipLabel setStringValue:@"Drag localization csv file here..."];
+    _tipLabel.hidden = NO;
     _dragDropImageView.hidden = NO;
     
     [_dragDropImageView setNeedsDisplay:YES];
     
     [_dataArray removeAllObjects];
     
-    [self.view.window setFrame:NSMakeRect(self.view.window.frame.origin.x, self.view.window.frame.origin.y, 480.f, 360.f) display:YES animate:YES];
+    float titleHeight = [self getWindowTitleBarHeight];
+    [self.view.window setFrame:NSMakeRect(self.view.window.frame.origin.x, self.view.window.frame.origin.y, 480.f, 360.f+titleHeight) display:YES animate:YES];
     
     [self.view.window setStyleMask:[self.view.window styleMask] & ~NSResizableWindowMask];
 }

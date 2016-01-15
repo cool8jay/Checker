@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "DragDropImageView.h"
 
 @interface AppDelegate ()
 
@@ -37,8 +38,11 @@
 
 - (BOOL)processFile:(NSString *)file
 {
-    NSLog(@"The following file has been dropped or selected: %@",file);
-    // Process file here
+    NSURL *filePath = [NSURL fileURLWithPath:file];
+    
+    [_mainViewController performSelectorInBackground:@selector(addURL:) withObject:filePath];
+    _mainViewController.dragDropImageView.hidden = YES;
+    
     return  YES; // Return YES when file processed succesfull, else return NO.
 }
 

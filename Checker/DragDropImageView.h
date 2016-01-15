@@ -2,8 +2,8 @@
 #import <Foundation/Foundation.h>
 #import <Cocoa/Cocoa.h>
 #import <AppKit/AppKit.h>
-#import "MainViewController.h"
 
+@class MainViewController;
 @interface DragDropImageView : NSView
 {
     BOOL highlight; //highlight the drop zone

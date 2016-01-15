@@ -10,7 +10,10 @@
 #import "CHCSVParser.h"
 #import "ITProgressBar.h"
 
+@class DragDropImageView;
 @interface MainViewController : NSViewController<NSTableViewDelegate,NSTableViewDataSource>
+
+@property IBOutlet DragDropImageView *dragDropImageView;
 
 -(void)addURL:(NSURL *)url;
 

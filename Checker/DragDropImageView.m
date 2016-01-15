@@ -1,4 +1,5 @@
 #import "DragDropImageView.h"
+#import "MainViewController.h"
 
 @implementation DragDropImageView
 

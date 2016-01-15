@@ -8,6 +8,11 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+#import "MainViewController.h"
+
+@interface AppDelegate : NSObject <NSApplicationDelegate>{
+    IBOutlet MainViewController * _mainViewController;
+}
 
 @end
+
