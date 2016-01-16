@@ -23,11 +23,18 @@
 @end
 
 @implementation MainViewController{
+    // data
     NSMutableArray * _dataArray;
     NSMutableDictionary * _errorInfoDict;
     
     NSArray * _whiteListArray;
     
+    NSString *_englishFilter;
+    NSMutableString *_nonEnglishFilter;
+    
+    NSMutableDictionary *regexpLangDict;
+    
+    // Control
     IBOutlet NSImageView *_resultIcon;
     
     IBOutlet ITProgressBar *_progressBar;
@@ -71,6 +78,7 @@
     [_errorInfoDict setValue:[NSNumber numberWithInt:0] forKey:@"ru"];
     [_errorInfoDict setValue:[NSNumber numberWithInt:0] forKey:@"zh-hant"];
     
+    // TODO: 从设置里面读取白名单
     _whiteListArray = @[@"vip",
                         @"faq",
                         @"ios",
@@ -84,6 +92,8 @@
                         @"facebook",
                         @"twitter",
                         @"Q&A",
+                        @"pt",
+                        @"hp",
                         @"X98-U",
                         @"R-318",
                         @"OR-34Z",
@@ -94,11 +104,19 @@
                         @"SY983",
                         @"GOOGLE",
                         @"APPSTORE",
-                        @"x\\d+",
-                        @"x \\d+",
                         @"K组织",
                         @"K조직",
                         @"Ｋ組",
+                        @"- I",
+                        @"- II",
+                        @"- III",
+                        @"- IV",
+                        @"- V",
+                        @" I",
+                        @" II",
+                        @" III",
+                        @" IV",
+                        @" V",
                         @"I级",
                         @"II级",
                         @"III级",
@@ -107,9 +125,40 @@
                         @"II級",
                         @"III級",
                         @"IV級",
+                        @"V級",
+                        @"I型",
+                        @"II型",
+                        @"III型",
+                        @"IV型",
+                        @"V型",
+                        @"I레벨",
+                        @"II레벨",
+                        @"III레벨",
+                        @"IV레벨",
+                        @"V레벨",
                         @"K組織",
+                        @"SNS",
+                        @"FULL",
                         @"lv.",
+                        @"№"
                         ];
+    
+    _englishFilter = @"^[a-zA-Z0-9,.:;≥<=>/#&@+_%?!'()\\$\\-\\s\\[\\]\"]+$";// 英文支持：26字母大小写，数字，一些标点符号，等等
+    
+    _nonEnglishFilter = [[NSMutableString alloc] initWithString:@"^([^a-zA-Z_]|%\\d?\\$?s|x \\d+|x\\d+"];// 非英文支持：非英文字母大小写，数字，占位符，等等
+    
+    for(NSString *b in _whiteListArray){
+        [_nonEnglishFilter appendFormat:@"|%@",b];
+    }
+    [_nonEnglishFilter appendFormat:@")*"];
+    
+    regexpLangDict = [NSMutableDictionary dictionaryWithDictionary: @{@"en":_englishFilter,
+                                                                   @"cn":_nonEnglishFilter,
+                                                                   @"ja":_nonEnglishFilter,
+                                                                   @"ko":_nonEnglishFilter,
+                                                                   @"ru":_nonEnglishFilter,
+                                                                   @"zh-hant":_nonEnglishFilter,
+                                                                   }];
     
     {
         NSTableColumn *tableColumnIndex = [_tableView tableColumnWithIdentifier:kTableColumnIdIndex];
@@ -322,18 +371,9 @@
 }
 
 - (BOOL)checkString:(NSString*)srcText forLang:(NSString*)lang{
-    // TODO: 优化白名单规则
-    NSDictionary *regexp_lang = @{@"en":@"^[a-zA-Z0-9,.:;≥<=>/#&@+_%?!'()\\$\\-\\s\\[\\]\"]+$", // 英文支持：26字母大小写，数字，一些标点符号，等等
-                                  @"cn":@"^([^a-zA-Z_]|%\\d?\\$?s| I| II| III| IV| V| VI| VII| VIII)*", // 中文支持：非英文字母大小写，数字，等等
-                                  @"ja":@"^([^a-zA-Z_]|%\\d?\\$?s| I| II| III| IV| V| VI| VII| VIII)*", // 日文支持：非英文字母大小写，数字，等等
-                                  @"ko":@"^([^a-zA-Z_]|%\\d?\\$?s| I| II| III| IV| V| VI| VII| VIII)*", // 韩文支持：非英文字母大小写，数字，等等
-                                  @"ru":@"^([^a-zA-Z_]|%\\d?\\$?s| I| II| III| IV| V| VI| VII| VIII)*", // 俄文支持：非英文字母大小写，数字，等等
-                                  @"zh-hant":@"^([^a-zA-Z_]|%\\d?\\$?s| I| II| III| IV| V| VI| VII| VIII)*", // 中文支持：非英文字母大小写，数字，等等
-                                  };
+    NSString *regexp = [regexpLangDict valueForKey:lang];
     
-    NSString *regexp = [regexp_lang valueForKey:lang];
-    
-    NSPredicate *myTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", regexp];
+    NSPredicate *myTest = [NSPredicate predicateWithFormat:@"SELF MATCHES[c] %@", regexp];
     
     if ([myTest evaluateWithObject: srcText]){
         return YES;
