@@ -7,19 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B75B59D41C49E82100AE82E6 /* RHPreferences.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B75B59D11C49E7B100AE82E6 /* RHPreferences.framework */; };
+		B75B59D51C49E82100AE82E6 /* RHPreferences.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B75B59D11C49E7B100AE82E6 /* RHPreferences.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B75B59D91C49E8CB00AE82E6 /* PKWhitelistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B75B59D81C49E8CB00AE82E6 /* PKWhitelistViewController.m */; };
+		B75B59DD1C49E9C800AE82E6 /* preferences_icon_general.tiff in Resources */ = {isa = PBXBuildFile; fileRef = B75B59DC1C49E9C800AE82E6 /* preferences_icon_general.tiff */; };
 		B7C6D2241C465AEB0056BF79 /* ITProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C6D2231C465AEB0056BF79 /* ITProgressBar.m */; };
 		B7E54E9E1C44B713004D0E95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E54E9D1C44B713004D0E95 /* AppDelegate.m */; };
 		B7E54EA11C44B713004D0E95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E54EA01C44B713004D0E95 /* main.m */; };
 		B7E54EA31C44B713004D0E95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7E54EA21C44B713004D0E95 /* Assets.xcassets */; };
 		B7E54EA61C44B713004D0E95 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7E54EA41C44B713004D0E95 /* MainMenu.xib */; };
-		B7E54EAF1C44B772004D0E95 /* DragDropImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E54EAE1C44B772004D0E95 /* DragDropImageView.m */; };
+		B7E54EAF1C44B772004D0E95 /* DragDropView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E54EAE1C44B772004D0E95 /* DragDropView.m */; };
 		B7E54EB21C44B90D004D0E95 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E54EB11C44B90D004D0E95 /* MainViewController.m */; };
 		B7E54EB61C44BC1C004D0E95 /* CHCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E54EB51C44BC1C004D0E95 /* CHCSVParser.m */; };
 		B7EF76451C46923E00B3E784 /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = B7EF76431C46923E00B3E784 /* error.png */; };
 		B7EF76461C46923E00B3E784 /* ok.png in Resources */ = {isa = PBXBuildFile; fileRef = B7EF76441C46923E00B3E784 /* ok.png */; };
+		B7F0B7731C4B98BB0001B6B8 /* PKUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F0B7721C4B98BB0001B6B8 /* PKUtils.m */; };
+		B7F0B7781C4BBC8B0001B6B8 /* AddWordModalWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7F0B7741C4BBC8B0001B6B8 /* AddWordModalWindowController.xib */; };
+		B7F0B7791C4BBC8B0001B6B8 /* PKWhitelistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7F0B7761C4BBC8B0001B6B8 /* PKWhitelistViewController.xib */; };
+		B7F0B77C1C4BBC960001B6B8 /* AddWordModalWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F0B77B1C4BBC960001B6B8 /* AddWordModalWindowController.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B75B59D61C49E82100AE82E6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B75B59D51C49E82100AE82E6 /* RHPreferences.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		B72080DA1C4AA67100934835 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = SOURCE_ROOT; };
+		B75B59D11C49E7B100AE82E6 /* RHPreferences.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RHPreferences.framework; sourceTree = "<group>"; };
+		B75B59D71C49E8CB00AE82E6 /* PKWhitelistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKWhitelistViewController.h; path = Checker/PKWhitelistViewController.h; sourceTree = SOURCE_ROOT; };
+		B75B59D81C49E8CB00AE82E6 /* PKWhitelistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKWhitelistViewController.m; path = Checker/PKWhitelistViewController.m; sourceTree = SOURCE_ROOT; };
+		B75B59DC1C49E9C800AE82E6 /* preferences_icon_general.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = preferences_icon_general.tiff; path = Checker/preferences_icon_general.tiff; sourceTree = SOURCE_ROOT; };
 		B7C6D2221C465AEB0056BF79 /* ITProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITProgressBar.h; sourceTree = "<group>"; };
 		B7C6D2231C465AEB0056BF79 /* ITProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITProgressBar.m; sourceTree = "<group>"; };
 		B7E54E991C44B713004D0E95 /* Checker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Checker.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,14 +56,20 @@
 		B7E54EA21C44B713004D0E95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7E54EA51C44B713004D0E95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		B7E54EA71C44B713004D0E95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B7E54EAD1C44B772004D0E95 /* DragDropImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragDropImageView.h; sourceTree = "<group>"; };
-		B7E54EAE1C44B772004D0E95 /* DragDropImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragDropImageView.m; sourceTree = "<group>"; };
+		B7E54EAD1C44B772004D0E95 /* DragDropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragDropView.h; sourceTree = "<group>"; };
+		B7E54EAE1C44B772004D0E95 /* DragDropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragDropView.m; sourceTree = "<group>"; };
 		B7E54EB01C44B90D004D0E95 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		B7E54EB11C44B90D004D0E95 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		B7E54EB41C44BC1C004D0E95 /* CHCSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCSVParser.h; sourceTree = "<group>"; };
 		B7E54EB51C44BC1C004D0E95 /* CHCSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCSVParser.m; sourceTree = "<group>"; };
 		B7EF76431C46923E00B3E784 /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = error.png; path = Checker/error.png; sourceTree = SOURCE_ROOT; };
 		B7EF76441C46923E00B3E784 /* ok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ok.png; path = Checker/ok.png; sourceTree = SOURCE_ROOT; };
+		B7F0B7711C4B98BB0001B6B8 /* PKUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKUtils.h; path = Checker/PKUtils.h; sourceTree = SOURCE_ROOT; };
+		B7F0B7721C4B98BB0001B6B8 /* PKUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKUtils.m; path = Checker/PKUtils.m; sourceTree = SOURCE_ROOT; };
+		B7F0B7751C4BBC8B0001B6B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Checker/Base.lproj/AddWordModalWindowController.xib; sourceTree = SOURCE_ROOT; };
+		B7F0B7771C4BBC8B0001B6B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Checker/Base.lproj/PKWhitelistViewController.xib; sourceTree = SOURCE_ROOT; };
+		B7F0B77A1C4BBC960001B6B8 /* AddWordModalWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddWordModalWindowController.h; path = Checker/AddWordModalWindowController.h; sourceTree = SOURCE_ROOT; };
+		B7F0B77B1C4BBC960001B6B8 /* AddWordModalWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddWordModalWindowController.m; path = Checker/AddWordModalWindowController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,12 +77,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B75B59D41C49E82100AE82E6 /* RHPreferences.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B75B59D01C49E7B100AE82E6 /* RHPreferences */ = {
+			isa = PBXGroup;
+			children = (
+				B75B59D11C49E7B100AE82E6 /* RHPreferences.framework */,
+			);
+			name = RHPreferences;
+			path = Checker/RHPreferences;
+			sourceTree = SOURCE_ROOT;
+		};
+		B75B59D31C49E7B800AE82E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B75B59D01C49E7B100AE82E6 /* RHPreferences */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B7C6D2211C465AEB0056BF79 /* ITProgressBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				B7E54E9B1C44B713004D0E95 /* Checker */,
+				B75B59D31C49E7B800AE82E6 /* Frameworks */,
 				B7E54E9A1C44B713004D0E95 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -80,15 +132,24 @@
 			children = (
 				B7E54EB31C44BC1C004D0E95 /* CHCSVParser */,
 				B7C6D2211C465AEB0056BF79 /* ITProgressBar */,
+				B7F0B7711C4B98BB0001B6B8 /* PKUtils.h */,
+				B7F0B7721C4B98BB0001B6B8 /* PKUtils.m */,
 				B7E54E9C1C44B713004D0E95 /* AppDelegate.h */,
 				B7E54E9D1C44B713004D0E95 /* AppDelegate.m */,
 				B7E54EB01C44B90D004D0E95 /* MainViewController.h */,
 				B7E54EB11C44B90D004D0E95 /* MainViewController.m */,
-				B7E54EAD1C44B772004D0E95 /* DragDropImageView.h */,
-				B7E54EAE1C44B772004D0E95 /* DragDropImageView.m */,
+				B7F0B77A1C4BBC960001B6B8 /* AddWordModalWindowController.h */,
+				B7F0B77B1C4BBC960001B6B8 /* AddWordModalWindowController.m */,
+				B75B59D71C49E8CB00AE82E6 /* PKWhitelistViewController.h */,
+				B75B59D81C49E8CB00AE82E6 /* PKWhitelistViewController.m */,
+				B7E54EAD1C44B772004D0E95 /* DragDropView.h */,
+				B7E54EAE1C44B772004D0E95 /* DragDropView.m */,
 				B7E54EA21C44B713004D0E95 /* Assets.xcassets */,
+				B7F0B7741C4BBC8B0001B6B8 /* AddWordModalWindowController.xib */,
+				B7F0B7761C4BBC8B0001B6B8 /* PKWhitelistViewController.xib */,
 				B7E54EA41C44B713004D0E95 /* MainMenu.xib */,
 				B7E54EA71C44B713004D0E95 /* Info.plist */,
+				B75B59DC1C49E9C800AE82E6 /* preferences_icon_general.tiff */,
 				B7EF76431C46923E00B3E784 /* error.png */,
 				B7EF76441C46923E00B3E784 /* ok.png */,
 				B7E54E9F1C44B713004D0E95 /* Supporting Files */,
@@ -100,6 +161,7 @@
 		B7E54E9F1C44B713004D0E95 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B72080DA1C4AA67100934835 /* Prefix.pch */,
 				B7E54EA01C44B713004D0E95 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -124,6 +186,7 @@
 				B7E54E951C44B713004D0E95 /* Sources */,
 				B7E54E961C44B713004D0E95 /* Frameworks */,
 				B7E54E971C44B713004D0E95 /* Resources */,
+				B75B59D61C49E82100AE82E6 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -173,8 +236,11 @@
 			files = (
 				B7EF76461C46923E00B3E784 /* ok.png in Resources */,
 				B7E54EA31C44B713004D0E95 /* Assets.xcassets in Resources */,
+				B7F0B7781C4BBC8B0001B6B8 /* AddWordModalWindowController.xib in Resources */,
 				B7E54EA61C44B713004D0E95 /* MainMenu.xib in Resources */,
 				B7EF76451C46923E00B3E784 /* error.png in Resources */,
+				B75B59DD1C49E9C800AE82E6 /* preferences_icon_general.tiff in Resources */,
+				B7F0B7791C4BBC8B0001B6B8 /* PKWhitelistViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,11 +251,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7F0B7731C4B98BB0001B6B8 /* PKUtils.m in Sources */,
 				B7E54EA11C44B713004D0E95 /* main.m in Sources */,
-				B7E54EAF1C44B772004D0E95 /* DragDropImageView.m in Sources */,
+				B7E54EAF1C44B772004D0E95 /* DragDropView.m in Sources */,
 				B7E54E9E1C44B713004D0E95 /* AppDelegate.m in Sources */,
 				B7C6D2241C465AEB0056BF79 /* ITProgressBar.m in Sources */,
 				B7E54EB61C44BC1C004D0E95 /* CHCSVParser.m in Sources */,
+				B75B59D91C49E8CB00AE82E6 /* PKWhitelistViewController.m in Sources */,
+				B7F0B77C1C4BBC960001B6B8 /* AddWordModalWindowController.m in Sources */,
 				B7E54EB21C44B90D004D0E95 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -203,6 +272,22 @@
 				B7E54EA51C44B713004D0E95 /* Base */,
 			);
 			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		B7F0B7741C4BBC8B0001B6B8 /* AddWordModalWindowController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7F0B7751C4BBC8B0001B6B8 /* Base */,
+			);
+			name = AddWordModalWindowController.xib;
+			sourceTree = "<group>";
+		};
+		B7F0B7761C4BBC8B0001B6B8 /* PKWhitelistViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7F0B7771C4BBC8B0001B6B8 /* Base */,
+			);
+			name = PKWhitelistViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -292,6 +377,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Checker/RHPreferences",
+				);
+				GCC_PREFIX_HEADER = Prefix.pch;
 				INFOPLIST_FILE = Checker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.poukoute.checker;
@@ -304,6 +394,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Checker/RHPreferences",
+				);
+				GCC_PREFIX_HEADER = Prefix.pch;
 				INFOPLIST_FILE = Checker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.poukoute.checker;

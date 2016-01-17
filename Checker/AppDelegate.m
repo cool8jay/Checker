@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-#import "DragDropImageView.h"
+#import "DragDropView.h"
+#import "PKWhitelistViewController.h"
 
 @interface AppDelegate ()
 
@@ -41,9 +42,29 @@
     NSURL *filePath = [NSURL fileURLWithPath:file];
     
     [_mainViewController performSelectorInBackground:@selector(addURL:) withObject:filePath];
-    _mainViewController.dragDropImageView.hidden = YES;
+    _mainViewController.dragDropView.hidden = YES;
     
     return  YES; // Return YES when file processed succesfull, else return NO.
 }
 
+- (IBAction)showPreferences:(id)sender {
+    [self initPreferences];
+    
+    [_preferencesWindowController showWindow:self];
+}
+
+- (void)initPreferences{
+    //if we have not created the window controller yet, create it now
+    if (!_preferencesWindowController){
+        PKWhitelistViewController *whitelist = [[PKWhitelistViewController alloc] init];
+        
+        whitelist.identifier = @"whitelist";
+        
+        NSArray *controllers = [NSArray arrayWithObjects:
+                                whitelist,
+                                nil];
+        
+        _preferencesWindowController = [[RHPreferencesWindowController alloc] initWithViewControllers:controllers andTitle:NSLocalizedString(@"Whitelist", @"")];
+    }
+}
 @end

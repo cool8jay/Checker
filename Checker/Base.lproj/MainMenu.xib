@@ -16,14 +16,14 @@
                 <outlet property="_amountLabel" destination="5ZJ-hF-l9a" id="rW8-Lk-lA9"/>
                 <outlet property="_bottomView" destination="yJL-B4-NfI" id="2Yy-Tc-Db4"/>
                 <outlet property="_detailsButton" destination="N7L-pO-lxA" id="8n5-j4-d4t"/>
-                <outlet property="_dragDropImageView" destination="GTy-B2-nC0" id="oVf-1E-BjN"/>
                 <outlet property="_progressBar" destination="R21-M1-kmL" id="9hc-oc-zI0"/>
+                <outlet property="_refreshButton" destination="yDr-JD-oEf" id="oC5-03-05L"/>
                 <outlet property="_resetButton" destination="jRf-VJ-vdd" id="HSM-R5-0Oe"/>
                 <outlet property="_resultIcon" destination="tEe-xZ-tV3" id="sUY-x0-Yja"/>
                 <outlet property="_scrollView" destination="qNb-nd-ndL" id="o5z-KU-TVU"/>
                 <outlet property="_tableView" destination="3dD-1e-AFw" id="pyJ-sY-PYP"/>
                 <outlet property="_tipLabel" destination="LwD-Ah-KUE" id="uAh-Ke-sdk"/>
-                <outlet property="dragDropImageView" destination="GTy-B2-nC0" id="xIF-Ba-Ade"/>
+                <outlet property="dragDropView" destination="GTy-B2-nC0" id="zHY-2c-LgC"/>
                 <outlet property="view" destination="EiT-Mj-1SZ" id="42R-n0-2b4"/>
             </connections>
         </customObject>
@@ -36,25 +36,29 @@
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
         <menu title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
             <items>
-                <menuItem title="tableviewTest" id="1Xt-HY-uBw">
+                <menuItem title="Checker" id="1Xt-HY-uBw">
                     <modifierMask key="keyEquivalentModifierMask"/>
-                    <menu key="submenu" title="tableviewTest" systemMenu="apple" id="uQy-DD-JDr">
+                    <menu key="submenu" title="Checker" systemMenu="apple" id="uQy-DD-JDr">
                         <items>
-                            <menuItem title="About tableviewTest" id="5kV-Vb-QxS">
+                            <menuItem title="About Checker" id="5kV-Vb-QxS">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="orderFrontStandardAboutPanel:" target="-1" id="Exp-CZ-Vem"/>
                                 </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
-                            <menuItem title="Preferences…" keyEquivalent="," id="BOF-NM-1cW"/>
+                            <menuItem title="Preferences…" keyEquivalent="," id="BOF-NM-1cW">
+                                <connections>
+                                    <action selector="showPreferences:" target="EVY-dz-pic" id="m6B-9t-aEg"/>
+                                </connections>
+                            </menuItem>
                             <menuItem isSeparatorItem="YES" id="wFC-TO-SCJ"/>
                             <menuItem title="Services" id="NMo-om-nkz">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="Services" systemMenu="services" id="hz9-B4-Xy5"/>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
-                            <menuItem title="Hide tableviewTest" keyEquivalent="h" id="Olw-nP-bQN">
+                            <menuItem title="Hide Checker" keyEquivalent="h" id="Olw-nP-bQN">
                                 <connections>
                                     <action selector="hide:" target="-1" id="PnN-Uc-m68"/>
                                 </connections>
@@ -72,7 +76,7 @@
                                 </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
-                            <menuItem title="Quit tableviewTest" keyEquivalent="q" id="4sb-4s-VLi">
+                            <menuItem title="Quit Checker" keyEquivalent="q" id="4sb-4s-VLi">
                                 <connections>
                                     <action selector="terminate:" target="-1" id="Te7-pn-YzF"/>
                                 </connections>
@@ -394,7 +398,7 @@
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="791" y="354" width="480" height="360"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1057"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
             <value key="minSize" type="size" width="480" height="360"/>
             <view key="contentView" id="EiT-Mj-1SZ">
                 <rect key="frame" x="0.0" y="0.0" width="480" height="360"/>
@@ -407,7 +411,7 @@
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
                                 <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowSizeStyle="automatic" headerView="1YD-KF-ayk" viewBased="YES" id="3dD-1e-AFw">
-                                    <rect key="frame" x="0.0" y="0.0" width="876" height="287"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="876" height="0.0"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <size key="intercellSpacing" width="3" height="2"/>
                                     <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -674,6 +678,19 @@
                                     <action selector="showError:" target="krT-LS-ba5" id="pGB-xN-GcM"/>
                                 </connections>
                             </button>
+                            <button hidden="YES" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="yDr-JD-oEf" userLabel="Refresh Button">
+                                <rect key="frame" x="278" y="2" width="92" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="RRD-LF-5Eo"/>
+                                </constraints>
+                                <buttonCell key="cell" type="push" title="Refresh" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="iFq-RU-PZ1">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="refresh:" target="krT-LS-ba5" id="NOT-Q3-HVE"/>
+                                </connections>
+                            </button>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="jRf-VJ-vdd" userLabel="Reset Button">
                                 <rect key="frame" x="374" y="2" width="92" height="32"/>
                                 <constraints>
@@ -692,7 +709,9 @@
                             <constraint firstAttribute="height" constant="40" id="3AZ-IO-sho"/>
                             <constraint firstAttribute="bottom" secondItem="5ZJ-hF-l9a" secondAttribute="bottom" constant="12" id="4b0-Tl-7Ax"/>
                             <constraint firstAttribute="bottom" secondItem="N7L-pO-lxA" secondAttribute="bottom" constant="9" id="OcK-V0-HJL"/>
+                            <constraint firstAttribute="bottom" secondItem="yDr-JD-oEf" secondAttribute="bottom" constant="9" id="Ydb-0l-UJJ"/>
                             <constraint firstItem="T1q-zM-uat" firstAttribute="leading" secondItem="yJL-B4-NfI" secondAttribute="leading" constant="20" id="dMw-ho-Sq7"/>
+                            <constraint firstItem="jRf-VJ-vdd" firstAttribute="leading" secondItem="yDr-JD-oEf" secondAttribute="trailing" constant="16" id="f7w-iu-eDv"/>
                             <constraint firstItem="5ZJ-hF-l9a" firstAttribute="leading" secondItem="T1q-zM-uat" secondAttribute="trailing" constant="4" id="h4R-YF-KVa"/>
                             <constraint firstItem="T1q-zM-uat" firstAttribute="top" secondItem="yJL-B4-NfI" secondAttribute="top" constant="11" id="iBa-Fj-ioU"/>
                             <constraint firstAttribute="trailing" secondItem="jRf-VJ-vdd" secondAttribute="trailing" constant="20" id="sEb-st-62f"/>
@@ -700,7 +719,7 @@
                             <constraint firstAttribute="bottom" secondItem="jRf-VJ-vdd" secondAttribute="bottom" constant="9" id="wRp-lr-sO5"/>
                         </constraints>
                     </customView>
-                    <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GTy-B2-nC0" userLabel="Drag Drop View" customClass="DragDropImageView">
+                    <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GTy-B2-nC0" userLabel="Drag Drop View" customClass="DragDropView">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="360"/>
                         <connections>
                             <outlet property="viewController" destination="krT-LS-ba5" id="Lfn-QQ-Cxp"/>
@@ -720,6 +739,7 @@
             </view>
             <point key="canvasLocation" x="319" y="279"/>
         </window>
+        <userDefaultsController representsSharedInstance="YES" id="6yt-UP-chs"/>
     </objects>
     <resources>
         <image name="ok" width="128" height="128"/>

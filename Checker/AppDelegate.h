@@ -7,11 +7,12 @@
 //
 
 #import <Cocoa/Cocoa.h>
-
+#import <RHPreferences/RHPreferences.h>
 #import "MainViewController.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>{
     IBOutlet MainViewController * _mainViewController;
+    RHPreferencesWindowController *_preferencesWindowController;
 }
 
 @end

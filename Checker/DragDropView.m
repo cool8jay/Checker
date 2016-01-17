@@ -1,7 +1,7 @@
-#import "DragDropImageView.h"
+#import "DragDropView.h"
 #import "MainViewController.h"
 
-@implementation DragDropImageView
+@implementation DragDropView
 
 - (void)awakeFromNib {
     [self registerForDraggedTypes:@[NSFilenamesPboardType]];

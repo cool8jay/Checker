@@ -1,13 +1,12 @@
 //
 //  MainViewController.m
-//  Checker
 //
 //  Created by poukoute on 1/12/16.
 //  Copyright © 2016 poukoute. All rights reserved.
 //
 
 #import "MainViewController.h"
-#import "DragDropImageView.h"
+#import "DragDropView.h"
 
 @interface MainViewController ()
 
@@ -24,7 +23,8 @@
 
 @implementation MainViewController{
     // data
-    NSMutableArray * _dataArray;
+    NSArray *_sourceData;
+    NSMutableArray * _filteredDataArray;
     NSMutableDictionary * _errorInfoDict;
     
     NSArray * _whiteListArray;
@@ -46,6 +46,8 @@
     IBOutlet NSTableView *_tableView;
     
     IBOutlet NSButton *_detailsButton;
+    IBOutlet NSButton *_refreshButton;
+    //    __weak IBOutlet NSButton *_refreshButton;
     IBOutlet NSButton *_resetButton;
     IBOutlet NSTextField *_amountLabel;
 }
@@ -68,7 +70,7 @@
     _progressBar.hidden = YES;
     _resultIcon.hidden = YES;
     
-    _dataArray = [[NSMutableArray alloc] init];
+    _filteredDataArray = [[NSMutableArray alloc] init];
     _errorInfoDict = [[NSMutableDictionary alloc] init];
     
     [_errorInfoDict setValue:[NSNumber numberWithInt:0] forKey:@"en"];
@@ -78,70 +80,7 @@
     [_errorInfoDict setValue:[NSNumber numberWithInt:0] forKey:@"ru"];
     [_errorInfoDict setValue:[NSNumber numberWithInt:0] forKey:@"zh-hant"];
     
-    // TODO: 从设置里面读取白名单
-    _whiteListArray = @[@"vip",
-                        @"faq",
-                        @"ios",
-                        @"android",
-                        @"mod",
-                        @"pve",
-                        @"pvp",
-                        @"emoji",
-                        @"bug",
-                        @"new",
-                        @"facebook",
-                        @"twitter",
-                        @"Q&A",
-                        @"pt",
-                        @"hp",
-                        @"X98-U",
-                        @"R-318",
-                        @"OR-34Z",
-                        @"UX395",
-                        @"HK-71",
-                        @"PKT-118",
-                        @"BH-0872",
-                        @"SY983",
-                        @"GOOGLE",
-                        @"APPSTORE",
-                        @"K组织",
-                        @"K조직",
-                        @"Ｋ組",
-                        @"- I",
-                        @"- II",
-                        @"- III",
-                        @"- IV",
-                        @"- V",
-                        @" I",
-                        @" II",
-                        @" III",
-                        @" IV",
-                        @" V",
-                        @"I级",
-                        @"II级",
-                        @"III级",
-                        @"IV级",
-                        @"I級",
-                        @"II級",
-                        @"III級",
-                        @"IV級",
-                        @"V級",
-                        @"I型",
-                        @"II型",
-                        @"III型",
-                        @"IV型",
-                        @"V型",
-                        @"I레벨",
-                        @"II레벨",
-                        @"III레벨",
-                        @"IV레벨",
-                        @"V레벨",
-                        @"K組織",
-                        @"SNS",
-                        @"FULL",
-                        @"lv.",
-                        @"№"
-                        ];
+    _whiteListArray =  [PKUtils getWhitelist];
     
     _englishFilter = @"^[a-zA-Z0-9,.:;≥<=>/#&@+_%?!'()\\$\\-\\s\\[\\]\"]+$";// 英文支持：26字母大小写，数字，一些标点符号，等等
     
@@ -153,12 +92,12 @@
     [_nonEnglishFilter appendFormat:@")*"];
     
     regexpLangDict = [NSMutableDictionary dictionaryWithDictionary: @{@"en":_englishFilter,
-                                                                   @"cn":_nonEnglishFilter,
-                                                                   @"ja":_nonEnglishFilter,
-                                                                   @"ko":_nonEnglishFilter,
-                                                                   @"ru":_nonEnglishFilter,
-                                                                   @"zh-hant":_nonEnglishFilter,
-                                                                   }];
+                                                                      @"cn":_nonEnglishFilter,
+                                                                      @"ja":_nonEnglishFilter,
+                                                                      @"ko":_nonEnglishFilter,
+                                                                      @"ru":_nonEnglishFilter,
+                                                                      @"zh-hant":_nonEnglishFilter,
+                                                                      }];
     
     {
         NSTableColumn *tableColumnIndex = [_tableView tableColumnWithIdentifier:kTableColumnIdIndex];
@@ -221,9 +160,11 @@
         [tableColumnKo setSortDescriptorPrototype:koSortDescriptor];
         [tableColumnZhhant setSortDescriptorPrototype:zhhantSortDescriptor];
         [tableColumnRu setSortDescriptorPrototype:ruSortDescriptor];
+        
+
     }
     
-    [[NSNotificationCenter defaultCenter] addObserverForName:@"PARSE_WITH_RESULT"
+    [[NSNotificationCenter defaultCenter] addObserverForName:K_NOTIFICATION_PARSE_WITH_RESULT
                                                       object:nil
                                                        queue:[NSOperationQueue currentQueue]
                                                   usingBlock:^(NSNotification *notification) {
@@ -242,11 +183,11 @@
                                                       _detailsButton.hidden = NO;
                                                       _bottomView.hidden = NO;
                                                       
-                                                      [_amountLabel setStringValue:[NSString stringWithFormat:@"%lu", [_dataArray count]]];
+                                                      [_amountLabel setStringValue:[NSString stringWithFormat:@"%lu", [_filteredDataArray count]]];
                                                       [_amountLabel sizeToFit];
                                                   }];
     
-    [[NSNotificationCenter defaultCenter] addObserverForName:@"PARSE_PROGRESS"
+    [[NSNotificationCenter defaultCenter] addObserverForName:K_NOTIFICATION_PARSE_PROGRESS
                                                       object:nil
                                                        queue:[NSOperationQueue currentQueue]
                                                   usingBlock:^(NSNotification *notification) {
@@ -257,7 +198,7 @@
                                                       _progressBar.floatValue = [a floatValue];
                                                   }];
     
-    [[NSNotificationCenter defaultCenter] addObserverForName:@"PARSE_ERROR_EMPTY"
+    [[NSNotificationCenter defaultCenter] addObserverForName:K_NOTIFICATION_PARSE_ERROR_EMPTY
                                                       object:nil
                                                        queue:[NSOperationQueue currentQueue]
                                                   usingBlock:^(NSNotification *notification) {
@@ -271,7 +212,7 @@
                                                       _bottomView.hidden = NO;
                                                   }];
     
-    [[NSNotificationCenter defaultCenter] addObserverForName:@"PARSE_ERROR_WRONG_FIELD"
+    [[NSNotificationCenter defaultCenter] addObserverForName:K_NOTIFICATION_PARSE_ERROR_WRONG_FIELD
                                                       object:nil
                                                        queue:[NSOperationQueue currentQueue]
                                                   usingBlock:^(NSNotification *notification) {
@@ -285,7 +226,7 @@
                                                       _bottomView.hidden = NO;
                                                   }];
     
-    [[NSNotificationCenter defaultCenter] addObserverForName:@"PARSE_OK"
+    [[NSNotificationCenter defaultCenter] addObserverForName:K_NOTIFICATION_PARSE_OK
                                                       object:nil
                                                        queue:[NSOperationQueue currentQueue]
                                                   usingBlock:^(NSNotification *notification) {
@@ -297,6 +238,31 @@
                                                       
                                                       _detailsButton.hidden = YES;
                                                       _bottomView.hidden = NO;
+                                                  }];
+    
+    [[NSNotificationCenter defaultCenter] addObserverForName:K_NOTIFICATION_CONFIG_WHITELIST_UPDATE
+                                                      object:nil
+                                                       queue:[NSOperationQueue currentQueue]
+                                                  usingBlock:^(NSNotification *notification) {
+                                                      NSLog(@"247 WHITE LIST UPDATED");
+                                                      _whiteListArray = [PKUtils getWhitelist];
+                                                      
+                                                      _nonEnglishFilter = [[NSMutableString alloc] initWithString:@"^([^a-zA-Z_]|%\\d?\\$?s|x \\d+|x\\d+"];// 非英文支持：非英文字母大小写，数字，占位符，等等
+                                                      
+                                                      for(NSString *b in _whiteListArray){
+                                                          [_nonEnglishFilter appendFormat:@"|%@",b];
+                                                      }
+                                                      [_nonEnglishFilter appendFormat:@")*"];
+                                                      
+                                                      regexpLangDict = [NSMutableDictionary dictionaryWithDictionary: @{@"en":_englishFilter,
+                                                                                                                        @"cn":_nonEnglishFilter,
+                                                                                                                        @"ja":_nonEnglishFilter,
+                                                                                                                        @"ko":_nonEnglishFilter,
+                                                                                                                        @"ru":_nonEnglishFilter,
+                                                                                                                        @"zh-hant":_nonEnglishFilter,
+                                                                                                                        }];
+                                                      
+                                                      _refreshButton.hidden = NO;
                                                   }];
 }
 
@@ -313,18 +279,18 @@
 
 - (void)tableView:(NSTableView *)tableView sortDescriptorsDidChange:(NSArray *)oldDescriptors
 {
-    [_dataArray sortUsingDescriptors:[tableView sortDescriptors]];
+    [_filteredDataArray sortUsingDescriptors:[tableView sortDescriptors]];
     [_tableView reloadData];
 }
 
 - (NSInteger)numberOfRowsInTableView:(NSTableView *)tableView{
-    return [_dataArray count];
+    return [_filteredDataArray count];
 }
 
 - (nullable NSView *)tableView:(NSTableView *)tableView viewForTableColumn:(nullable NSTableColumn *)tableColumn row:(NSInteger)row {
     NSString *identifier = [tableColumn identifier];
     
-    NSDictionary *dictionary = [_dataArray objectAtIndex:row];
+    NSDictionary *dictionary = [_filteredDataArray objectAtIndex:row];
     
     if ([identifier isEqualToString:kTableColumnIdIndex]) {
         NSTextField *textField = [tableView makeViewWithIdentifier:identifier owner:self];
@@ -378,14 +344,6 @@
     if ([myTest evaluateWithObject: srcText]){
         return YES;
     }else{
-        for (NSString *word in _whiteListArray) {
-            NSRegularExpression *whiteRegex = [NSRegularExpression regularExpressionWithPattern:word options:NSRegularExpressionCaseInsensitive error:nil];
-            NSUInteger matchCount = [whiteRegex numberOfMatchesInString:srcText options:0 range:NSMakeRange(0, srcText.length)];
-            
-            if (matchCount>0) {
-                return YES;
-            }
-        }
         return NO;
     }
 }
@@ -420,7 +378,7 @@
                                    }];
             
             if(!isFieldOK){
-                [[NSNotificationCenter defaultCenter] postNotificationName:@"PARSE_ERROR_WRONG_FIELD" object:nil];
+                [[NSNotificationCenter defaultCenter] postNotificationName:K_NOTIFICATION_PARSE_ERROR_WRONG_FIELD object:nil];
                 return;
             }
             
@@ -478,25 +436,25 @@
             
             if (enOK && cnOK && zhhantOK && jaOK && koOK && ruOK){
             }else{
-                [_dataArray addObject:newDict];
+                [_filteredDataArray addObject:newDict];
             }
             
             float progress = (float)i/dataCount;
             
             NSDictionary *userInfo = @{@"progress":[NSString stringWithFormat:@"%f", progress]};
-            [[NSNotificationCenter defaultCenter] postNotificationName:@"PARSE_PROGRESS"
+            [[NSNotificationCenter defaultCenter] postNotificationName:K_NOTIFICATION_PARSE_PROGRESS
                                                                 object:nil
                                                               userInfo:userInfo];
         }
     }else{
-        [[NSNotificationCenter defaultCenter] postNotificationName:@"PARSE_ERROR_EMPTY" object:nil];
+        [[NSNotificationCenter defaultCenter] postNotificationName:K_NOTIFICATION_PARSE_ERROR_EMPTY object:nil];
         return;
     }
     
-    if ([_dataArray count]>0){
-        [[NSNotificationCenter defaultCenter] postNotificationName:@"PARSE_WITH_RESULT" object:nil];
+    if ([_filteredDataArray count]>0){
+        [[NSNotificationCenter defaultCenter] postNotificationName:K_NOTIFICATION_PARSE_WITH_RESULT object:nil];
     }else{
-        [[NSNotificationCenter defaultCenter] postNotificationName:@"PARSE_OK" object:nil];
+        [[NSNotificationCenter defaultCenter] postNotificationName:K_NOTIFICATION_PARSE_OK object:nil];
     }
 }
 
@@ -504,14 +462,14 @@
     [_tipLabel setStringValue:@"Checking..."];
     _progressBar.hidden = NO;
     
-    NSArray *data = [NSArray arrayWithContentsOfDelimitedURL:url
-                                                     options:CHCSVParserOptionsUsesFirstLineAsKeys|CHCSVParserOptionsSanitizesFields
-                                                   delimiter:','
-                                                       error:nil];
+    _sourceData= [NSArray arrayWithContentsOfDelimitedURL:url
+                                                  options:CHCSVParserOptionsUsesFirstLineAsKeys|CHCSVParserOptionsSanitizesFields
+                                                delimiter:','
+                                                    error:nil];
     
     dispatch_queue_t taskQueue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0);
     dispatch_async(taskQueue, ^{
-        [self checkData:data];
+        [self checkData:_sourceData];
     });
 }
 - (IBAction)showError:(id)sender {
@@ -538,6 +496,22 @@
     [alert beginSheetModalForWindow:self.view.window completionHandler:^(NSModalResponse returnCode) {}];
 }
 
+- (IBAction)refresh:(id)sender {
+    [self reset:nil];
+    _refreshButton.hidden = YES;
+    
+    [_tipLabel setStringValue:@"Checking..."];
+    
+    _dragDropView.hidden = YES;
+    
+    _progressBar.hidden = NO;
+    
+    dispatch_queue_t taskQueue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0);
+    dispatch_async(taskQueue, ^{
+        [self checkData:_sourceData];
+    });
+}
+
 - (IBAction)reset:(id)sender{
     _scrollView.hidden = YES;
     _bottomView.hidden = YES;
@@ -557,11 +531,11 @@
     
     [_tipLabel setStringValue:@"Drag localization csv file here..."];
     _tipLabel.hidden = NO;
-    _dragDropImageView.hidden = NO;
+    _dragDropView.hidden = NO;
     
-    [_dragDropImageView setNeedsDisplay:YES];
+    [_dragDropView setNeedsDisplay:YES];
     
-    [_dataArray removeAllObjects];
+    [_filteredDataArray removeAllObjects];
     
     float titleHeight = [self getWindowTitleBarHeight];
     [self.view.window setFrame:NSMakeRect(self.view.window.frame.origin.x, self.view.window.frame.origin.y, 480.f, 360.f+titleHeight) display:YES animate:YES];
