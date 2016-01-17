@@ -33,7 +33,9 @@
 }
 
 - (BOOL)validateParameter{
-    if (_newWord != nil && ![[_newWord stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] isEqualToString:@""]){
+    if (_newWord != nil
+        && ![[_newWord stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] isEqualToString:@""]
+        && [_newWord length]>1){
         return YES;
     }else{
         return NO;
