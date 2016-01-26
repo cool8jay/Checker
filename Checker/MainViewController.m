@@ -82,9 +82,9 @@
     
     _whiteListArray =  [PKUtils getWhitelist];
     
-    _englishFilter = @"^[a-zA-Z0-9,.:;≥<=>/#&@+_%?!'()\\$\\-\\s\\[\\]\"]+$";// 英文支持：26字母大小写，数字，一些标点符号，等等
+    _englishFilter = @"^[a-zA-Z0-9,.:;≥<=>/#&@+_%?!'()\\$\\-\\s\\[\\]{}\"]+$";// 英文支持：26字母大小写，数字，一些标点符号，等等
     
-    _nonEnglishFilter = [[NSMutableString alloc] initWithString:@"^([^a-zA-Z_]|%\\d?\\$?s|x \\d+|x\\d+"];// 非英文支持：非英文字母大小写，数字，占位符，等等
+    _nonEnglishFilter = [[NSMutableString alloc] initWithString:@"^([^a-zA-Z_]|%\\d?\\$?s|\\{\\d+\\}|x \\d+|x\\d+"];// 非英文支持：非英文字母大小写，数字，占位符，等等
     
     for(NSString *b in _whiteListArray){
         [_nonEnglishFilter appendFormat:@"|%@",b];
@@ -168,7 +168,6 @@
                                                       object:nil
                                                        queue:[NSOperationQueue currentQueue]
                                                   usingBlock:^(NSNotification *notification) {
-                                                      NSLog(@"172, PARSE_WITH_RESULT");
                                                       _tipLabel.hidden = YES;
                                                       _progressBar.hidden = YES;
                                                       
@@ -202,7 +201,6 @@
                                                       object:nil
                                                        queue:[NSOperationQueue currentQueue]
                                                   usingBlock:^(NSNotification *notification) {
-                                                      NSLog(@"203 PARSE_ERROR_EMPTY");
                                                       [_resultIcon setImage:[NSImage imageNamed:@"error"]];
                                                       _resultIcon.hidden = NO;
                                                       [_tipLabel setStringValue:@"Empty csv file!"];
@@ -216,7 +214,6 @@
                                                       object:nil
                                                        queue:[NSOperationQueue currentQueue]
                                                   usingBlock:^(NSNotification *notification) {
-                                                      NSLog(@"216 PARSE_ERROR_WRONG_FIELD");
                                                       [_resultIcon setImage:[NSImage imageNamed:@"error"]];
                                                       _resultIcon.hidden = NO;
                                                       [_tipLabel setStringValue:@"Wrong fields!"];
@@ -230,7 +227,6 @@
                                                       object:nil
                                                        queue:[NSOperationQueue currentQueue]
                                                   usingBlock:^(NSNotification *notification) {
-                                                      NSLog(@"229 PARSE_OK");
                                                       _progressBar.hidden = YES;
                                                       [_resultIcon setImage:[NSImage imageNamed:@"ok"]];
                                                       _resultIcon.hidden = NO;
@@ -244,10 +240,9 @@
                                                       object:nil
                                                        queue:[NSOperationQueue currentQueue]
                                                   usingBlock:^(NSNotification *notification) {
-                                                      NSLog(@"247 WHITE LIST UPDATED");
                                                       _whiteListArray = [PKUtils getWhitelist];
                                                       
-                                                      _nonEnglishFilter = [[NSMutableString alloc] initWithString:@"^([^a-zA-Z_]|%\\d?\\$?s|x \\d+|x\\d+"];// 非英文支持：非英文字母大小写，数字，占位符，等等
+                                                      _nonEnglishFilter = [[NSMutableString alloc] initWithString:@"^([^a-zA-Z_]|%\\d?\\$?s|\\{\\d+\\}|x \\d+|x\\d+"];// 非英文支持：非英文字母大小写，数字，占位符，等等
                                                       
                                                       for(NSString *b in _whiteListArray){
                                                           [_nonEnglishFilter appendFormat:@"|%@",b];
@@ -434,8 +429,7 @@
                 [self increaseErrorInfoForKey:@"ru"];
             }
             
-            if (enOK && cnOK && zhhantOK && jaOK && koOK && ruOK){
-            }else{
+            if (!enOK || !cnOK || !zhhantOK || !jaOK || !koOK || !ruOK){
                 [_filteredDataArray addObject:newDict];
             }
             
