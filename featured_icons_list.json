@@ -3529,6 +3529,13 @@
       "link" : "https:\/\/binaryformations.com\/products\/home-inventory"
     },
     {
+      "developer" : "Adriaan de Jongh",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/67587261-14505c80-f786-11e9-819a-936abcc10760.png",
+      "name" : "Hidden Folks",
+      "category" : "Games",
+      "link" : "https:\/\/hiddenfolks.com"
+    },
+    {
       "developer" : "MacPaw Inc.",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41574714-0a1d8b18-73b4-11e8-9fcb-f42ed7ddb418.png",
       "name" : "Hider - hvault",
@@ -4269,6 +4276,20 @@
       "name" : "Kindle",
       "category" : "Reference",
       "link" : "https:\/\/www.amazon.com\/Amazon-Digital-Services-LLC-Download\/dp\/B00UB769KC"
+    },
+    {
+      "developer" : "Ironhide Game Studio",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/67587267-16b2b680-f786-11e9-8855-c96a4a61ed09.png",
+      "name" : "Kingdom Rush Frontiers",
+      "category" : "Games",
+      "link" : "https:\/\/www.ironhidegames.com\/Games\/kingdom-rush-frontiers"
+    },
+    {
+      "developer" : "Ironhide Game Studio",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/67587265-161a2000-f786-11e9-90a3-fd92a74c1c8a.png",
+      "name" : "Kingdom Rush HD",
+      "category" : "Games",
+      "link" : "https:\/\/www.ironhidegames.com\/Games\/kingdom-rush"
     },
     {
       "developer" : "Rhodes Software",
@@ -5053,6 +5074,13 @@
       "name" : "Mines",
       "category" : "Games",
       "link" : "https:\/\/itunes.apple.com\/us\/app\/mines\/id602009455?l=en&mt=12"
+    },
+    {
+      "developer" : "Dinosaur Polo Club",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/67587264-15818980-f786-11e9-9743-ff86953ebbc3.png",
+      "name" : "Mini Metro",
+      "category" : "Games",
+      "link" : "https:\/\/dinopoloclub.com\/games\/mini-metro\/"
     },
     {
       "developer" : "Sperensis Applications",
@@ -9283,5 +9311,5 @@
       "link" : "https:\/\/zoommyapp.com"
     }
   ],
-  "update_time" : "2019-10-25 20:30:12 GMT+8"
+  "update_time" : "2019-10-26 00:18:55 GMT+8"
 }
