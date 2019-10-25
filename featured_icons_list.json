@@ -782,7 +782,7 @@
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/66798852-df503880-ef41-11e9-9299-bb9800f3f193.png",
       "name" : "Braid",
       "category" : "Games",
-      "link" : "http:\/\/braid-game.com\/"
+      "link" : "http:\/\/braid-game.com"
     },
     {
       "developer" : "InspiringLife",
@@ -1293,7 +1293,7 @@
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/66798859-e119fc00-ef41-11e9-94ec-06f05b704037.png",
       "name" : "Clarity Wallpaper",
       "category" : "Photography",
-      "link" : "https:\/\/claritywallpaper.com\/"
+      "link" : "https:\/\/claritywallpaper.com"
     },
     {
       "developer" : "Synium Software",
@@ -2770,7 +2770,7 @@
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/67253434-37d78680-f4aa-11e9-9fdf-27bc44221fcc.png",
       "name" : "FBReader",
       "category" : "News",
-      "link" : "https:\/\/fbreader.org\/"
+      "link" : "https:\/\/fbreader.org"
     },
     {
       "developer" : "Reinvented Software",
@@ -2819,7 +2819,7 @@
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/66798882-e9723700-ef41-11e9-8f77-5287339ed0fa.png",
       "name" : "File Juicer",
       "category" : "Utilities",
-      "link" : "https:\/\/echoone.com\/filejuicer\/"
+      "link" : "https:\/\/echoone.com\/filejuicer"
     },
     {
       "developer" : "Anthony Somerset",
@@ -2848,6 +2848,13 @@
       "name" : "Findings",
       "category" : "Education",
       "link" : "http:\/\/findingsapp.com"
+    },
+    {
+      "developer" : "Mozilla",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/67571262-1efaf980-f766-11e9-8536-e72a02658b33.png",
+      "name" : "Firefox 70",
+      "category" : "Productivity",
+      "link" : "https:\/\/www.mozilla.org\/en-US\/firefox"
     },
     {
       "developer" : "Mozilla",
@@ -4408,21 +4415,21 @@
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/66798909-f68f2600-ef41-11e9-9ccd-eb02551f8d73.png",
       "name" : "Lingo Alpha",
       "category" : "Graphics & Design",
-      "link" : "https:\/\/www.lingoapp.com\/"
+      "link" : "https:\/\/www.lingoapp.com"
     },
     {
       "developer" : "Noun Project",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/66798910-f68f2600-ef41-11e9-8d62-242558141bbe.png",
       "name" : "Lingo beta",
       "category" : "Graphics & Design",
-      "link" : "https:\/\/www.lingoapp.com\/"
+      "link" : "https:\/\/www.lingoapp.com"
     },
     {
       "developer" : "Noun Project",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/66798912-f727bc80-ef41-11e9-982b-7f04f72a97b6.png",
       "name" : "Lingo",
       "category" : "Graphics & Design",
-      "link" : "https:\/\/www.lingoapp.com\/"
+      "link" : "https:\/\/www.lingoapp.com"
     },
     {
       "developer" : "Araelium",
@@ -6312,7 +6319,7 @@
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/66798941-fd1d9d80-ef41-11e9-8379-dbcd82f89f81.png",
       "name" : "Quetie",
       "category" : "Developer Tools",
-      "link" : "http:\/\/crystaly.com\/quetie\/"
+      "link" : "http:\/\/crystaly.com\/quetie"
     },
     {
       "developer" : "Hyperbolic Software",
@@ -7271,7 +7278,7 @@
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/66798960-0149bb00-ef42-11e9-8ac4-b1529e8c790b.png",
       "name" : "SnapRuler",
       "category" : "Graphics & Design",
-      "link" : "http:\/\/www.snaprulerapp.com\/"
+      "link" : "http:\/\/www.snaprulerapp.com"
     },
     {
       "developer" : "Andrey Teologov",
@@ -7286,6 +7293,13 @@
       "name" : "Snippet",
       "category" : "Utilities",
       "link" : "https:\/\/www.macupdate.com\/app\/mac\/31635\/kousek"
+    },
+    {
+      "developer" : "Vemedio",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/67456217-92b3de00-f662-11e9-8089-f8834be95f82.png",
+      "name" : "Snowflake",
+      "category" : "Music",
+      "link" : "http:\/\/vemedio.com"
     },
     {
       "developer" : "Martin Hering",
@@ -7474,7 +7488,7 @@
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/66798962-01e25180-ef42-11e9-93c7-e9b11687bbe0.png",
       "name" : "Squeezer",
       "category" : "Developer Tools",
-      "link" : "http:\/\/www.squeezerapp.com\/"
+      "link" : "http:\/\/www.squeezerapp.com"
     },
     {
       "developer" : "Yann Bizeul",
@@ -7642,7 +7656,7 @@
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/67301875-9b9d9600-f522-11e9-94dc-9b139e6b184f.png",
       "name" : "Swatch",
       "category" : "Graphics & Design",
-      "link" : "https:\/\/software.charliemonroe.net\/"
+      "link" : "https:\/\/software.charliemonroe.net"
     },
     {
       "developer" : "Yaroslav Glushchenko",
@@ -9000,14 +9014,14 @@
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41973560-e2ef1292-7a47-11e8-832b-f5218ce7ee39.png",
       "name" : "Winclone 7",
       "category" : "Utilities",
-      "link" : "https:\/\/twocanoes.com\/products\/mac\/winclone\/"
+      "link" : "https:\/\/twocanoes.com\/products\/mac\/winclone"
     },
     {
       "developer" : "Twocanoes Software",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/67253437-3908b380-f4aa-11e9-81fc-b8293750efb5.png",
       "name" : "Winclone 8",
       "category" : "Utilities",
-      "link" : "https:\/\/twocanoes.com\/products\/mac\/winclone\/"
+      "link" : "https:\/\/twocanoes.com\/products\/mac\/winclone"
     },
     {
       "developer" : "FIPLAB Limited",
@@ -9269,5 +9283,5 @@
       "link" : "https:\/\/zoommyapp.com"
     }
   ],
-  "update_time" : "2019-10-22 23:32:08 GMT+8"
+  "update_time" : "2019-10-25 20:30:12 GMT+8"
 }
