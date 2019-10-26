@@ -288,6 +288,13 @@
       "link" : "https:\/\/micropixels.pl\/anesidora"
     },
     {
+      "developer" : "Tim Conkling",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/67620527-82eef200-f83a-11e9-89fe-16aa0b09ebac.png",
+      "name" : "Antihero",
+      "category" : "Games",
+      "link" : "https:\/\/antihero-game.com\/"
+    },
+    {
       "developer" : "Beach Digital Ltd",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41574338-b63e6490-73b3-11e8-9223-7574913b01dd.png",
       "name" : "Anvil",
@@ -5132,6 +5139,13 @@
       "link" : "http:\/\/celestialteapot.com\/mocks"
     },
     {
+      "developer" : "Bombservice",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/67620515-7a96b700-f83a-11e9-9c69-ba398345f8c9.png",
+      "name" : "Momodora Reverie Under the Moonlight",
+      "category" : "Games",
+      "link" : "https:\/\/www.bombservice.com"
+    },
+    {
       "developer" : "Jumsoft",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41574899-3bf11e3e-73b4-11e8-887f-61ca678c6259.png",
       "name" : "Money 4",
@@ -9346,5 +9360,5 @@
       "link" : "https:\/\/zoommyapp.com"
     }
   ],
-  "update_time" : "2019-10-26 22:02:22 GMT+8"
+  "update_time" : "2019-10-26 22:19:40 GMT+8"
 }
