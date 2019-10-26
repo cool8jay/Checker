@@ -2661,6 +2661,13 @@
       "link" : "https:\/\/evernote.com"
     },
     {
+      "developer" : "Rockfish Gmes",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/67620518-7c607a80-f83a-11e9-9a97-ead10511d1af.png",
+      "name" : "EVERSPACE",
+      "category" : "Games",
+      "link" : "https:\/\/classic.everspace-game.com"
+    },
+    {
       "developer" : "ZipZapMac",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41574613-f2da3794-73b3-11e8-977b-d5d955bff5f8.png",
       "name" : "Everyday",
@@ -2673,6 +2680,13 @@
       "name" : "EvoCam 5",
       "category" : "Video",
       "link" : "https:\/\/www.macupdate.com\/app\/mac\/3765\/evocam"
+    },
+    {
+      "developer" : "Zachtronics",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/67620520-7ec2d480-f83a-11e9-9f49-0feb34a5d774.png",
+      "name" : "EXAPUNKS",
+      "category" : "Games",
+      "link" : "http:\/\/www.zachtronics.com\/exapunks\/"
     },
     {
       "developer" : "Softpress Systems Ltd",
@@ -5202,6 +5216,13 @@
       "link" : "https:\/\/manytricks.com\/moom"
     },
     {
+      "developer" : "Digital Sun",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/67620506-74a0d600-f83a-11e9-9b55-6ef5727cc24d.png",
+      "name" : "Moonlighter",
+      "category" : "Games",
+      "link" : "http:\/\/moonlighterthegame.com"
+    },
+    {
       "developer" : "Creaceed S.P.R.L.",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41574909-3e55857a-73b4-11e8-9632-2ce6660d4e7e.png",
       "name" : "Morph Age",
@@ -6187,6 +6208,20 @@
       "name" : "Preview",
       "category" : "Photography",
       "link" : "https:\/\/www.apple.com"
+    },
+    {
+      "developer" : "PrimoSync",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/67620510-78ccf380-f83a-11e9-95d9-6f4c338fb97e.png",
+      "name" : "PrimoMusic",
+      "category" : "Music",
+      "link" : "https:\/\/www.primosync.com\/primomusic"
+    },
+    {
+      "developer" : "PrimoSync",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/67620523-81252e80-f83a-11e9-94d1-7b05e13407be.png",
+      "name" : "PrimoPhoto",
+      "category" : "Photography",
+      "link" : "https:\/\/www.primosync.com\/primophoto\/"
     },
     {
       "developer" : "Principle",
@@ -9311,5 +9346,5 @@
       "link" : "https:\/\/zoommyapp.com"
     }
   ],
-  "update_time" : "2019-10-26 00:18:55 GMT+8"
+  "update_time" : "2019-10-26 22:02:22 GMT+8"
 }
