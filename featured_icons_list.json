@@ -127,6 +127,13 @@
       "link" : "https:\/\/www.aeontimeline.com"
     },
     {
+      "developer" : "BZG Inc.",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/67660250-51d90380-f999-11e9-8caf-03cdae94d9d3.png",
+      "name" : "Aerate",
+      "category" : "Utilities",
+      "link" : "https:\/\/www.bzgapps.com\/aerate"
+    },
+    {
       "developer" : "Guilherme Rambo",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/55804219-75785180-5b0e-11e9-94ba-281c2ca567bc.png",
       "name" : "AirBuddy",
@@ -6329,6 +6336,13 @@
       "link" : "http:\/\/www.proximitymines.com"
     },
     {
+      "developer" : "Proxyman Inc",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/67660249-51d90380-f999-11e9-9140-03a4aa1b668b.png",
+      "name" : "Proxyman",
+      "category" : "Developer Tools",
+      "link" : "https:\/\/proxyman.io"
+    },
+    {
       "developer" : "Acrylic Software",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/43037345-2ee16916-8d3f-11e8-9925-4f2f85fdfa00.png",
       "name" : "Pulp",
@@ -7408,15 +7422,15 @@
     },
     {
       "developer" : "Acqualia Software",
-      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/66798961-0149bb00-ef42-11e9-890f-1bcd27cfc356.png",
-      "name" : "Soulver 3",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41575192-8cdb6868-73b4-11e8-8bef-710ba55734c9.png",
+      "name" : "Soulver 2",
       "category" : "Productivity",
       "link" : "http:\/\/www.acqualia.com\/soulver"
     },
     {
       "developer" : "Acqualia Software",
-      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41575192-8cdb6868-73b4-11e8-8bef-710ba55734c9.png",
-      "name" : "Soulver 2",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/66798961-0149bb00-ef42-11e9-890f-1bcd27cfc356.png",
+      "name" : "Soulver 3",
       "category" : "Productivity",
       "link" : "http:\/\/www.acqualia.com\/soulver"
     },
@@ -9360,5 +9374,5 @@
       "link" : "https:\/\/zoommyapp.com"
     }
   ],
-  "update_time" : "2019-10-26 22:19:43 GMT+8"
+  "update_time" : "2019-10-28 16:04:25 GMT+8"
 }
