@@ -2886,6 +2886,13 @@
     },
     {
       "developer" : "Mozilla",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/67754930-3ee63200-fa72-11e9-8f2c-ff55d3f0e3c1.png",
+      "name" : "Firefox Developer Edition",
+      "category" : "Productivity",
+      "link" : "https:\/\/www.mozilla.org\/en-US\/firefox\/developer\/"
+    },
+    {
+      "developer" : "Mozilla",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/66798883-ea0acd80-ef41-11e9-9d0b-bc53531b9c1c.png",
       "name" : "Firefox",
       "category" : "Productivity",
@@ -7303,6 +7310,13 @@
     },
     {
       "developer" : "Slack",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/67754928-3ee63200-fa72-11e9-9f53-c3a44870eb58.png",
+      "name" : "Slack 4",
+      "category" : "Business",
+      "link" : "https:\/\/www.slack.com"
+    },
+    {
+      "developer" : "Slack",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/43037375-4da6edbc-8d3f-11e8-83fa-d2d9df329edb.png",
       "name" : "Slack",
       "category" : "Business",
@@ -9374,5 +9388,5 @@
       "link" : "https:\/\/zoommyapp.com"
     }
   ],
-  "update_time" : "2019-10-28 16:04:25 GMT+8"
+  "update_time" : "2019-10-29 17:39:45 GMT+8"
 }
