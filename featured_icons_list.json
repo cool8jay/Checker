@@ -1262,8 +1262,8 @@
     },
     {
       "developer" : "Irradiated Software",
-      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41574454-ceb2414a-73b3-11e8-8899-4b5f884963c8.png",
-      "name" : "Cinch",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68007929-18b1d380-fcb8-11e9-9376-f45ce54d1085.png",
+      "name" : "Cinch 1.0",
       "category" : "Utilities",
       "link" : "http:\/\/www.irradiatedsoftware.com\/cinch"
     },
@@ -2886,7 +2886,7 @@
     },
     {
       "developer" : "Mozilla",
-      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/67754930-3ee63200-fa72-11e9-8f2c-ff55d3f0e3c1.png",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68007933-1b142d80-fcb8-11e9-86ed-61f6f5a7cb4f.png",
       "name" : "Firefox Developer Edition",
       "category" : "Productivity",
       "link" : "https:\/\/www.mozilla.org\/en-US\/firefox\/developer\/"
@@ -5203,15 +5203,22 @@
     },
     {
       "developer" : "SilverWiz",
-      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/43037485-11d51db2-8d40-11e8-8774-7cdec5eb7aab.png",
-      "name" : "MoneyWiz 3",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41574904-3d236924-73b4-11e8-9da2-a7e15c1d83eb.png",
+      "name" : "MoneyWiz 2",
       "category" : "Finance",
       "link" : "https:\/\/wiz.money\/mac"
     },
     {
       "developer" : "SilverWiz",
-      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41574904-3d236924-73b4-11e8-9da2-a7e15c1d83eb.png",
-      "name" : "MoneyWiz Premium 2",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68007920-13ed1f80-fcb8-11e9-94af-4e3372cd1da1.png",
+      "name" : "MoneyWiz 3.5",
+      "category" : "Finance",
+      "link" : "https:\/\/wiz.money\/mac"
+    },
+    {
+      "developer" : "SilverWiz",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/43037485-11d51db2-8d40-11e8-8774-7cdec5eb7aab.png",
+      "name" : "MoneyWiz 3",
       "category" : "Finance",
       "link" : "https:\/\/wiz.money\/mac"
     },
@@ -5599,6 +5606,13 @@
       "name" : "OmniPlan",
       "category" : "Productivity",
       "link" : "https:\/\/www.omnigroup.com\/omniplan"
+    },
+    {
+      "developer" : "The Omni Group",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68007931-1a7b9700-fcb8-11e9-8c4a-c893d270e399.png",
+      "name" : "OmniWeb 5",
+      "category" : "Utilities",
+      "link" : "https:\/\/www.omnigroup.com\/more"
     },
     {
       "developer" : "Stunt Software",
@@ -6896,6 +6910,13 @@
       "link" : "http:\/\/www.3planesoft.com\/mac\/sandy-beach-3d"
     },
     {
+      "developer" : "Yi Lin",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68007923-1485b600-fcb8-11e9-926c-942b65e91ccd.png",
+      "name" : "Savings 2",
+      "category" : "Finance",
+      "link" : "https:\/\/savingsapp.com\/"
+    },
+    {
       "developer" : "Francesco Di Lorenzo & Fabrizio Rinaldi",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/49270132-3ae91300-f4a3-11e8-9f47-938592abadc3.png",
       "name" : "Sblack",
@@ -6903,14 +6924,14 @@
       "link" : "https:\/\/www.sblack.online"
     },
     {
-      "developer" : "Literature & Latte",
+      "developer" : "Literature & Latte Ltd.",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41575103-76a1635e-73b4-11e8-8e5f-39ef1a810b17.png",
       "name" : "Scapple - Document",
       "category" : "Productivity",
       "link" : "https:\/\/www.literatureandlatte.com\/scapple\/overview"
     },
     {
-      "developer" : "Literature & Latte",
+      "developer" : "Literature & Latte Ltd.",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41575104-76f5a64e-73b4-11e8-94b2-fbb70d8bea63.png",
       "name" : "Scapple",
       "category" : "Productivity",
@@ -7044,8 +7065,22 @@
     },
     {
       "developer" : "Literature & Latte Ltd.",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68007924-164f7980-fcb8-11e9-8852-975cf2e3ab47.png",
+      "name" : "Scrivener 1",
+      "category" : "Productivity",
+      "link" : "https:\/\/www.literatureandlatte.com\/scrivener\/overview"
+    },
+    {
+      "developer" : "Literature & Latte Ltd.",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68007921-13ed1f80-fcb8-11e9-98e7-f84ade606016.png",
+      "name" : "Scrivener 2",
+      "category" : "Productivity",
+      "link" : "https:\/\/www.literatureandlatte.com\/scrivener\/overview"
+    },
+    {
+      "developer" : "Literature & Latte Ltd.",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41575128-7e09788e-73b4-11e8-9f5e-bf712ace87df.png",
-      "name" : "Scrivener",
+      "name" : "Scrivener 3",
       "category" : "Productivity",
       "link" : "https:\/\/www.literatureandlatte.com\/scrivener\/overview"
     },
@@ -7310,7 +7345,7 @@
     },
     {
       "developer" : "Slack",
-      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/67754928-3ee63200-fa72-11e9-9f53-c3a44870eb58.png",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68007932-1a7b9700-fcb8-11e9-8724-c86f7b97f059.png",
       "name" : "Slack 4",
       "category" : "Business",
       "link" : "https:\/\/www.slack.com"
@@ -9388,5 +9423,5 @@
       "link" : "https:\/\/zoommyapp.com"
     }
   ],
-  "update_time" : "2019-10-29 17:39:45 GMT+8"
+  "update_time" : "2019-11-01 15:39:57 GMT+8"
 }
