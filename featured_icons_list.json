@@ -1079,6 +1079,13 @@
       "link" : "https:\/\/loju.co.uk\/causality.html"
     },
     {
+      "developer" : "Midnight Apps",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68086583-6d0bad80-fe88-11e9-91ac-5f87934b981d.png",
+      "name" : "Cha-Ching",
+      "category" : "Finance",
+      "link" : "https:\/\/www.macupdate.com\/app\/mac\/22913\/cha-ching"
+    },
+    {
       "developer" : "Regular SIA",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/43036802-1014a5de-8d3a-11e8-86fe-6bf381a6446b.png",
       "name" : "Characters",
@@ -1262,8 +1269,15 @@
     },
     {
       "developer" : "Irradiated Software",
-      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68007929-18b1d380-fcb8-11e9-9376-f45ce54d1085.png",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68086585-6da44400-fe88-11e9-9f0d-0c58a5e0e37a.png",
       "name" : "Cinch 1.0",
+      "category" : "Utilities",
+      "link" : "http:\/\/www.irradiatedsoftware.com\/cinch"
+    },
+    {
+      "developer" : "Irradiated Software",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68086579-6bda8080-fe88-11e9-91b9-a88a1ab62771.png",
+      "name" : "Cinch 1.2",
       "category" : "Utilities",
       "link" : "http:\/\/www.irradiatedsoftware.com\/cinch"
     },
@@ -2654,6 +2668,13 @@
       "link" : "http:\/\/habitatus.net\/essentials"
     },
     {
+      "developer" : "The Cosmic Machine",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68086576-6b41ea00-fe88-11e9-820d-55139b47d96f.png",
+      "name" : "EventBox",
+      "category" : "Utilities",
+      "link" : "http:\/\/thecosmicmachine.com"
+    },
+    {
       "developer" : "Evernote",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/55804246-7c06c900-5b0e-11e9-8d34-298df70362df.png",
       "name" : "Evernote - Chinese",
@@ -2886,7 +2907,7 @@
     },
     {
       "developer" : "Mozilla",
-      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68007933-1b142d80-fcb8-11e9-86ed-61f6f5a7cb4f.png",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/67754930-3ee63200-fa72-11e9-8f2c-ff55d3f0e3c1.png",
       "name" : "Firefox Developer Edition",
       "category" : "Productivity",
       "link" : "https:\/\/www.mozilla.org\/en-US\/firefox\/developer\/"
@@ -3606,6 +3627,13 @@
       "link" : "https:\/\/clickontyler.com\/hobo"
     },
     {
+      "developer" : "Asar Corporation",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68086588-6ed57100-fe88-11e9-9863-61cb93a9f061.png",
+      "name" : "Hogwasher",
+      "category" : "Utilities",
+      "link" : "https:\/\/www.asar.com\/hogwasher.html"
+    },
+    {
       "developer" : "Team Cherry",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/45405940-50fee880-b697-11e8-96e7-70585e0b366b.png",
       "name" : "Hollow Knight",
@@ -3814,6 +3842,13 @@
       "name" : "IconKit",
       "category" : "Developer Tools",
       "link" : "http:\/\/appersian.net\/single-project.cshtml?id=22"
+    },
+    {
+      "developer" : "LLC Mail.Ru",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68086567-6846f980-fe88-11e9-872d-1e87a63df570.png",
+      "name" : "ICQ",
+      "category" : "Social Networking",
+      "link" : "https:\/\/icq.com"
     },
     {
       "developer" : "Cyanfish Intelligence Co., Ltd.",
@@ -4409,6 +4444,13 @@
       "name" : "Leaf",
       "category" : "News",
       "link" : "https:\/\/rockysandstudio.com"
+    },
+    {
+      "developer" : "Riot Games",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68086582-6d0bad80-fe88-11e9-9c85-51bc76dfb2bc.png",
+      "name" : "League of Legends",
+      "category" : "Games",
+      "link" : "https:\/\/www.leagueoflegends.com"
     },
     {
       "developer" : "Infinite Dreams Inc.",
@@ -5146,11 +5188,25 @@
       "link" : "https:\/\/templateshero.com\/mmm-templates-for-pages-l"
     },
     {
+      "developer" : "Matthew Steedman",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68086574-6aa95380-fe88-11e9-8cc5-e7732a8d7310.png",
+      "name" : "Mochi",
+      "category" : "Productivity",
+      "link" : "https:\/\/mochi.cards\/"
+    },
+    {
       "developer" : "Celestial Teapot Software",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41574898-3ba2f948-73b4-11e8-986f-d7445e116d10.png",
       "name" : "Mocks",
       "category" : "Graphics & Design",
       "link" : "http:\/\/celestialteapot.com\/mocks"
+    },
+    {
+      "developer" : "Mockuuups Studio",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68086570-69782680-fe88-11e9-8852-2f57a4ee3462.png",
+      "name" : "Mockuuups Studio",
+      "category" : "Developer Tools",
+      "link" : "https:\/\/mockuuups.studio\/"
     },
     {
       "developer" : "Bombservice",
@@ -5188,6 +5244,13 @@
       "link" : "https:\/\/www.macappstudio.com\/apps\/moneybag"
     },
     {
+      "developer" : "MRH applications GmbH",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68086572-6a10bd00-fe88-11e9-90a4-0aaf3e538b83.png",
+      "name" : "MoneyMoney",
+      "category" : "Finance",
+      "link" : "https:\/\/moneymoney-app.com\/"
+    },
+    {
       "developer" : "Kevin LaCoste",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41574901-3c8b4eb4-73b4-11e8-8d7d-3d958d2ff024.png",
       "name" : "MoneyWell 2",
@@ -5203,14 +5266,21 @@
     },
     {
       "developer" : "SilverWiz",
-      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41574904-3d236924-73b4-11e8-9da2-a7e15c1d83eb.png",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68086562-667d3600-fe88-11e9-804c-27d1b7a5d56b.png",
+      "name" : "MoneyWiz 1",
+      "category" : "Finance",
+      "link" : "https:\/\/wiz.money\/mac"
+    },
+    {
+      "developer" : "SilverWiz",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68086591-6f6e0780-fe88-11e9-9527-8e98a7d20e7a.png",
       "name" : "MoneyWiz 2",
       "category" : "Finance",
       "link" : "https:\/\/wiz.money\/mac"
     },
     {
       "developer" : "SilverWiz",
-      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68007920-13ed1f80-fcb8-11e9-94af-4e3372cd1da1.png",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68086564-6715cc80-fe88-11e9-8b09-9fa5ed9193e9.png",
       "name" : "MoneyWiz 3.5",
       "category" : "Finance",
       "link" : "https:\/\/wiz.money\/mac"
@@ -5609,7 +5679,7 @@
     },
     {
       "developer" : "The Omni Group",
-      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68007931-1a7b9700-fcb8-11e9-8c4a-c893d270e399.png",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68086590-6f6e0780-fe88-11e9-8027-d2d3e55e056e.png",
       "name" : "OmniWeb 5",
       "category" : "Utilities",
       "link" : "https:\/\/www.omnigroup.com\/more"
@@ -5669,6 +5739,13 @@
       "name" : "Origami Studio",
       "category" : "Developer Tools",
       "link" : "https:\/\/origami.design"
+    },
+    {
+      "developer" : "Electronic Arts Inc",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68086586-6e3cda80-fe88-11e9-9477-32984fcd81f1.png",
+      "name" : "Origin",
+      "category" : "Utilities",
+      "link" : "https:\/\/www.origin.com"
     },
     {
       "developer" : "Mapdiva, LLC.",
@@ -6911,7 +6988,7 @@
     },
     {
       "developer" : "Yi Lin",
-      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68007923-1485b600-fcb8-11e9-926c-942b65e91ccd.png",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68086575-6aa95380-fe88-11e9-9362-5a9c29a9061d.png",
       "name" : "Savings 2",
       "category" : "Finance",
       "link" : "https:\/\/savingsapp.com\/"
@@ -7065,21 +7142,21 @@
     },
     {
       "developer" : "Literature & Latte Ltd.",
-      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68007924-164f7980-fcb8-11e9-8852-975cf2e3ab47.png",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68086584-6da44400-fe88-11e9-8964-36d7fae743f9.png",
       "name" : "Scrivener 1",
       "category" : "Productivity",
       "link" : "https:\/\/www.literatureandlatte.com\/scrivener\/overview"
     },
     {
       "developer" : "Literature & Latte Ltd.",
-      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68007921-13ed1f80-fcb8-11e9-98e7-f84ade606016.png",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68086571-69782680-fe88-11e9-931f-c55ad4118d9c.png",
       "name" : "Scrivener 2",
       "category" : "Productivity",
       "link" : "https:\/\/www.literatureandlatte.com\/scrivener\/overview"
     },
     {
       "developer" : "Literature & Latte Ltd.",
-      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41575128-7e09788e-73b4-11e8-9f5e-bf712ace87df.png",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68086580-6c731700-fe88-11e9-90a7-af8785557889.png",
       "name" : "Scrivener 3",
       "category" : "Productivity",
       "link" : "https:\/\/www.literatureandlatte.com\/scrivener\/overview"
@@ -7344,8 +7421,15 @@
       "link" : "https:\/\/evernote.com\/products\/skitch"
     },
     {
+      "developer" : "Microsoft Corp.",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68086581-6c731700-fe88-11e9-88db-c5719ddf1773.png",
+      "name" : "Skype 8",
+      "category" : "Social Networking",
+      "link" : "https:\/\/www.skype.com"
+    },
+    {
       "developer" : "Slack",
-      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68007932-1a7b9700-fcb8-11e9-8724-c86f7b97f059.png",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/67754928-3ee63200-fa72-11e9-9f53-c3a44870eb58.png",
       "name" : "Slack 4",
       "category" : "Business",
       "link" : "https:\/\/www.slack.com"
@@ -7566,6 +7650,13 @@
       "name" : "Spectrum",
       "category" : "Graphics & Design",
       "link" : "http:\/\/www.eigenlogik.com\/spectrum\/mac"
+    },
+    {
+      "developer" : "Connectify, Inc",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68086566-67ae6300-fe88-11e9-9d60-e71e00019e6b.png",
+      "name" : "Speedify",
+      "category" : "Productivity",
+      "link" : "https:\/\/speedify.com"
     },
     {
       "developer" : "equinux",
@@ -8233,6 +8324,34 @@
       "link" : "https:\/\/itunes.apple.com\/us\/app\/timork-focus-timer\/id1195964402?l=en&mt=12"
     },
     {
+      "developer" : "Eastgate Systems, Inc",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68086565-67ae6300-fe88-11e9-9489-8bc4d83ca5b6.png",
+      "name" : "Tinderbox 4-5",
+      "category" : "Productivity",
+      "link" : "http:\/\/www.eastgate.com\/Tinderbox\/"
+    },
+    {
+      "developer" : "Eastgate Systems, Inc",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68086560-65e49f80-fe88-11e9-9e77-647d7af28097.png",
+      "name" : "Tinderbox 6",
+      "category" : "Productivity",
+      "link" : "http:\/\/www.eastgate.com\/Tinderbox\/"
+    },
+    {
+      "developer" : "Eastgate Systems, Inc",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68086569-68df9000-fe88-11e9-8d46-a1d690a8625c.png",
+      "name" : "Tinderbox 7",
+      "category" : "Productivity",
+      "link" : "http:\/\/www.eastgate.com\/Tinderbox\/"
+    },
+    {
+      "developer" : "Eastgate Systems, Inc",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68086587-6e3cda80-fe88-11e9-8696-7b863ece5307.png",
+      "name" : "Tinderbox 8",
+      "category" : "Productivity",
+      "link" : "http:\/\/www.eastgate.com\/Tinderbox\/"
+    },
+    {
       "developer" : "Tipi",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/43037401-6972680a-8d3f-11e8-8a0c-3dce05a756b6.png",
       "name" : "Tipi",
@@ -8728,6 +8847,13 @@
       "name" : "Uplet",
       "category" : "Social Networking",
       "link" : "https:\/\/mac.eltima.com\/instagram-uploader.html"
+    },
+    {
+      "developer" : "USB Overdrive",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68086561-667d3600-fe88-11e9-8fc7-7d22e53f9804.png",
+      "name" : "USB Overdrive",
+      "category" : "Utilities",
+      "link" : "https:\/\/www.usboverdrive.com\/"
     },
     {
       "developer" : "ZipZapMac",
@@ -9272,29 +9398,36 @@
       "developer" : "XMind Ltd.",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41575389-ce30a0d0-73b4-11e8-867b-035983d8721c.png",
       "name" : "XMind 7 - xmp",
-      "category" : "Graphics & Design",
+      "category" : "Productivity",
       "link" : "https:\/\/www.xmind.net\/xmind8-pro"
     },
     {
       "developer" : "XMind Ltd.",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41575390-ce8ad6fe-73b4-11e8-97ce-5e919a684555.png",
       "name" : "XMind 7",
-      "category" : "Graphics & Design",
+      "category" : "Productivity",
       "link" : "https:\/\/www.xmind.net\/xmind8-pro"
     },
     {
       "developer" : "XMind Ltd.",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41575391-cee7dcd2-73b4-11e8-9e9f-6a7f25eaeafc.png",
       "name" : "XMind 8 - xmp",
-      "category" : "Graphics & Design",
+      "category" : "Productivity",
       "link" : "https:\/\/www.xmind.net\/xmind8-pro"
     },
     {
       "developer" : "XMind Ltd.",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41575393-cf589788-73b4-11e8-9e77-b3af76e0e31e.png",
       "name" : "XMind 8",
-      "category" : "Graphics & Design",
+      "category" : "Productivity",
       "link" : "https:\/\/www.xmind.net\/xmind8-pro"
+    },
+    {
+      "developer" : "XMind Ltd.",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68086578-6bda8080-fe88-11e9-8538-74f2a0edd86d.png",
+      "name" : "XMind ZEN",
+      "category" : "Productivity",
+      "link" : "https:\/\/www.xmind.net\/zen"
     },
     {
       "developer" : "pierre gougelet",
@@ -9421,7 +9554,14 @@
       "name" : "Zoommy",
       "category" : "Photography",
       "link" : "https:\/\/zoommyapp.com"
+    },
+    {
+      "developer" : "Zotero",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68086563-6715cc80-fe88-11e9-9f4f-5fe0936e004e.png",
+      "name" : "Zotero",
+      "category" : "Education",
+      "link" : "https:\/\/www.zotero.org\/"
     }
   ],
-  "update_time" : "2019-11-01 15:39:57 GMT+8"
+  "update_time" : "2019-11-03 22:27:14 GMT+8"
 }
