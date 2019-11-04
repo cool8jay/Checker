@@ -1269,7 +1269,7 @@
     },
     {
       "developer" : "Irradiated Software",
-      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68086585-6da44400-fe88-11e9-9f0d-0c58a5e0e37a.png",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68007929-18b1d380-fcb8-11e9-9376-f45ce54d1085.png",
       "name" : "Cinch 1.0",
       "category" : "Utilities",
       "link" : "http:\/\/www.irradiatedsoftware.com\/cinch"
@@ -2907,7 +2907,7 @@
     },
     {
       "developer" : "Mozilla",
-      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/67754930-3ee63200-fa72-11e9-8f2c-ff55d3f0e3c1.png",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68007933-1b142d80-fcb8-11e9-86ed-61f6f5a7cb4f.png",
       "name" : "Firefox Developer Edition",
       "category" : "Productivity",
       "link" : "https:\/\/www.mozilla.org\/en-US\/firefox\/developer\/"
@@ -3670,6 +3670,13 @@
     },
     {
       "developer" : "Houdah Software s.à r.l",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68129153-094eb680-ff54-11e9-9d0b-7520c64a3fa3.png",
+      "name" : "HoudahGPS",
+      "category" : "Utilities",
+      "link" : "https:\/\/www.houdah.com\/houdahGPS\/"
+    },
+    {
+      "developer" : "Houdah Software s.à r.l",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41574720-0bce751c-73b4-11e8-8070-fd9bda061bd4.png",
       "name" : "HoudahSpot 3",
       "category" : "Productivity",
@@ -3679,6 +3686,13 @@
       "developer" : "Houdah Software s.à r.l",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41574722-0c211376-73b4-11e8-90a7-16d3055fc156.png",
       "name" : "HoudahSpot 4",
+      "category" : "Productivity",
+      "link" : "https:\/\/www.houdah.com\/houdahSpot"
+    },
+    {
+      "developer" : "Houdah Software s.à r.l",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68129149-081d8980-ff54-11e9-9e58-150bc282207a.png",
+      "name" : "HoudahSpot 5",
       "category" : "Productivity",
       "link" : "https:\/\/www.houdah.com\/houdahSpot"
     },
@@ -4943,6 +4957,13 @@
       "link" : "http:\/\/memo-app.net"
     },
     {
+      "developer" : "Boundary Labs LLC",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68129157-09e74d00-ff54-11e9-9520-7057d7b229f9.png",
+      "name" : "Memoir",
+      "category" : "Productivity",
+      "link" : "https:\/\/boundarylabs.com\/Memoir"
+    },
+    {
       "developer" : "Daedalic Entertainment",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/66798926-fa22ad00-ef41-11e9-96bd-393509f110c5.png",
       "name" : "Memoria",
@@ -5713,6 +5734,13 @@
       "link" : "https:\/\/onedrive.live.com"
     },
     {
+      "developer" : "Tetsuro KURITA",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68129150-081d8980-ff54-11e9-8c0c-d5eee7949413.png",
+      "name" : "Open In Terminal",
+      "category" : "Utilities",
+      "link" : "https:\/\/www.script-factory.net\/software\/terminal\/OpenInTerminal\/en\/index.html"
+    },
+    {
       "developer" : "OpenEmu",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41574958-4b1b83b8-73b4-11e8-9ee7-429c7d78b2c7.png",
       "name" : "OpenEmu",
@@ -6294,6 +6322,13 @@
       "link" : "https:\/\/www.fatcatsoftware.com\/powerphotos"
     },
     {
+      "developer" : "Tetsuro KURITA",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68129151-08b62000-ff54-11e9-9138-bb68a3710ce2.png",
+      "name" : "PowerSelect",
+      "category" : "Utilities",
+      "link" : "https:\/\/www.script-factory.net\/software\/FinderHelpers\/PowerSelect\/en\/index.html"
+    },
+    {
       "developer" : "Mothership Software Limited",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41575025-6229248e-73b4-11e8-91ea-808e4cf4a75a.png",
       "name" : "Prepo 1",
@@ -6516,6 +6551,13 @@
       "name" : "Quick Print",
       "category" : "Utilities",
       "link" : "http:\/\/www.hyperbolicsoftware.com\/QuickPrint.html"
+    },
+    {
+      "developer" : "Tetsuro KURITA",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68129156-094eb680-ff54-11e9-89ce-d87bd20e7b15.png",
+      "name" : "QuickFileType",
+      "category" : "Utilities",
+      "link" : "https:\/\/www.script-factory.net\/software\/FinderHelpers\/QuickFileType\/en\/index.html"
     },
     {
       "developer" : "Pixelingene LLC",
@@ -7429,7 +7471,7 @@
     },
     {
       "developer" : "Slack",
-      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/67754928-3ee63200-fa72-11e9-9f53-c3a44870eb58.png",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68086568-68df9000-fe88-11e9-9ce2-fd63ed614dcb.png",
       "name" : "Slack 4",
       "category" : "Business",
       "link" : "https:\/\/www.slack.com"
@@ -8133,6 +8175,13 @@
       "name" : "The Archive Browser",
       "category" : "Utilities",
       "link" : "https:\/\/theunarchiver.com\/archive-browser"
+    },
+    {
+      "developer" : "The Battle for Wesnoth Project",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68129148-0784f300-ff54-11e9-866d-2c14dc35322a.png",
+      "name" : "The Battle for Wesnoth",
+      "category" : "Games",
+      "link" : "https:\/\/www.wesnoth.org\/"
     },
     {
       "developer" : "Nicalis, Inc.",
@@ -9563,5 +9612,5 @@
       "link" : "https:\/\/www.zotero.org\/"
     }
   ],
-  "update_time" : "2019-11-03 22:27:14 GMT+8"
+  "update_time" : "2019-11-04 22:45:03 GMT+8"
 }
