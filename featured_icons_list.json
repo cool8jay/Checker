@@ -85,6 +85,13 @@
       "link" : "http:\/\/www.publicspace.net\/ABetterFinderRename\/index.html"
     },
     {
+      "developer" : "AppYogi Software",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68219626-42089180-0021-11ea-8634-8bc23c345459.png",
+      "name" : "A-Zippr",
+      "category" : "Utilities",
+      "link" : "https:\/\/zippr.app\/"
+    },
+    {
       "developer" : "ACD Systems International Inc",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41574314-b152997e-73b3-11e8-9e5d-1f6386570e49.png",
       "name" : "ACDSee",
@@ -477,6 +484,13 @@
       "link" : "https:\/\/menial.co.uk\/base"
     },
     {
+      "developer" : "Basecamp",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68219639-43d25500-0021-11ea-849c-14e1d256db3c.png",
+      "name" : "Basecamp 3",
+      "category" : "Business",
+      "link" : "https:\/\/basecamp.com\/"
+    },
+    {
       "developer" : "Music Topia",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41574366-bbfed342-73b3-11e8-9573-1fdaa627c9af.png",
       "name" : "Bass System Test",
@@ -559,6 +573,20 @@
       "name" : "BeerAlchemy 2",
       "category" : "Lifestyle",
       "link" : "https:\/\/www.beeralchemyapp.com"
+    },
+    {
+      "developer" : "BeerSmith LLC",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68219630-42089180-0021-11ea-8931-8976471e5baf.png",
+      "name" : "BeerSmith 2",
+      "category" : "Lifestyle",
+      "link" : "http:\/\/beersmith.com"
+    },
+    {
+      "developer" : "BeerSmith LLC",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68219633-4339be80-0021-11ea-8570-abc30ad8fa01.png",
+      "name" : "BeerSmith 3",
+      "category" : "Lifestyle",
+      "link" : "http:\/\/beersmith.com"
     },
     {
       "developer" : "Warm Lamp Games",
@@ -4194,6 +4222,13 @@
       "link" : "https:\/\/www.irradiatedsoftware.com\/labs\/#jazzup"
     },
     {
+      "developer" : "Jinx",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68219623-416ffb00-0021-11ea-8bbb-37deb240e716.png",
+      "name" : "JollysFastVNC",
+      "category" : "Utilities",
+      "link" : "https:\/\/www.jinx.de\/JollysFastVNC.html"
+    },
+    {
       "developer" : "MacAppStudio",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/66798894-ef681800-ef41-11e9-8361-e76d5e868336.png",
       "name" : "Journal",
@@ -4992,6 +5027,13 @@
       "link" : "https:\/\/memorykeeper.kromtech.net"
     },
     {
+      "developer" : "Mendeley Ltd",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68219635-4339be80-0021-11ea-8af4-39c9b19744d1.png",
+      "name" : "Mendeley Desktop",
+      "category" : "Education",
+      "link" : "https:\/\/www.mendeley.com"
+    },
+    {
       "developer" : "The Mental Faculty B.V.",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/43037300-fd1fece0-8d3e-11e8-89e0-2f46fdb7372f.png",
       "name" : "Mental Case 2",
@@ -5382,6 +5424,13 @@
       "name" : "Movie Maker",
       "category" : "Video",
       "link" : "http:\/\/www.movie-maker-mac.com"
+    },
+    {
+      "developer" : "Mudlet",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68219632-42a12800-0021-11ea-8928-2c4075d086c9.png",
+      "name" : "Mudlet",
+      "category" : "Games",
+      "link" : "https:\/\/www.mudlet.org\/"
     },
     {
       "developer" : "Muno",
@@ -9612,5 +9661,5 @@
       "link" : "https:\/\/www.zotero.org\/"
     }
   ],
-  "update_time" : "2019-11-04 22:45:03 GMT+8"
+  "update_time" : "2019-11-05 23:09:56 GMT+8"
 }
