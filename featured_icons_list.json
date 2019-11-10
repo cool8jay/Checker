@@ -92,6 +92,13 @@
       "link" : "https:\/\/zippr.app\/"
     },
     {
+      "developer" : "Oranged Software",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68546117-7360d300-040e-11ea-9ac2-f5a7230233e4.png",
+      "name" : "Accounted",
+      "category" : "Finance",
+      "link" : "https:\/\/www.oranged.net\/"
+    },
+    {
       "developer" : "ACD Systems International Inc",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41574314-b152997e-73b3-11e8-9e5d-1f6386570e49.png",
       "name" : "ACDSee",
@@ -216,6 +223,13 @@
       "name" : "Alarm Clock Pro",
       "category" : "Productivity",
       "link" : "http:\/\/www.koingosw.com\/products\/alarmclockpro"
+    },
+    {
+      "developer" : "Dawn Labs",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68546111-71970f80-040e-11ea-8a67-f2c57fe4e43f.png",
+      "name" : "Alchemy",
+      "category" : "Developer Tools",
+      "link" : "https:\/\/dawnlabs.github.io\/alchemy\/"
     },
     {
       "developer" : "Running with Crayons Ltd.",
@@ -631,6 +645,13 @@
       "link" : "http:\/\/www.publicspace.net\/BigMeanFolderMachine\/index.html"
     },
     {
+      "developer" : "baKno Games",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68546123-75c32d00-040e-11ea-9195-dc943b4f1b03.png",
+      "name" : "Billiards",
+      "category" : "Games",
+      "link" : "http:\/\/www.bakno.com\/Billiards\/index.html"
+    },
+    {
       "developer" : "Marketcircle Inc.",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41574376-be217ada-73b3-11e8-82a6-e29ef393fc87.png",
       "name" : "Billings Pro",
@@ -897,6 +918,13 @@
       "link" : "https:\/\/www.chronosnet.com\/store\/software\/business-card-shop"
     },
     {
+      "developer" : "Jumsoft",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/43036795-0d76a89a-8d3a-11e8-99a1-5c3e8129498b.png",
+      "name" : "Business Mix Set",
+      "category" : "Graphics & Design",
+      "link" : "http:\/\/www.jumsoft.com\/toolbox-for-pages\/"
+    },
+    {
       "developer" : "Busy Apps",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41574406-c44e2bb0-73b3-11e8-9b4b-7f8f0e5d9a2e.png",
       "name" : "BusyCal",
@@ -1091,6 +1119,13 @@
       "name" : "CashNotify",
       "category" : "Finance",
       "link" : "https:\/\/cashnotify.com"
+    },
+    {
+      "developer" : "Voicu Apostol",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68546132-78258700-040e-11ea-97cc-a98decfd9e97.png",
+      "name" : "Catapult",
+      "category" : "Developer Tools",
+      "link" : "https:\/\/github.com\/cerpow\/catapult"
     },
     {
       "developer" : "Secret Geometry",
@@ -1304,7 +1339,7 @@
     },
     {
       "developer" : "Irradiated Software",
-      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68086579-6bda8080-fe88-11e9-91b9-a88a1ab62771.png",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41574454-ceb2414a-73b3-11e8-8899-4b5f884963c8.png",
       "name" : "Cinch 1.2",
       "category" : "Utilities",
       "link" : "http:\/\/www.irradiatedsoftware.com\/cinch"
@@ -1388,10 +1423,17 @@
     },
     {
       "developer" : "MacPaw Inc.",
-      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/67272389-07660b80-f4ef-11e9-9177-f3e8640b13a5.png",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/67301905-a35d3a80-f522-11e9-9861-617504180d1a.png",
       "name" : "CleanMyMac",
       "category" : "Utilities",
       "link" : "https:\/\/macpaw.com\/cleanmymac"
+    },
+    {
+      "developer" : "MakeTheWeb",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68546110-71970f80-040e-11ea-960c-cf695de1e034.png",
+      "name" : "CleanShot",
+      "category" : "Productivity",
+      "link" : "https:\/\/getcleanshot.com"
     },
     {
       "developer" : "Realmac Software",
@@ -1535,7 +1577,7 @@
     },
     {
       "developer" : "Martin Hering",
-      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/67272390-07660b80-f4ef-11e9-8072-d3e26c97dbae.png",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/67301911-a48e6780-f522-11e9-9c5a-e95ed2316d35.png",
       "name" : "Colorcast",
       "category" : "Video",
       "link" : "https:\/\/colorcast-app.com"
@@ -1938,6 +1980,13 @@
       "name" : "Daylite",
       "category" : "Business",
       "link" : "https:\/\/www.marketcircle.com"
+    },
+    {
+      "developer" : "SC Devstorm SRL",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68546126-765bc380-040e-11ea-9bc7-a7ed74b3b644.png",
+      "name" : "DCommander 3",
+      "category" : "Productivity",
+      "link" : "https:\/\/devstorm-apps.com\/dc\/"
     },
     {
       "developer" : "Leks Zhang",
@@ -2844,7 +2893,7 @@
     },
     {
       "developer" : "FBReader.ORG Limited",
-      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/67253434-37d78680-f4aa-11e9-9fdf-27bc44221fcc.png",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/67272391-07fea200-f4ef-11e9-841a-a860946fed93.png",
       "name" : "FBReader",
       "category" : "News",
       "link" : "https:\/\/fbreader.org"
@@ -3093,6 +3142,13 @@
       "name" : "Foldery",
       "category" : "Utilities",
       "link" : "https:\/\/itunes.apple.com\/us\/app\/foldery\/id815333099?l=en&mt=12"
+    },
+    {
+      "developer" : "Emiel van Liere & Hanno ten Hoor",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68546129-76f45a00-040e-11ea-80bd-78b4e6679a0e.png",
+      "name" : "Folio",
+      "category" : "Graphics & Design",
+      "link" : "http:\/\/folioformac.com\/"
     },
     {
       "developer" : "Eltima Software",
@@ -3452,6 +3508,13 @@
       "link" : "https:\/\/eternalstorms.at\/glimpses"
     },
     {
+      "developer" : "Ignazio Lacitignola",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68546121-752a9680-040e-11ea-9cf5-1e9362a2f9ef.png",
+      "name" : "Goldie App",
+      "category" : "Graphics & Design",
+      "link" : "https:\/\/goldieapp.com"
+    },
+    {
       "developer" : "haha Interactive",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41574695-05cfd02a-73b4-11e8-9eee-77d39cb985df.png",
       "name" : "GoodTask 2",
@@ -3464,6 +3527,13 @@
       "name" : "GoodTask 3",
       "category" : "Productivity",
       "link" : "http:\/\/goodtaskapp.com\/mac"
+    },
+    {
+      "developer" : "Goofy",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68546109-70fe7900-040e-11ea-885b-66c381648825.png",
+      "name" : "Goofy",
+      "category" : "Social Networking",
+      "link" : "http:\/\/goofyapp.com"
     },
     {
       "developer" : "Jumpzero",
@@ -3646,6 +3716,13 @@
       "name" : "Hive",
       "category" : "Finance",
       "link" : "https:\/\/github.com\/hivewallet\/hive-mac"
+    },
+    {
+      "developer" : "Elsevier Inc.",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68546130-778cf080-040e-11ea-80e6-ee06985f2303.png",
+      "name" : "Hivebench",
+      "category" : "Productivity",
+      "link" : "https:\/\/www.hivebench.com"
     },
     {
       "developer" : "Click On Tyler",
@@ -4706,6 +4783,13 @@
     },
     {
       "developer" : "Skylum",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68546128-76f45a00-040e-11ea-9419-4b2b64dd7799.png",
+      "name" : "Luminar Flex",
+      "category" : "Photography",
+      "link" : "https:\/\/skylum.com\/luminar-flex"
+    },
+    {
+      "developer" : "Skylum",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41574840-2abe17fc-73b4-11e8-8020-22efc1bfd18b.png",
       "name" : "Luminar",
       "category" : "Photography",
@@ -4941,6 +5025,13 @@
       "name" : "Manuscripts",
       "category" : "Productivity",
       "link" : "https:\/\/www.manuscriptsapp.com"
+    },
+    {
+      "developer" : "MarginNote",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68546114-72c83c80-040e-11ea-8349-940d8a850fbb.png",
+      "name" : "MarginNote",
+      "category" : "Productivity",
+      "link" : "https:\/\/marginnote.com\/"
     },
     {
       "developer" : "Mariner Software, Inc.",
@@ -5874,6 +5965,13 @@
       "link" : "https:\/\/www.pagico.com"
     },
     {
+      "developer" : "NOTES 17 LLC",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68546131-778cf080-040e-11ea-8839-0339d62c3cb1.png",
+      "name" : "Pagico 9",
+      "category" : "Productivity",
+      "link" : "https:\/\/www.pagico.com"
+    },
+    {
       "developer" : "PixelCut",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41574967-4d9d2286-73b4-11e8-9454-29c8dc564ecf.png",
       "name" : "PaintCode 2 - Document",
@@ -6203,6 +6301,13 @@
       "link" : "http:\/\/pinbox.in"
     },
     {
+      "developer" : "Luka Kerr",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68546119-74920000-040e-11ea-93e7-010dc32a49db.png",
+      "name" : "Pine",
+      "category" : "Developer Tools",
+      "link" : "https:\/\/lukakerr.github.io\/Pine\/"
+    },
+    {
       "developer" : "Lagente",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41575008-5bf92fe6-73b4-11e8-8633-167ae84d20e4.png",
       "name" : "PinPoint Pro",
@@ -6243,6 +6348,13 @@
       "name" : "PixelPeeper",
       "category" : "Utilities",
       "link" : "https:\/\/www.irradiatedsoftware.com\/labs\/#PixelPeeper"
+    },
+    {
+      "developer" : "MakeTheWeb",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68546124-75c32d00-040e-11ea-9e64-5e0d487a41c8.png",
+      "name" : "PixelSnap",
+      "category" : "Developer Tools",
+      "link" : "https:\/\/getpixelsnap.com"
     },
     {
       "developer" : "Plum Amazing Essential Software",
@@ -6355,6 +6467,13 @@
       "name" : "Posterino",
       "category" : "Photography",
       "link" : "http:\/\/www.zykloid.com\/posterino"
+    },
+    {
+      "developer" : "PostgresApp",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68546113-72c83c80-040e-11ea-9fb8-07282580dc07.png",
+      "name" : "Postgres",
+      "category" : "Developer Tools",
+      "link" : "http:\/\/postgresapp.com\/"
     },
     {
       "developer" : "Irradiated Software",
@@ -7296,8 +7415,15 @@
     },
     {
       "developer" : "Setapp Limited",
-      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41575137-80754a80-73b4-11e8-9ffb-0fe86e8ea662.png",
-      "name" : "SetappIcon",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68546118-73f96980-040e-11ea-8b9d-f63360f3dd57.png",
+      "name" : "Setapp 2",
+      "category" : "Business",
+      "link" : "https:\/\/setapp.com"
+    },
+    {
+      "developer" : "Setapp Limited",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68546120-752a9680-040e-11ea-914f-e3efaacf8460.png",
+      "name" : "Setapp",
       "category" : "Business",
       "link" : "https:\/\/setapp.com"
     },
@@ -7405,6 +7531,13 @@
       "name" : "SideNotes",
       "category" : "Productivity",
       "link" : "https:\/\/www.apptorium.com\/sidenotes"
+    },
+    {
+      "developer" : "Grzegorz Owsiany",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68546115-7360d300-040e-11ea-8817-874abc4e47a3.png",
+      "name" : "Silenz",
+      "category" : "Music",
+      "link" : "https:\/\/silenzapp.com"
     },
     {
       "developer" : "Petroules Corporation.",
@@ -7594,6 +7727,13 @@
       "name" : "SnapRuler",
       "category" : "Graphics & Design",
       "link" : "http:\/\/www.snaprulerapp.com"
+    },
+    {
+      "developer" : "Google, Inc.",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/43037376-4e3f684e-8d3f-11e8-9ae3-e96491f5eacc.png",
+      "name" : "Snapseed",
+      "category" : "Photography",
+      "link" : "https:\/\/snapseed.online\/"
     },
     {
       "developer" : "Andrey Teologov",
@@ -7881,6 +8021,13 @@
       "name" : "Stocks",
       "category" : "Finance",
       "link" : "https:\/\/www.apple.com\/macos\/mojave"
+    },
+    {
+      "developer" : "Solaria",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68546127-765bc380-040e-11ea-8867-a4fc4e400ab2.png",
+      "name" : "Strike",
+      "category" : "Productivity",
+      "link" : "https:\/\/strike-app.com\/"
     },
     {
       "developer" : "BuenosApps",
@@ -8430,7 +8577,7 @@
     },
     {
       "developer" : "Eastgate Systems, Inc",
-      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68086560-65e49f80-fe88-11e9-9e77-647d7af28097.png",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68129160-09e74d00-ff54-11e9-834f-efc12cd2540e.png",
       "name" : "Tinderbox 6",
       "category" : "Productivity",
       "link" : "http:\/\/www.eastgate.com\/Tinderbox\/"
@@ -8630,6 +8777,13 @@
       "name" : "Tree 2",
       "category" : "Productivity",
       "link" : "https:\/\/www.macupdate.com\/app\/mac\/29039\/tree"
+    },
+    {
+      "developer" : "Apparent Software Inc",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68546112-722fa600-040e-11ea-83b9-648a3b484e0d.png",
+      "name" : "Trickster",
+      "category" : "Productivity",
+      "link" : "https:\/\/www.apparentsoft.com\/trickster"
     },
     {
       "developer" : "Cindori AB",
@@ -9661,5 +9815,5 @@
       "link" : "https:\/\/www.zotero.org\/"
     }
   ],
-  "update_time" : "2019-11-05 23:09:56 GMT+8"
+  "update_time" : "2019-11-11 00:10:51 GMT+8"
 }
