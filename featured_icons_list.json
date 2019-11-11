@@ -148,6 +148,13 @@
       "link" : "https:\/\/www.bzgapps.com\/aerate"
     },
     {
+      "developer" : "Open Reel Software",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68597048-41677380-04d7-11ea-856f-5edb66f73ecd.png",
+      "name" : "Aether",
+      "category" : "Lifestyle",
+      "link" : "http:\/\/www.aetherlog.com"
+    },
+    {
       "developer" : "Guilherme Rambo",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/55804219-75785180-5b0e-11e9-94ba-281c2ca567bc.png",
       "name" : "AirBuddy",
@@ -2822,6 +2829,13 @@
       "link" : "https:\/\/www.expandrive.com"
     },
     {
+      "developer" : "MacAppStudio",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68597050-42000a00-04d7-11ea-8417-eb388ee076ef.png",
+      "name" : "Expenses",
+      "category" : "Finance",
+      "link" : "https:\/\/www.macappstudio.com\/apps\/expenses"
+    },
+    {
       "developer" : "Alungu",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41574616-f3748b3c-73b3-11e8-9b23-c484ef37b526.png",
       "name" : "Expert Designs for Adobe Photoshop and inDesign",
@@ -3709,6 +3723,13 @@
       "name" : "Highwire",
       "category" : "Utilities",
       "link" : "https:\/\/github.com\/tylerhall\/Highwire"
+    },
+    {
+      "developer" : "Whittl Media Ltd",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68597046-41677380-04d7-11ea-9862-c09a27e37634.png",
+      "name" : "Hiri",
+      "category" : "Business",
+      "link" : "https:\/\/www.hiri.com\/"
     },
     {
       "developer" : "Kuba Suder",
@@ -5735,8 +5756,15 @@
     },
     {
       "developer" : "Alfons Schmid",
-      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41574938-4607d58e-73b4-11e8-80e3-28e056422fe0.png",
-      "name" : "Notebooks",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68597054-4298a080-04d7-11ea-96a4-64ff9f55e376.png",
+      "name" : "Notebooks 1",
+      "category" : "Productivity",
+      "link" : "https:\/\/www.notebooksapp.com\/mac"
+    },
+    {
+      "developer" : "Alfons Schmid",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68597045-40cedd00-04d7-11ea-8418-5663f328f212.png",
+      "name" : "Notebooks 2",
       "category" : "Productivity",
       "link" : "https:\/\/www.notebooksapp.com\/mac"
     },
@@ -6712,6 +6740,13 @@
       "name" : "Quetie",
       "category" : "Developer Tools",
       "link" : "http:\/\/crystaly.com\/quetie"
+    },
+    {
+      "developer" : "MacAppStudio",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68597051-42000a00-04d7-11ea-83c4-c6e89cbe9aa5.png",
+      "name" : "Quick Notes",
+      "category" : "Productivity",
+      "link" : "https:\/\/www.macappstudio.com\/apps\/notes_plus"
     },
     {
       "developer" : "Hyperbolic Software",
@@ -9577,6 +9612,13 @@
       "link" : "https:\/\/www.telestream.net\/wirecast\/overview.htm"
     },
     {
+      "developer" : "MacAppStudio",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68597040-40364680-04d7-11ea-8048-9acff4c41202.png",
+      "name" : "WishJar",
+      "category" : "Productivity",
+      "link" : "https:\/\/www.macappstudio.com\/apps\/wishjar"
+    },
+    {
       "developer" : "DEVONtechnologies, LLC",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41575381-cbdcbb3e-73b4-11e8-8ae3-264ec97ef482.png",
       "name" : "WordService",
@@ -9645,6 +9687,13 @@
       "name" : "Xiami",
       "category" : "Music",
       "link" : "https:\/\/www.xiami.com\/apps"
+    },
+    {
+      "developer" : "Gmagon, Inc",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68597041-40cedd00-04d7-11ea-8a50-8a577ea808ff.png",
+      "name" : "XLS2csv",
+      "category" : "Developer Tools",
+      "link" : "http:\/\/gmagon.net\/products\/store\/xls2csv\/"
     },
     {
       "developer" : "XMind Ltd.",
@@ -9815,5 +9864,5 @@
       "link" : "https:\/\/www.zotero.org\/"
     }
   ],
-  "update_time" : "2019-11-11 00:10:51 GMT+8"
+  "update_time" : "2019-11-11 23:03:07 GMT+8"
 }
