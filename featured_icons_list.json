@@ -4110,6 +4110,13 @@
       "link" : "https:\/\/fiplab.com\/apps\/infinity-dashboard-for-mac"
     },
     {
+      "developer" : "Graham Nelson",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68677166-8d2d2200-0596-11ea-8052-c7bdc79c83bd.png",
+      "name" : "Inform",
+      "category" : "Productivity",
+      "link" : "http:\/\/inform7.com\/"
+    },
+    {
       "developer" : "Inkscape",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/43036923-a9ecc29a-8d3a-11e8-9ce7-4218eaa7f86c.png",
       "name" : "Inkscape",
@@ -4472,6 +4479,13 @@
       "name" : "Keynote",
       "category" : "Productivity",
       "link" : "https:\/\/www.apple.com\/keynote"
+    },
+    {
+      "developer" : "Rayner Software LLC.",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68677165-8d2d2200-0596-11ea-807f-3ee3d274090e.png",
+      "name" : "KeyShade",
+      "category" : "Utilities",
+      "link" : "http:\/\/raynersoftware.com\/netshade.php"
     },
     {
       "developer" : "Irradiated Software",
@@ -8345,6 +8359,13 @@
       "link" : "https:\/\/www.yourtempo.co"
     },
     {
+      "developer" : "Tenfourbird",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68677168-8dc5b880-0596-11ea-9816-9fd3812d7369.png",
+      "name" : "Tenfourbird",
+      "category" : "Productivity",
+      "link" : "https:\/\/tenfourbird.osdn.jp\/"
+    },
+    {
       "developer" : "Alexander Blach",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41575249-9ee1d650-73b4-11e8-89b9-b8dce1151598.png",
       "name" : "Textastic",
@@ -8759,15 +8780,15 @@
     },
     {
       "developer" : "fournova Software GmbH",
-      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/45405924-4e03f800-b697-11e8-8d07-ebea4ca1f93a.png",
-      "name" : "Tower 3",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41575287-acb58498-73b4-11e8-80bf-5844ad22d7d1.png",
+      "name" : "Tower 2",
       "category" : "Developer Tools",
       "link" : "https:\/\/www.git-tower.com"
     },
     {
       "developer" : "fournova Software GmbH",
-      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41575287-acb58498-73b4-11e8-80bf-5844ad22d7d1.png",
-      "name" : "Tower 2",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/45405924-4e03f800-b697-11e8-8d07-ebea4ca1f93a.png",
+      "name" : "Tower 3",
       "category" : "Developer Tools",
       "link" : "https:\/\/www.git-tower.com"
     },
@@ -9864,5 +9885,5 @@
       "link" : "https:\/\/www.zotero.org\/"
     }
   ],
-  "update_time" : "2019-11-11 23:03:07 GMT+8"
+  "update_time" : "2019-11-12 21:52:29 GMT+8"
 }
