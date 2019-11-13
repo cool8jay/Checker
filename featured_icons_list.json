@@ -50,6 +50,13 @@
       "link" : "https:\/\/www.2doapp.com"
     },
     {
+      "developer" : "Nucleobytes",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68775764-ffbb0200-0669-11ea-9cc2-2e790bc08999.png",
+      "name" : "4Peaks",
+      "category" : "Medical",
+      "link" : "https:\/\/nucleobytes.com\/4peaks\/index.html"
+    },
+    {
       "developer" : "Tomorrow Corporation",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/49686844-97000700-fb35-11e8-9c17-a8cf0aefe4d4.png",
       "name" : "7 Billion Humans",
@@ -1093,6 +1100,13 @@
       "link" : "https:\/\/itunes.apple.com\/us\/app\/capturer-auto-screen-captures\/id1200585553?mt=12"
     },
     {
+      "developer" : "Ben Software Ltd",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68775768-0184c580-066a-11ea-86a7-b06e085b72ce.png",
+      "name" : "CaptureSync",
+      "category" : "Video",
+      "link" : "http:\/\/www.bensoftware.com\/capturesync\/"
+    },
+    {
       "developer" : "Flexibits Inc.",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41574423-c8930f2e-73b3-11e8-87b9-cac2980e42aa.png",
       "name" : "Cardhop",
@@ -1154,6 +1168,13 @@
       "name" : "Cha-Ching",
       "category" : "Finance",
       "link" : "https:\/\/www.macupdate.com\/app\/mac\/22913\/cha-ching"
+    },
+    {
+      "developer" : "MartianCraft, LLC",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68775767-00ec2f00-066a-11ea-91ba-970ae8a33afd.png",
+      "name" : "Changes",
+      "category" : "Developer Tools",
+      "link" : "https:\/\/www.macupdate.com\/app\/mac\/26706\/changes"
     },
     {
       "developer" : "Regular SIA",
@@ -1707,6 +1728,13 @@
       "name" : "Converto",
       "category" : "Utilities",
       "link" : "https:\/\/itunes.apple.com\/cn\/app\/converto-the-unit-converter\/id576421334?mt=12"
+    },
+    {
+      "developer" : "Barracuda Networks, Inc.",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68775771-0184c580-066a-11ea-8120-9dfaadbf4205.png",
+      "name" : "Copy",
+      "category" : "Utilities",
+      "link" : "https:\/\/www.copy.com\/"
     },
     {
       "developer" : "FIPLAB Limited",
@@ -2584,6 +2612,13 @@
       "link" : "http:\/\/pilotmoon.com\/dwellclick"
     },
     {
+      "developer" : "EazyDraw: a Dekorra Optics, LLC enterprise",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68775760-ff226b80-0669-11ea-9c1e-cb300d8c5959.png",
+      "name" : "EasyDraw",
+      "category" : "Graphics & Design",
+      "link" : "http:\/\/eazydraw.com"
+    },
+    {
       "developer" : "DEVONtechnologies, LLC",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41574592-edd8744a-73b3-11e8-9049-f311fe30cf1a.png",
       "name" : "EasyFind",
@@ -2701,6 +2736,13 @@
       "name" : "Entropy",
       "category" : "Utilities",
       "link" : "http:\/\/www.eigenlogik.com\/entropy"
+    },
+    {
+      "developer" : "Nucleobytes",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68775762-ffbb0200-0669-11ea-8543-fcb0a2bb7602.png",
+      "name" : "Enzymex",
+      "category" : "Education",
+      "link" : "https:\/\/nucleobytes.com\/enzymex\/index.html"
     },
     {
       "developer" : "Charlie Monroe Software",
@@ -3996,6 +4038,13 @@
       "name" : "ideaJET",
       "category" : "Productivity",
       "link" : "http:\/\/www.ideajet-app.com"
+    },
+    {
+      "developer" : "IcyBlaze Software Inc",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68775756-ff226b80-0669-11ea-8f65-a7b0022b5343.png",
+      "name" : "iDocument 2",
+      "category" : "Business",
+      "link" : "https:\/\/www.macupdate.com\/app\/mac\/33443\/idocument-2"
     },
     {
       "developer" : "Collider LI",
@@ -6665,6 +6714,20 @@
       "link" : "http:\/\/www.zeroonetwenty.com\/profind"
     },
     {
+      "developer" : "Wasatch Digital Media",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68775774-021d5c00-066a-11ea-92e2-cf7fdc2cb55a.png",
+      "name" : "Property Evaluator",
+      "category" : "Finance",
+      "link" : "http:\/\/realestatetools.com\/property-evaluator\/"
+    },
+    {
+      "developer" : "Wasatch Digital Media",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68775777-02b5f280-066a-11ea-9547-e9f0a1d75816.png",
+      "name" : "Property Fixer",
+      "category" : "Finance",
+      "link" : "http:\/\/realestatetools.com\/property-fixer\/"
+    },
+    {
       "developer" : "Studio XID, Inc",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/66798940-fd1d9d80-ef41-11e9-8562-afce28e6d5f3.png",
       "name" : "ProtoPie",
@@ -7848,6 +7911,20 @@
       "link" : "http:\/\/www.acqualia.com\/soulver"
     },
     {
+      "developer" : "Static Z Software",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68775765-00539880-066a-11ea-9d9a-9e90365aeb0c.png",
+      "name" : "Sound Control",
+      "category" : "Music",
+      "link" : "https:\/\/staticz.com\/soundcontrol\/"
+    },
+    {
+      "developer" : "Static Z Static Z Software",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68775772-021d5c00-066a-11ea-9eca-c1271a510d40.png",
+      "name" : "Sound Siphon",
+      "category" : "Music",
+      "link" : "https:\/\/staticz.com\/soundsiphon\/"
+    },
+    {
       "developer" : "Felt Tip Inc.",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41575194-8d486d82-73b4-11e8-9204-19c227fb973c.png",
       "name" : "Sound Studio",
@@ -8168,6 +8245,13 @@
       "name" : "Surge",
       "category" : "Utilities",
       "link" : "https:\/\/nssurge.com"
+    },
+    {
+      "developer" : "Sush.io",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68775766-00ec2f00-066a-11ea-8e49-da096eee6d32.png",
+      "name" : "Sush.io",
+      "category" : "Productivity",
+      "link" : "http:\/\/sush.io\/"
     },
     {
       "developer" : "Charlie Monroe Software",
@@ -9815,11 +9899,11 @@
       "link" : "http:\/\/xscopeapp.com"
     },
     {
-      "developer" : "Noblic Inc",
+      "developer" : "adnx",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/43037438-902bbd98-8d3f-11e8-8452-1f4be3be3a0f.png",
       "name" : "xStand",
       "category" : "Utilities",
-      "link" : "https:\/\/www.noblic.com\/home\/adnx.html"
+      "link" : "https:\/\/www.adnx.com\/xstand"
     },
     {
       "developer" : "Plum Amazing Essential Software",
@@ -9885,5 +9969,5 @@
       "link" : "https:\/\/www.zotero.org\/"
     }
   ],
-  "update_time" : "2019-11-12 21:52:29 GMT+8"
+  "update_time" : "2019-11-13 23:07:38 GMT+8"
 }
