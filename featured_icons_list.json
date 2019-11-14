@@ -414,13 +414,6 @@
       "link" : "https:\/\/arcsoft.io"
     },
     {
-      "developer" : "It's About Time Products, LLC.",
-      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41574350-b8f98d4a-73b3-11e8-93cc-4ccc184de249.png",
-      "name" : "Arriving 2",
-      "category" : "Utilities",
-      "link" : "http:\/\/www.helloiat.com"
-    },
-    {
       "developer" : "BeLight Software Ltd.",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41574351-b9303f70-73b3-11e8-963e-8dad07f39de7.png",
       "name" : "Art Text 3",
@@ -951,6 +944,13 @@
       "name" : "BusyContacts",
       "category" : "Business",
       "link" : "https:\/\/www.busymac.com\/busycontacts\/index.html"
+    },
+    {
+      "developer" : "Cactus",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68874559-5bee5680-073c-11ea-96a4-d51e269493bd.png",
+      "name" : "Cactus",
+      "category" : "Music",
+      "link" : "http:\/\/www.cactus.fm\/"
     },
     {
       "developer" : "Lemke Software GmbH",
@@ -1742,20 +1742,6 @@
       "name" : "CopyClip",
       "category" : "Productivity",
       "link" : "https:\/\/fiplab.com\/apps\/copyclip-for-mac"
-    },
-    {
-      "developer" : "Plum Amazing Essential Software",
-      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41574490-d79d9d22-73b3-11e8-9158-d8816d9d8f8d.png",
-      "name" : "CopyPaste Pro Empty",
-      "category" : "Productivity",
-      "link" : "https:\/\/plumamazing.com\/product\/copypaste-pro-for-mac"
-    },
-    {
-      "developer" : "Plum Amazing Essential Software",
-      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41574492-d7d8f412-73b3-11e8-8672-6dd38a7de2ea.png",
-      "name" : "CopyPaste Pro",
-      "category" : "Productivity",
-      "link" : "https:\/\/plumamazing.com\/product\/copypaste-pro-for-mac"
     },
     {
       "developer" : "Christian Kienle",
@@ -3172,6 +3158,13 @@
       "link" : "https:\/\/flumeapp.com"
     },
     {
+      "developer" : "Skylum",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68874555-5b55c000-073c-11ea-9982-f587f015217c.png",
+      "name" : "Focus",
+      "category" : "Photography",
+      "link" : "https:\/\/skylum.com\/focus"
+    },
+    {
       "developer" : "Macoscope sp. z o.o.",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/43036892-99459f7a-8d3a-11e8-8c1a-91ea949cf482.png",
       "name" : "Focusbar",
@@ -3963,13 +3956,6 @@
       "link" : "https:\/\/iclipapp.com"
     },
     {
-      "developer" : "Plum Amazing Essential Software",
-      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41574737-0fbeaf48-73b4-11e8-9c86-8e6ca5581dcd.png",
-      "name" : "iClock",
-      "category" : "Productivity",
-      "link" : "https:\/\/plumamazing.com\/product\/iclock"
-    },
-    {
       "developer" : "Mediaware",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41574738-10219d6a-73b4-11e8-9eb5-d3611c0192e4.png",
       "name" : "Icon Creator",
@@ -4353,13 +4339,6 @@
       "name" : "iVocabulary",
       "category" : "Education",
       "link" : "http:\/\/apps.chbeer.de\/ivocabulary"
-    },
-    {
-      "developer" : "Plum Amazing Essential Software",
-      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41574778-1b7541d0-73b4-11e8-9135-68a2282a46f6.png",
-      "name" : "iWatermark Pro",
-      "category" : "Photography",
-      "link" : "https:\/\/plumamazing.com\/product\/iwatermark-pro-for-mac"
     },
     {
       "developer" : "Christian Beer",
@@ -4997,6 +4976,13 @@
       "name" : "macOS server",
       "category" : "Utilities",
       "link" : "https:\/\/www.apple.com\/macos\/server"
+    },
+    {
+      "developer" : "Apple",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68874550-5abd2980-073c-11ea-9d33-fa98539f79c0.png",
+      "name" : "macOS Sierra",
+      "category" : "Utilities",
+      "link" : "https:\/\/www.apple.com\/macos\/sierra\/"
     },
     {
       "developer" : "Koingo Software, Inc",
@@ -5799,7 +5785,7 @@
     {
       "developer" : "Skylum",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41574934-4500d47e-73b4-11e8-8235-8c7dac200061.png",
-      "name" : "Noiseless CK",
+      "name" : "Noiseless",
       "category" : "Photography",
       "link" : "https:\/\/skylum.com\/noiseless"
     },
@@ -6446,13 +6432,6 @@
       "name" : "PixelSnap",
       "category" : "Developer Tools",
       "link" : "https:\/\/getpixelsnap.com"
-    },
-    {
-      "developer" : "Plum Amazing Essential Software",
-      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41575014-5e7ee4c2-73b4-11e8-885c-244bf65a2d54.png",
-      "name" : "PixelStick",
-      "category" : "Developer Tools",
-      "link" : "https:\/\/plumamazing.com\/product\/pixelstick"
     },
     {
       "developer" : "PlantLabs Inc.",
@@ -8814,6 +8793,34 @@
       "link" : "https:\/\/www.ultimate-guitar.com"
     },
     {
+      "developer" : "Jumsoft",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68874543-598bfc80-073c-11ea-8bbe-0009c5efaa37.png",
+      "name" : "Toolbox for iWork - Templates",
+      "category" : "Productivity",
+      "link" : "http:\/\/www.jumsoft.com"
+    },
+    {
+      "developer" : "Jumsoft",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68874549-5a249300-073c-11ea-8ae1-e23c923c238d.png",
+      "name" : "Toolbox for Keynote -Templates",
+      "category" : "Productivity",
+      "link" : "http:\/\/www.jumsoft.com\/toolbox-for-keynote\/"
+    },
+    {
+      "developer" : "Jumsoft",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68874545-598bfc80-073c-11ea-99b2-7420e64706f6.png",
+      "name" : "Toolbox for MS Office Template",
+      "category" : "Productivity",
+      "link" : "http:\/\/www.jumsoft.com\/toolbox-for-ms-office\/"
+    },
+    {
+      "developer" : "Jumsoft",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68874547-5a249300-073c-11ea-888e-fdca83f81f94.png",
+      "name" : "Toolbox for Pages - Templates",
+      "category" : "Productivity",
+      "link" : "http:\/\/www.jumsoft.com\/toolbox-for-pages\/"
+    },
+    {
       "developer" : "BinaryAge",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41575284-ab9f0322-73b4-11e8-8fdd-32c25c6165cc.png",
       "name" : "TotalFinder",
@@ -8931,6 +8938,20 @@
       "name" : "Trim Enabler",
       "category" : "Utilities",
       "link" : "https:\/\/cindori.org\/trimenabler"
+    },
+    {
+      "developer" : "Frozenbyte, Inc",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68874558-5bee5680-073c-11ea-97a0-010b3426fd1a.png",
+      "name" : "Trine 1",
+      "category" : "Games",
+      "link" : "http:\/\/www.frozenbyte.com\/games\/trine-enchanted-edition"
+    },
+    {
+      "developer" : "Frozenbyte, Inc",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68874551-5b55c000-073c-11ea-98fd-926796672401.png",
+      "name" : "Trine 2",
+      "category" : "Games",
+      "link" : "http:\/\/trine2.com"
     },
     {
       "developer" : "Aurchitect Audio Software",
@@ -9535,13 +9556,6 @@
       "link" : "https:\/\/rockysandstudio.com"
     },
     {
-      "developer" : "Wakefy",
-      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/43037418-7d213e4e-8d3f-11e8-8e0f-ccde76dfea71.png",
-      "name" : "Wakefy",
-      "category" : "Productivity",
-      "link" : "https:\/\/wakefy.com"
-    },
-    {
       "developer" : "Acrylic Software",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/43037419-7dee95a6-8d3f-11e8-8fb4-72dee60520c5.png",
       "name" : "Wallet",
@@ -9906,13 +9920,6 @@
       "link" : "https:\/\/www.adnx.com\/xstand"
     },
     {
-      "developer" : "Plum Amazing Essential Software",
-      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41575403-d296ee9a-73b4-11e8-8efd-0fd0437d2c72.png",
-      "name" : "yKey",
-      "category" : "Productivity",
-      "link" : "https:\/\/plumamazing.com\/product\/ykey"
-    },
-    {
       "developer" : "Eternal Storms Software",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41575404-d2e9c5ca-73b4-11e8-9373-f73103bdc623.png",
       "name" : "Yoink",
@@ -9969,5 +9976,5 @@
       "link" : "https:\/\/www.zotero.org\/"
     }
   ],
-  "update_time" : "2019-11-13 23:07:38 GMT+8"
+  "update_time" : "2019-11-15 00:18:48 GMT+8"
 }
