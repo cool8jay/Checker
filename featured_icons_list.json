@@ -330,6 +330,13 @@
       "link" : "https:\/\/micropixels.pl\/anesidora"
     },
     {
+      "developer" : "Rovio",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68991523-a4bc2180-089a-11ea-8f70-85e7bed834f1.png",
+      "name" : "Angry Birds Seasons",
+      "category" : "Games",
+      "link" : "https:\/\/www.rovio.com\/games\/angry-birds"
+    },
+    {
       "developer" : "Tim Conkling",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/67620527-82eef200-f83a-11e9-89fe-16aa0b09ebac.png",
       "name" : "Antihero",
@@ -608,6 +615,13 @@
       "name" : "BeerSmith 3",
       "category" : "Lifestyle",
       "link" : "http:\/\/beersmith.com"
+    },
+    {
+      "developer" : "Warm Lamp Games",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68991524-a4bc2180-089a-11ea-8ece-4642ef12664c.png",
+      "name" : "Beholder 2",
+      "category" : "Games",
+      "link" : "https:\/\/beholder2.com\/"
     },
     {
       "developer" : "Warm Lamp Games",
@@ -4411,6 +4425,13 @@
       "link" : "https:\/\/www.nightbirdsevolve.com\/juno-editor"
     },
     {
+      "developer" : "Eltima Software",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68991520-a38af480-089a-11ea-9944-71c97a83e60d.png",
+      "name" : "JustStream",
+      "category" : "Lifestyle",
+      "link" : "https:\/\/www.electronic.us\/products\/just-stream\/"
+    },
+    {
       "developer" : "Black Pixel",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41574788-1dc8671e-73b4-11e8-8f1a-411a02e68da2.png",
       "name" : "Kaleidoscope",
@@ -4955,6 +4976,13 @@
       "name" : "macOS Catalina",
       "category" : "Utilities",
       "link" : "https:\/\/www.apple.com\/macos\/catalina"
+    },
+    {
+      "developer" : "Apple",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68991522-a4238b00-089a-11ea-9a3d-92433fb95cd6.png",
+      "name" : "macOS High Sierra",
+      "category" : "Utilities",
+      "link" : "https:\/\/www.apple.com\/macos"
     },
     {
       "developer" : "Apple",
@@ -6712,6 +6740,13 @@
       "name" : "ProtoPie",
       "category" : "Graphics & Design",
       "link" : "https:\/\/www.protopie.io"
+    },
+    {
+      "developer" : "Piotr Szwach",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68991521-a4238b00-089a-11ea-849c-eecdc6d0cb19.png",
+      "name" : "Proud",
+      "category" : "Productivity",
+      "link" : "https:\/\/notewalk.com\/"
     },
     {
       "developer" : "Zenway Enterprises, LLC",
@@ -9976,5 +10011,5 @@
       "link" : "https:\/\/www.zotero.org\/"
     }
   ],
-  "update_time" : "2019-11-15 00:18:48 GMT+8"
+  "update_time" : "2019-11-16 17:58:43 GMT+8"
 }
