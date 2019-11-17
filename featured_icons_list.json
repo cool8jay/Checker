@@ -9830,6 +9830,13 @@
     },
     {
       "developer" : "Xiami",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/69009661-9cdfa880-0992-11ea-8a85-96c2c9e04b00.png",
+      "name" : "Xiami 1",
+      "category" : "Music",
+      "link" : "https:\/\/www.xiami.com\/apps"
+    },
+    {
+      "developer" : "Xiami",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/45405934-4fcdbb80-b697-11e8-9983-c89cfc7b7985.png",
       "name" : "Xiami 7",
       "category" : "Music",
@@ -10011,5 +10018,5 @@
       "link" : "https:\/\/www.zotero.org\/"
     }
   ],
-  "update_time" : "2019-11-16 17:58:43 GMT+8"
+  "update_time" : "2019-11-17 23:34:26 GMT+8"
 }
