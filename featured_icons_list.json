@@ -4964,6 +4964,13 @@
       "link" : "http:\/\/marinersoftware.com\/products\/macjournal"
     },
     {
+      "developer" : "Orbicule, Inc",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/69202729-72057800-0b7d-11ea-9936-7a6cc9104368.png",
+      "name" : "Macnification",
+      "category" : "Utilities",
+      "link" : "http:\/\/www.orbicule.com\/macnification\/"
+    },
+    {
       "developer" : "Apple",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/66798917-f858e980-ef41-11e9-8b0d-a1907298ee62.png",
       "name" : "macOS Catalina Dark",
@@ -9262,6 +9269,13 @@
       "link" : "https:\/\/unclutterapp.com"
     },
     {
+      "developer" : "Orbicule, Inc",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/69202731-7336a500-0b7d-11ea-9ce6-4ec738bb970b.png",
+      "name" : "Undercover",
+      "category" : "Utilities",
+      "link" : "http:\/\/orbicule.com\/undercover\/mac\/"
+    },
+    {
       "developer" : "MacPlus Software",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41575323-b7b625e6-73b4-11e8-9583-a9f48e045a34.png",
       "name" : "UnDistracted",
@@ -10018,5 +10032,5 @@
       "link" : "https:\/\/www.zotero.org\/"
     }
   ],
-  "update_time" : "2019-11-17 23:34:26 GMT+8"
+  "update_time" : "2019-11-20 10:07:27 GMT+8"
 }
