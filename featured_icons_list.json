@@ -4965,7 +4965,7 @@
     },
     {
       "developer" : "Orbicule, Inc",
-      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/69202729-72057800-0b7d-11ea-9936-7a6cc9104368.png",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/69304896-448ffb80-0c5d-11ea-825e-ef4d5c5703ad.png",
       "name" : "Macnification",
       "category" : "Utilities",
       "link" : "http:\/\/www.orbicule.com\/macnification\/"
@@ -5606,6 +5606,13 @@
       "name" : "Mou",
       "category" : "Developer Tools",
       "link" : "http:\/\/25.io\/mou"
+    },
+    {
+      "developer" : "Boinx Software",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/69304899-45c12880-0c5d-11ea-9947-9c0d36abc774.png",
+      "name" : "Mouseposé",
+      "category" : "Productivity",
+      "link" : "https:\/\/boinx.com\/mousepose"
     },
     {
       "developer" : "Ephnic",
@@ -9270,7 +9277,7 @@
     },
     {
       "developer" : "Orbicule, Inc",
-      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/69202731-7336a500-0b7d-11ea-9ce6-4ec738bb970b.png",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/69304897-45289200-0c5d-11ea-8703-ff7774070952.png",
       "name" : "Undercover",
       "category" : "Utilities",
       "link" : "http:\/\/orbicule.com\/undercover\/mac\/"
@@ -10032,5 +10039,5 @@
       "link" : "https:\/\/www.zotero.org\/"
     }
   ],
-  "update_time" : "2019-11-20 10:07:27 GMT+8"
+  "update_time" : "2019-11-21 13:30:40 GMT+8"
 }
