@@ -379,6 +379,20 @@
       "link" : "http:\/\/anogeissus.com\/products\/apollo-one"
     },
     {
+      "developer" : "Apple",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/69351090-b1cf7b00-0cb5-11ea-977c-46c2eca7f01b.png",
+      "name" : "App Store 3",
+      "category" : "Utilities",
+      "link" : "https:\/\/www.apple.com"
+    },
+    {
+      "developer" : "Apple",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/69351097-b431d500-0cb5-11ea-98df-e1cef146ceae.png",
+      "name" : "App Store",
+      "category" : "Utilities",
+      "link" : "https:\/\/www.apple.com"
+    },
+    {
       "developer" : "Koingo Software, Inc",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41574343-b72852bc-73b3-11e8-85be-f55fa92c43fb.png",
       "name" : "AppBolish",
@@ -804,6 +818,20 @@
       "name" : "Bookends",
       "category" : "Education",
       "link" : "https:\/\/www.sonnysoftware.com"
+    },
+    {
+      "developer" : "Apple",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/69351103-b5630200-0cb5-11ea-904c-dcb089afbcde.png",
+      "name" : "Books 1",
+      "category" : "Education",
+      "link" : "https:\/\/www.apple.com"
+    },
+    {
+      "developer" : "Apple",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/69351088-b1cf7b00-0cb5-11ea-92bc-98d0bfa585d4.png",
+      "name" : "Books 2",
+      "category" : "Education",
+      "link" : "https:\/\/www.apple.com"
     },
     {
       "developer" : "Graphic Node",
@@ -2563,6 +2591,13 @@
       "link" : "https:\/\/droplr.com\/apps"
     },
     {
+      "developer" : "Damir Tursunovic",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/69329863-cf3c1f00-0c8c-11ea-90d6-dd09ba103dc6.png",
+      "name" : "Dropover",
+      "category" : "Utilities",
+      "link" : "https:\/\/dropoverapp.com"
+    },
+    {
       "developer" : "Squirrels, LLC",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/43036873-8cc31782-8d3a-11e8-8c23-2701d2f4b844.png",
       "name" : "DropStream",
@@ -3016,6 +3051,13 @@
       "name" : "Final Cut Pro",
       "category" : "Video",
       "link" : "https:\/\/www.apple.com\/final-cut-pro"
+    },
+    {
+      "developer" : "Apple",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/69351095-b300a800-0cb5-11ea-92cd-760bc3a5cb9e.png",
+      "name" : "Find My",
+      "category" : "Utilities",
+      "link" : "https:\/\/www.apple.com"
     },
     {
       "developer" : "Findings Software SAS",
@@ -5643,6 +5685,13 @@
       "link" : "http:\/\/munoapp.com"
     },
     {
+      "developer" : "Apple",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/69351094-b300a800-0cb5-11ea-80bb-2b570b4dad5e.png",
+      "name" : "Music",
+      "category" : "Music",
+      "link" : "https:\/\/www.apple.com"
+    },
+    {
       "developer" : "TastyApps",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/43037305-029f00d4-8d3f-11e8-8c72-2ca3a1078753.png",
       "name" : "Musicbox",
@@ -6525,6 +6574,13 @@
       "link" : "https:\/\/software.charliemonroe.net\/pochade.php"
     },
     {
+      "developer" : "Apple",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/69351096-b3993e80-0cb5-11ea-8169-5f85e15ba368.png",
+      "name" : "Podcast",
+      "category" : "Utilities",
+      "link" : "https:\/\/www.apple.com"
+    },
+    {
       "developer" : "Václav Slavík",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41575018-5fd709e4-73b4-11e8-8e9d-42de507a78eb.png",
       "name" : "Poedit",
@@ -7153,6 +7209,13 @@
       "name" : "Reminders 5",
       "category" : "Productivity",
       "link" : "https:\/\/support.apple.com\/guide\/reminders\/welcome\/mac"
+    },
+    {
+      "developer" : "Apple",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/69351093-b2681180-0cb5-11ea-8498-b6d5964540c2.png",
+      "name" : "Reminders 7",
+      "category" : "Productivity",
+      "link" : "https:\/\/www.apple.com"
     },
     {
       "developer" : "Apple",
@@ -8660,6 +8723,13 @@
       "link" : "https:\/\/www.wondershare.net\/multimedia-software\/tidymymusic-mac-pla.html"
     },
     {
+      "developer" : "Apple",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/69351102-b4ca6b80-0cb5-11ea-95aa-53b858a60e06.png",
+      "name" : "Time Machine",
+      "category" : "Utilities",
+      "link" : "https:\/\/www.apple.com"
+    },
+    {
       "developer" : "Many Tricks",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41575267-a61c5e7c-73b4-11e8-9cf2-d63fd1d7c69f.png",
       "name" : "Time Sink",
@@ -9430,6 +9500,13 @@
       "link" : "https:\/\/www.videoloupe.com"
     },
     {
+      "developer" : "Apple",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/69351091-b2681180-0cb5-11ea-9224-a037e827b713.png",
+      "name" : "Videos",
+      "category" : "Video",
+      "link" : "https:\/\/www.apple.com"
+    },
+    {
       "developer" : "Vimeo, Inc.",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41575343-bdb216a8-73b4-11e8-9ac1-5cf751b95f31.png",
       "name" : "Vimeo",
@@ -10039,5 +10116,5 @@
       "link" : "https:\/\/www.zotero.org\/"
     }
   ],
-  "update_time" : "2019-11-21 13:30:40 GMT+8"
+  "update_time" : "2019-11-21 23:22:35 GMT+8"
 }
