@@ -5174,6 +5174,20 @@
       "link" : "https:\/\/www.manuscriptsapp.com"
     },
     {
+      "developer" : "Apple",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/69473734-acc41600-0df2-11ea-9e02-ad731887e132.png",
+      "name" : "Maps 2.0",
+      "category" : "Travel",
+      "link" : "https:\/\/www.apple.com"
+    },
+    {
+      "developer" : "Apple",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/69473735-ad5cac80-0df2-11ea-81c4-23c31910d03c.png",
+      "name" : "Maps 2.1",
+      "category" : "Travel",
+      "link" : "https:\/\/www.apple.com"
+    },
+    {
       "developer" : "MarginNote",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68546114-72c83c80-040e-11ea-8349-940d8a850fbb.png",
       "name" : "MarginNote",
@@ -7786,10 +7800,17 @@
     },
     {
       "developer" : "Apple",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/69473736-ad5cac80-0df2-11ea-9b41-6bd1830a2095.png",
+      "name" : "Siri 1.0",
+      "category" : "Utilities",
+      "link" : "https:\/\/www.apple.com\/siri\/"
+    },
+    {
+      "developer" : "Apple",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41575167-861287c8-73b4-11e8-9c55-e1dce769be0d.png",
       "name" : "Siri",
       "category" : "Utilities",
-      "link" : "https:\/\/www.apple.com\/us\/search\/siri?src=globalnav"
+      "link" : "https:\/\/www.apple.com\/siri\/"
     },
     {
       "developer" : "SixtyFour, Inc.",
@@ -10116,5 +10137,5 @@
       "link" : "https:\/\/www.zotero.org\/"
     }
   ],
-  "update_time" : "2019-11-21 23:22:35 GMT+8"
+  "update_time" : "2019-11-23 13:13:57 GMT+8"
 }
