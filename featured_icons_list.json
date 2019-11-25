@@ -8653,6 +8653,13 @@
       "link" : "https:\/\/seense.com\/the_clock"
     },
     {
+      "developer" : "The Voxel Agents",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/69563272-c2e8f680-0feb-11ea-824b-d2bc3b4004c9.png",
+      "name" : "The Gardens Between",
+      "category" : "Games",
+      "link" : "http:\/\/thegardensbetween.com\/"
+    },
+    {
       "developer" : "Karelia Software",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41575258-a26d5df8-73b4-11e8-9c36-2cc9adfc5720.png",
       "name" : "The Hit List",
@@ -9092,6 +9099,13 @@
       "name" : "Trine 2",
       "category" : "Games",
       "link" : "http:\/\/trine2.com"
+    },
+    {
+      "developer" : "The Iconfactory",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/69563270-c2506000-0feb-11ea-976f-d08ff7293efc.png",
+      "name" : "Triode",
+      "category" : "Entertainment",
+      "link" : "https:\/\/triode.app\/"
     },
     {
       "developer" : "Aurchitect Audio Software",
@@ -10137,5 +10151,5 @@
       "link" : "https:\/\/www.zotero.org\/"
     }
   ],
-  "update_time" : "2019-11-23 13:13:57 GMT+8"
+  "update_time" : "2019-11-26 01:27:13 GMT+8"
 }
