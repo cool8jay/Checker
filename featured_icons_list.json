@@ -162,6 +162,13 @@
       "link" : "http:\/\/www.aetherlog.com"
     },
     {
+      "developer" : "Night School Studio",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/69645375-0a7d8a00-10a1-11ea-997f-b76c6d77b32c.png",
+      "name" : "Afterparty",
+      "category" : "Games",
+      "link" : "http:\/\/nightschoolstudio.com\/"
+    },
+    {
       "developer" : "Guilherme Rambo",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/55804219-75785180-5b0e-11e9-94ba-281c2ca567bc.png",
       "name" : "AirBuddy",
@@ -6448,6 +6455,13 @@
       "link" : "https:\/\/itunes.apple.com\/us\/app\/piano-virtuoso\/id1338700219?l=en&mt=12"
     },
     {
+      "developer" : "Creatable",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/69645372-09e4f380-10a1-11ea-8de4-8ec2261db538.png",
+      "name" : "Pichi",
+      "category" : "Productivity",
+      "link" : "https:\/\/pichiapp.com\/"
+    },
+    {
       "developer" : "Picktorial Innovations LTD",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41575004-5a79674e-73b4-11e8-8efd-1032035c1014.png",
       "name" : "Picktorial",
@@ -8077,6 +8091,13 @@
       "name" : "Sparkle",
       "category" : "Graphics & Design",
       "link" : "https:\/\/sparkleapp.com"
+    },
+    {
+      "developer" : "RedBlueGames",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/69645374-0a7d8a00-10a1-11ea-9319-3c5eac897fac.png",
+      "name" : "Sparklite",
+      "category" : "Games",
+      "link" : "http:\/\/redbluegames.com\/games\/sparklite\/"
     },
     {
       "developer" : "Sparrow",
@@ -9808,6 +9829,13 @@
       "link" : "http:\/\/mac.weixin.qq.com\/?lang=en"
     },
     {
+      "developer" : "Triband",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/69645369-09e4f380-10a1-11ea-90d0-e437b8a474ba.png",
+      "name" : "WHAT THE GOLF",
+      "category" : "Games",
+      "link" : "http:\/\/whatthegolf.com\/"
+    },
+    {
       "developer" : "Nothing Magical Inc.",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41575369-c7c278cc-73b4-11e8-899a-bda4b6e606e2.png",
       "name" : "Whiskey - Document",
@@ -10151,5 +10179,5 @@
       "link" : "https:\/\/www.zotero.org\/"
     }
   ],
-  "update_time" : "2019-11-26 01:27:13 GMT+8"
+  "update_time" : "2019-11-26 23:04:43 GMT+8"
 }
