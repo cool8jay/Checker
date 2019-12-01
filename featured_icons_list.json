@@ -99,6 +99,27 @@
       "link" : "https:\/\/zippr.app\/"
     },
     {
+      "developer" : "OakTree Software, Inc.",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/69732048-ea63ce80-1165-11ea-9713-afc9507b6ee6.png",
+      "name" : "Accordance 9",
+      "category" : "Reference",
+      "link" : "http:\/\/www.accordancebible.com\/"
+    },
+    {
+      "developer" : "OakTree Software, Inc.",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/69732047-ea63ce80-1165-11ea-8c9c-e0cc2ad07425.png",
+      "name" : "Accordance 10-11",
+      "category" : "Reference",
+      "link" : "http:\/\/www.accordancebible.com\/"
+    },
+    {
+      "developer" : "OakTree Software, Inc.",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/69732051-eafc6500-1165-11ea-9546-bce82b75554f.png",
+      "name" : "Accordance 12",
+      "category" : "Reference",
+      "link" : "http:\/\/www.accordancebible.com\/"
+    },
+    {
       "developer" : "Oranged Software",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/68546117-7360d300-040e-11ea-9ac2-f5a7230233e4.png",
       "name" : "Accounted",
@@ -1462,6 +1483,13 @@
       "name" : "Clarity Wallpaper",
       "category" : "Photography",
       "link" : "https:\/\/claritywallpaper.com"
+    },
+    {
+      "developer" : "Apple",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/69732046-e9cb3800-1165-11ea-897c-331ed321973e.png",
+      "name" : "Classroom",
+      "category" : "Utilities",
+      "link" : "https:\/\/www.apple.com"
     },
     {
       "developer" : "Synium Software",
@@ -7659,6 +7687,13 @@
       "link" : "https:\/\/setapp.com"
     },
     {
+      "developer" : "Apple",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/69732053-eafc6500-1165-11ea-97a3-357e6b5b53f4.png",
+      "name" : "SF Symbols",
+      "category" : "Graphics & Design",
+      "link" : "https:\/\/developer.apple.com\/design\/human-interface-guidelines\/sf-symbols\/overview\/"
+    },
+    {
       "developer" : "Mimimi Productions",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/66798954-00188e00-ef42-11e9-9a07-db5b65cac956.png",
       "name" : "Shadow Tactics Blades of the Shogun 2",
@@ -8448,6 +8483,13 @@
       "name" : "Switchem",
       "category" : "Utilities",
       "link" : "https:\/\/www.switchem.co"
+    },
+    {
+      "developer" : "DoYourData",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/69732055-eb94fb80-1165-11ea-9ed2-3c8aeec75b72.png",
+      "name" : "SwitchManager",
+      "category" : "Utilities",
+      "link" : "https:\/\/www.doyourdata.com\/mac-manager\/switch-manager.html"
     },
     {
       "developer" : "Irradiated Software",
@@ -10179,5 +10221,5 @@
       "link" : "https:\/\/www.zotero.org\/"
     }
   ],
-  "update_time" : "2019-11-26 23:04:43 GMT+8"
+  "update_time" : "2019-12-01 23:01:57 GMT+8"
 }
