@@ -1737,6 +1737,13 @@
       "link" : "https:\/\/mac.eltima.com\/file-manager.html"
     },
     {
+      "developer" : "treeinspired GmbH",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/70846388-bc83c700-1e93-11ea-8e90-daea0782a279.png",
+      "name" : "Compendium - Pharma Dictionary",
+      "category" : "Medical",
+      "link" : "https:\/\/www.treeinspired.com"
+    },
+    {
       "developer" : "BZG Inc.",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41574484-d62529f6-73b3-11e8-97b1-a214a3f98ff4.png",
       "name" : "Compress",
@@ -2232,6 +2239,13 @@
       "name" : "Deskovery 3",
       "category" : "Utilities",
       "link" : "https:\/\/www.macupdate.com\/app\/mac\/36082\/deskovery"
+    },
+    {
+      "developer" : "green&slimy",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/70846389-bd1c5d80-1e93-11ea-808a-91a6c8c0eef9.png",
+      "name" : "Deskscribble",
+      "category" : "Graphics & Design",
+      "link" : "http:\/\/deskscribbleapp.com"
     },
     {
       "developer" : "Many Tricks",
@@ -2750,6 +2764,13 @@
       "name" : "Elmedia Player",
       "category" : "Video",
       "link" : "https:\/\/mac.eltima.com\/elmedia-appletv.html"
+    },
+    {
+      "developer" : "Surge Networks LLC",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/70846387-bbeb3080-1e93-11ea-8c45-de779e2466a2.png",
+      "name" : "Elpass",
+      "category" : "Productivity",
+      "link" : "https:\/\/elpass.app"
     },
     {
       "developer" : "Ironic Software",
@@ -8296,6 +8317,13 @@
       "link" : "http:\/\/www.plentycom.jp\/en\/steermouse\/index.html"
     },
     {
+      "developer" : "https:\/\/steuererklärung-app.de",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/70846384-bb529a00-1e93-11ea-8699-10f02b9d5b27.png",
+      "name" : "Steuererklärung",
+      "category" : "Finance",
+      "link" : "https:\/\/steuererklärung-app.de"
+    },
+    {
       "developer" : "Digualu Studio",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41575217-94628274-73b4-11e8-8bec-b8ad17ac5197.png",
       "name" : "Steward Database Lite",
@@ -8756,6 +8784,13 @@
       "name" : "The Witness",
       "category" : "Games",
       "link" : "http:\/\/the-witness.net"
+    },
+    {
+      "developer" : "Semibits LLC",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/70846386-bbeb3080-1e93-11ea-8d05-529b5ca0e301.png",
+      "name" : "theBin",
+      "category" : "Productivity",
+      "link" : "https:\/\/www.semibits.com\/thebin"
     },
     {
       "developer" : "There™",
@@ -10221,5 +10256,5 @@
       "link" : "https:\/\/www.zotero.org\/"
     }
   ],
-  "update_time" : "2019-12-01 23:01:57 GMT+8"
+  "update_time" : "2019-12-14 17:06:00 GMT+8"
 }
