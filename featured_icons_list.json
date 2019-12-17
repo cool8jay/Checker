@@ -1101,6 +1101,13 @@
     },
     {
       "developer" : "Mailr Tech LLP",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/71015386-78f8b980-212e-11ea-8f90-b2583b063ea6.png",
+      "name" : "Canary Mail 2",
+      "category" : "Productivity",
+      "link" : "https:\/\/canarymail.io"
+    },
+    {
+      "developer" : "Mailr Tech LLP",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41574416-c6d105ba-73b3-11e8-9c8b-6187621576c6.png",
       "name" : "Canary Mail",
       "category" : "Productivity",
@@ -4549,6 +4556,13 @@
       "name" : "Karaoke",
       "category" : "Music",
       "link" : "http:\/\/karaoketubeapp.com"
+    },
+    {
+      "developer" : "Askiisoft",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/71015385-78602300-212e-11ea-94cb-e9f855405124.png",
+      "name" : "Katana ZERO",
+      "category" : "Games",
+      "link" : "https:\/\/katanazero.com\/"
     },
     {
       "developer" : "Reinvented Software",
@@ -9493,6 +9507,13 @@
       "link" : "https:\/\/www.noteifyapp.com\/undistracted-self-control"
     },
     {
+      "developer" : "Xuanyang Wu",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/71015110-038ce900-212e-11ea-8e6d-ad8c328f5f47.png",
+      "name" : "Unfolder",
+      "category" : "Graphics & Design",
+      "link" : "https:\/\/www.unfolder.app"
+    },
+    {
       "developer" : "eightloops GmbH",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41575324-b8159832-73b4-11e8-8936-0f05e431d0bc.png",
       "name" : "Unibox",
@@ -10256,5 +10277,5 @@
       "link" : "https:\/\/www.zotero.org\/"
     }
   ],
-  "update_time" : "2019-12-14 17:06:00 GMT+8"
+  "update_time" : "2019-12-18 00:52:46 GMT+8"
 }
