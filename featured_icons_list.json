@@ -4831,6 +4831,13 @@
       "link" : "https:\/\/lilyviewapp.com"
     },
     {
+      "developer" : "The Iconfactory",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/71360155-d75be700-25c9-11ea-9df8-3900f5985c01.png",
+      "name" : "Linea Link",
+      "category" : "Productivity",
+      "link" : "https:\/\/linea-app.com"
+    },
+    {
       "developer" : "Noun Project",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/66798909-f68f2600-ef41-11e9-9ccd-eb02551f8d73.png",
       "name" : "Lingo Alpha",
@@ -6593,6 +6600,13 @@
       "name" : "Pixave",
       "category" : "Graphics & Design",
       "link" : "http:\/\/www.littlehj.com\/mac"
+    },
+    {
+      "developer" : "Pixelmator Team",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/71360154-d75be700-25c9-11ea-929b-6be7b6a56fd8.png",
+      "name" : "Pixelmator Pro",
+      "category" : "Graphics & Design",
+      "link" : "https:\/\/www.pixelmator.com\/pro"
     },
     {
       "developer" : "Pixelmator Team",
@@ -10277,5 +10291,5 @@
       "link" : "https:\/\/www.zotero.org\/"
     }
   ],
-  "update_time" : "2019-12-18 00:52:46 GMT+8"
+  "update_time" : "2019-12-23 21:23:00 GMT+8"
 }
