@@ -3550,6 +3550,13 @@
       "link" : "https:\/\/www.geekbench.com"
     },
     {
+      "developer" : "Primate Labs Inc.",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/71412668-ae029000-2689-11ea-8732-b8d3010fdfe3.png",
+      "name" : "Geekbench 5",
+      "category" : "Utilities",
+      "link" : "https:\/\/www.geekbench.com"
+    },
+    {
       "developer" : "MacPaw Inc.",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41574682-027ce390-73b4-11e8-83e0-4f061cd5ed27.png",
       "name" : "Gemini 1",
@@ -4899,6 +4906,27 @@
       "name" : "Lively Logic",
       "category" : "Productivity",
       "link" : "https:\/\/livelylogic.com"
+    },
+    {
+      "developer" : "The Localization Suite",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/71412667-ae029000-2689-11ea-9d9c-efe6d3987fa6.png",
+      "name" : "Localization Dictionary",
+      "category" : "Utilities",
+      "link" : "http:\/\/www.loc-suite.org"
+    },
+    {
+      "developer" : "The Localization Suite",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/71412666-ad69f980-2689-11ea-95c3-a285e5416f86.png",
+      "name" : "Localization Manager",
+      "category" : "Utilities",
+      "link" : "http:\/\/www.loc-suite.org"
+    },
+    {
+      "developer" : "The Localization Suite",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/71412669-ae9b2680-2689-11ea-8595-6608973a8865.png",
+      "name" : "Localizer",
+      "category" : "Utilities",
+      "link" : "http:\/\/www.loc-suite.org\/"
     },
     {
       "developer" : "BinaryNights LLC",
@@ -10291,5 +10319,5 @@
       "link" : "https:\/\/www.zotero.org\/"
     }
   ],
-  "update_time" : "2019-12-23 21:23:00 GMT+8"
+  "update_time" : "2019-12-24 20:12:57 GMT+8"
 }
