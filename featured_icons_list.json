@@ -519,6 +519,13 @@
       "link" : "http:\/\/audulus.com"
     },
     {
+      "developer" : "Apple",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/72813689-c07ae400-3c9e-11ea-9e26-6825d69c1170.png",
+      "name" : "Automator",
+      "category" : "Productivity",
+      "link" : "https:\/\/www.apple.com"
+    },
+    {
       "developer" : "Eagleapp",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41574359-bac81538-73b3-11e8-86ef-038d773df7f8.png",
       "name" : "AV Recorder & Screen Capture",
@@ -6728,6 +6735,13 @@
       "link" : "https:\/\/poedit.net"
     },
     {
+      "developer" : "CJM Solutions, LLC",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/72813690-c1137a80-3c9e-11ea-90b9-668917bf1814.png",
+      "name" : "Poker Copilot",
+      "category" : "Productivity",
+      "link" : "https:\/\/pokercopilot.com\/"
+    },
+    {
       "developer" : "Polarr, Inc",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41575020-603bd162-73b4-11e8-82fd-e9459e411d34.png",
       "name" : "Polarr Photo Editor Pro",
@@ -10326,5 +10340,5 @@
       "link" : "https:\/\/www.zotero.org\/"
     }
   ],
-  "update_time" : "2020-01-05 20:23:41 GMT+8"
+  "update_time" : "2020-01-22 13:18:50 GMT+8"
 }
