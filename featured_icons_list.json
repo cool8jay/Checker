@@ -2672,14 +2672,21 @@
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/43036874-8e4bcf40-8d3a-11e8-9f92-940d50881d97.png",
       "name" : "Dropzone 2",
       "category" : "Productivity",
-      "link" : "https:\/\/aptoniac.com"
+      "link" : "https:\/\/aptonic.com"
     },
     {
       "developer" : "Aptonic Limited",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41574586-ec6627ba-73b3-11e8-9af8-bfa038fcea01.png",
       "name" : "Dropzone 3",
       "category" : "Productivity",
-      "link" : "https:\/\/aptoniac.com"
+      "link" : "https:\/\/aptonic.com"
+    },
+    {
+      "developer" : "Aptonic Limited",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/74034944-45326580-49f4-11ea-9005-928f48d570cd.png",
+      "name" : "Dropzone 4",
+      "category" : "Productivity",
+      "link" : "https:\/\/aptonic.com"
     },
     {
       "developer" : "Due Pte. Ltd.",
@@ -3296,6 +3303,13 @@
       "name" : "Focusbar",
       "category" : "Productivity",
       "link" : "https:\/\/itunes.apple.com\/us\/app\/focusbar\/id443439127?l=en&mt=12"
+    },
+    {
+      "developer" : "Andrea Gelati",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/74034954-48c5ec80-49f4-11ea-9a0c-e02081a2efd2.png",
+      "name" : "Focusplan",
+      "category" : "Productivity",
+      "link" : "https:\/\/focusplan.app"
     },
     {
       "developer" : "FIPLAB Limited",
@@ -7246,7 +7260,7 @@
       "link" : "http:\/\/buildtoconnect.com\/zh\/products\/recordit"
     },
     {
-      "developer" : "Records Team",
+      "developer" : "Andrea Gelati",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41575074-6f5e5ae8-73b4-11e8-9064-7778a326761c.png",
       "name" : "Records",
       "category" : "Productivity",
@@ -10368,5 +10382,5 @@
       "link" : "https:\/\/www.zotero.org\/"
     }
   ],
-  "update_time" : "2020-02-04 22:21:14 GMT+8"
+  "update_time" : "2020-02-07 21:54:57 GMT+8"
 }
