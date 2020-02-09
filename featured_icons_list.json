@@ -512,6 +512,13 @@
       "link" : "https:\/\/rogueamoeba.com\/audiohijack"
     },
     {
+      "developer" : "Music Topia",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/74102937-ecdd9e00-4b82-11ea-92c5-43b6ffae3d7f.png",
+      "name" : "Audio Library Collection",
+      "category" : "Lifestyle",
+      "link" : "https:\/\/apps.apple.com\/app\/id1041868293"
+    },
+    {
       "developer" : "Audulus LLC",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/66798848-deb7a200-ef41-11e9-84f6-f0d0f56c2d1d.png",
       "name" : "Audulus 3",
@@ -3047,6 +3054,13 @@
     },
     {
       "developer" : "Flexibits Inc.",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/74098804-24ceec00-4b57-11ea-86c8-6349d6286da3.png",
+      "name" : "Fantastical 3",
+      "category" : "Productivity",
+      "link" : "https:\/\/flexibits.com\/fantastical"
+    },
+    {
+      "developer" : "Flexibits Inc.",
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41574625-f5b8714c-73b3-11e8-8f5e-5255670faa56.png",
       "name" : "Fantastical",
       "category" : "Productivity",
@@ -4989,7 +5003,7 @@
       "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/41574832-28f9466c-73b4-11e8-80f7-8170b1ce58e8.png",
       "name" : "Loop Mash Up",
       "category" : "Music",
-      "link" : "https:\/\/itunes.apple.com\/us\/app\/loop-mash-up\/id1339022073?l=en&mt=12"
+      "link" : "https:\/\/apps.apple.com\/app\/id1339022073"
     },
     {
       "developer" : "Music Topia",
@@ -6964,6 +6978,13 @@
       "name" : "ProCSSor",
       "category" : "Developer Tools",
       "link" : "https:\/\/www.macupdate.com\/app\/mac\/41666\/procssor"
+    },
+    {
+      "developer" : "Music Topia",
+      "icon_url" : "https:\/\/user-images.githubusercontent.com\/55504\/74102601-f6b1d200-4b7f-11ea-9f35-ea1c6252f71d.png",
+      "name" : "Professional Recorder",
+      "category" : "Music",
+      "link" : "https:\/\/apps.apple.com\/app\/id975818620"
     },
     {
       "developer" : "Ross Tulloch",
@@ -10382,5 +10403,5 @@
       "link" : "https:\/\/www.zotero.org\/"
     }
   ],
-  "update_time" : "2020-02-07 21:54:57 GMT+8"
+  "update_time" : "2020-02-09 21:28:13 GMT+8"
 }
